@@ -1,11 +1,12 @@
 ---
 template: index-page
 slug: /
-title: Wyatt Morriss
-tagline: Graphic Designer
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+title: Laren Montanari
+tagline: Gift Designer
+featuredImage: "/assets/images/home-1.jpg"
 cta:
-  ctaText: Know more
-  ctaLink: /about
+  ctaText: Chi sono
+  ctaLink: /lara-montanari
 ---
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+
+Sono Lara ed ho la passione per il **Decoupage** e vorrei che diventasse per me un'opportunità

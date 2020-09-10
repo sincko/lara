@@ -11,8 +11,8 @@ $breakpoint-xl: 1200px;
     monospace;
   --font-size-small: 12px;
 
-  --primary-color: linear-gradient(180deg, #ff0060 0, #ff6975);
-  --header-bg: linear-gradient(180deg, #ff0060 0, #ff6975);
+  --primary-color: #ff1c65;
+  --header-bg: var(--primary-color);
 
   --home-link-color: #a1613f;
   --home-link-hover-color: var(--primary-color);
@@ -20,7 +20,7 @@ $breakpoint-xl: 1200px;
   --button-color: #ffffff;
   --button-alternate-color: #ff0060;
 
-  --post-link-color: #0f070b;
+  --post-link-color: #ff0060;
 
   --nav-link-hover-bg: #111;
   --text-color-meta: rgba(0, 0, 0, 0.5);
