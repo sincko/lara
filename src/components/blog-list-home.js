@@ -36,6 +36,7 @@ export default function BlogListHome() {
               node {
                 id
                 excerpt(pruneLength: 250)
+                html
                 frontmatter {
                   date(formatString: "MMMM DD, YYYY")
                   slug

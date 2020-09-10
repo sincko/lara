@@ -3,7 +3,7 @@ template: index-page
 slug: /
 title: Laren Montanari
 tagline: Gift Designer
-featuredImage: "/assets/images/home-1.jpg"
+featuredImage: /assets/home-1.jpg
 cta:
   ctaText: Chi sono
   ctaLink: /lara-montanari
