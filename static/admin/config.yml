@@ -90,20 +90,20 @@ collections:
                 label: "CTA Link"
                 widget: "string"
       - label: "Chi somo"
-        name: "lara-montanari"
-        file: "src/content/pages/lara-montanari.md"
+        name: "laryart"
+        file: "src/content/pages/laryart.md"
         fields:
           - {
               label: "Template",
               name: "template",
               widget: "hidden",
-              default: "lara-montanari",
+              default: "laryart",
             }
           - {
               label: "Slug",
               name: "slug",
               widget: "hidden",
-              default: "/lara-montanari",
+              default: "/laryart",
             }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }

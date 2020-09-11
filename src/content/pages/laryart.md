@@ -1,6 +1,6 @@
 ---
-template: lara-montanari
-slug: /lara-montanari
+template: laryart
+slug: /laryart
 title: Chi sono
 ---
 

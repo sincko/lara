@@ -8,7 +8,7 @@ const MenuItems = [
     title: "Home",
   },
   {
-    path: "/lara-montanari",
+    path: "/laryart",
     title: "Chi sono",
   },
   {

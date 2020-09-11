@@ -14,7 +14,7 @@ const PostMaker = ({ data }) => (
     </h2>
     <div className="grids col-1 sm-2 lg-3">{data}</div>
     <Link className="button" to="/blog">
-      Vedi tutti
+      Vedi tutti i miei post
       <span className="icon -right">
         <RiArrowRightSLine />
       </span>

@@ -6,7 +6,7 @@ tagline: Gift Designer
 featuredImage: /assets/home-1.jpg
 cta:
   ctaText: Chi sono
-  ctaLink: /lara-montanari
+  ctaLink: /laryart
 ---
 
 Ciao,
@@ -14,4 +14,4 @@ mi chiamo Lara ed ho la passione per il **Decoupage** e per la creazione di rega
 
 Sono sempre all'opera creando cose che riflettono il mio gusto personale.
 
-Scopri chi sono e scopri la mia arte.
+Scopri chi sono e scopri la mia **arte**.
