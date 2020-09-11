@@ -356,7 +356,9 @@ article img {
     font-weight: normal;
   }
 }
-
+.red {
+  color: var(--primary-color);
+}
 .pagination {
   text-align: center;
   padding: 50px 0;

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Lara Montanari",
+    "title": "LaryArt, decoupage e idee regalo",
     "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
-    "siteUrl": "https://foundation.stackrole.com",
-    "image": "/assets/stackrole.png",
+    "description": "Realizzazione regali originali per compleanni, feste, amici, fidanzati ed occasioni speciali.",
+    "siteUrl": "https://pensive-engelbart-b7e7bb.netlify.app/",
+    "image": "/assets/heart.png",
     "twitterUsername": "@stackrole"
   },
   "ga": "UA-XXXXXXXXX-X"

@@ -1,12 +1,17 @@
 ---
 template: index-page
 slug: /
-title: Laren Montanari
+title: LaryArt
 tagline: Gift Designer
-featuredImage: /assets/home-2.jpg
+featuredImage: /assets/home-1.jpg
 cta:
   ctaText: Chi sono
   ctaLink: /lara-montanari
 ---
 
-Sono Lara ed ho la passione per il **Decoupage** e vorrei che diventasse per me un'opportunità
+Ciao,
+mi chiamo Lara ed ho la passione per il **Decoupage** e per la creazione di regali personalizzati per te, i tuoi amici ed i tuoi cari.
+
+Sono sempre all'opera creando cose che riflettono il mio gusto personale.
+
+Scopri chi sono e scopri la mia arte.
