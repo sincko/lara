@@ -8,15 +8,19 @@
 // 	min-height: 100vh;
 // }
 .primary-container main {
-  min-height: calc(100vh - 60px - 81px);
+  min-height: calc(100vh - 60px - 85px);
 }
 .site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   background: var(--header-bg);
   padding: 30px 20px;
+  z-index: 100;
 }
 .site-navigation {
   ul {
@@ -96,6 +100,14 @@
   margin: 0 auto;
   max-width: 1240px;
   padding: 0 20px;
+
+  &.main {
+    margin-top: 55px;
+
+    @media (max-width: $breakpoint-md) {
+      margin-top: 85px;
+    }
+  }
 }
 .site-logo {
   font-weight: bold;
