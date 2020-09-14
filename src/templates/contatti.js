@@ -1,8 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { RiSendPlane2Line } from "react-icons/ri"
-import { Formik } from "formik"
-
+import { Formik, Form, Field, useField } from "formik"
+import { TextField, Button } from "@material-ui/core"
+import * as yup from "yup"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -24,6 +24,24 @@ export const pageQuery = graphql`
   }
 `
 
+const TextFieldConError = ({ placeholder, ...props }) => {
+  const [field, meta] = useField(props)
+  const errorText = meta.error && meta.touched ? meta.error : ""
+  return (
+    <Field
+      placeholder={placeholder}
+      {...field}
+      helperText={errorText}
+      error={!!errorText}
+      as={TextField}
+    />
+  )
+}
+
+const validationSchema = yup.object({
+  email: yup.string().email().required(),
+  nome: yup.string().required(),
+})
 const Contact = ({ data }) => {
   const { markdownRemark, site } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
@@ -44,10 +62,11 @@ const Contact = ({ data }) => {
           initialValues={{
             email: "",
             nome: "",
-            messaggio: "",
             cellulare: "",
+            messaggio: "",
           }}
-          validate={values => {
+          validationSchema={validationSchema}
+          /* validate={values => {
             const errors = {}
             if (!values.email) {
               errors.email = "Manca la tua e-mail"
@@ -60,102 +79,72 @@ const Contact = ({ data }) => {
               errors.nome = "Manca il tuo nome"
             }
             return errors
-          }}
-          onSubmit={(values, { setSubmitting }) => {
-            setTimeout(() => {
-              alert(JSON.stringify(values, null, 2))
-              setSubmitting(false)
-            }, 400)
-          }}
+          }} */
         >
-          {({
-            values,
-            errors,
-            touched,
-            handleChange,
-            handleBlur,
-            handleSubmit,
-            isSubmitting,
-          }) => (
-            <form
+          {({ values, errors, isSubmitting }) => (
+            <Form
               className="contact-form"
               action="/thanks"
               name="contact"
               method="POST"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
-              onSubmit={handleSubmit}
             >
-              <input type="hidden" name="form-name" value="contatti" />
               <p>
-                <label>
-                  Il tuo nome *{" "}
-                  <span className="red">
-                    {errors.nome && touched.nome && errors.nome}
-                  </span>
-                  <input
-                    type="text"
-                    name="nome"
-                    onChange={handleChange}
-                    onBlur={handleBlur}
-                    value={values.nome}
-                    placeholder="Il tuo nome"
-                  />
-                </label>
+                <TextFieldConError
+                  type="text"
+                  name="nome"
+                  placeholder="Nome"
+                  label="Nome"
+                  helperText="Nome richiesto"
+                  aria-label="Nome"
+                />
               </p>
               <p>
-                <label>
-                  La tua e-mail *{" "}
-                  <span className="red">
-                    {errors.email && touched.email && errors.email}
-                  </span>
-                  <input
-                    type="email"
-                    name="email"
-                    onChange={handleChange}
-                    onBlur={handleBlur}
-                    value={values.email}
-                    placeholder="La tua e-mail"
-                  />
-                </label>
+                <TextFieldConError
+                  aria-label="Email"
+                  type="text"
+                  name="email"
+                  as={TextField}
+                  placeholder="Email"
+                  label="Email"
+                  helperText="Email richiesta"
+                />
               </p>
               <p>
-                <label>
-                  Il tuo cellulare
-                  <input
-                    type="text"
-                    name="cellulare"
-                    onChange={handleChange}
-                    onBlur={handleBlur}
-                    value={values.cellulare}
-                    placeholder="Il tuo cellulare"
-                  />
-                </label>
+                <Field
+                  aria-label="Cellulare"
+                  type="text"
+                  name="cellulare"
+                  as={TextField}
+                  placeholder="Cellulare"
+                />
               </p>
               <p>
-                <label>
-                  Il motivo per cui mi contatti
-                  <textarea
-                    name="messaggio"
-                    onChange={handleChange}
-                    onBlur={handleBlur}
-                    value={values.messaggio}
-                  ></textarea>
-                </label>
+                <Field
+                  type="text"
+                  name="messaggio"
+                  multiline
+                  rows="5"
+                  className="textarea"
+                  as={TextField}
+                  aria-label="Scrivi qui il motivo per cui mi contatti"
+                  placeholder="Scrivi qui il motivo per cui mi contatti"
+                />
               </p>
               <p className="text-align-right">
-                <button
-                  className="button"
+                <Button
                   type="submit"
                   disabled={isSubmitting}
+                  variant="contained"
+                  color="primary"
                 >
                   Invia
-                  <span className="icon -right">
-                    <RiSendPlane2Line />
-                  </span>
-                </button>
+                </Button>
               </p>
-            </form>
+              <pre>{JSON.stringify(values, null, 2)}</pre>
+              <pre>{JSON.stringify(errors, null, 2)}</pre>
+            </Form>
           )}
         </Formik>
       </div>

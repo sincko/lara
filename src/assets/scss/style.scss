@@ -265,7 +265,7 @@ article img {
   }
 }
 // Buttons
-.button {
+/*.button {
   --padding: 20px;
   --margin: 20px;
   display: inline-flex;
@@ -293,6 +293,7 @@ article img {
       background: #f2f2f2;
     }
   }
+  
   & + .button {
     margin-left: 20px;
   }
@@ -305,7 +306,7 @@ article img {
       margin-right: var(--margin);
     }
   }
-}
+} */
 
 // Page
 .page,
@@ -333,8 +334,9 @@ article img {
   margin-top: 36px;
   label {
     color: var(--label-text);
+    display: block;
   }
-  input,
+  /*   input,
   textarea {
     width: 100%;
     max-width: 100%;
@@ -348,9 +350,14 @@ article img {
     &:focus {
       border-color: var(--input-focus-border);
     }
-  }
-  textarea {
-    min-height: 200px;
+  } */
+  .textarea {
+    width: 100%;
+
+    textarea {
+      max-width: 100%;
+      width: 100%;
+    }
   }
 }
 .site-footer {
