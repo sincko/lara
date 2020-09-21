@@ -16,6 +16,16 @@ module.exports = {
   siteMetadata: settings.meta,
   plugins: [
     {
+      resolve: "gatsby-plugin-matomo",
+      options: {
+        siteId: "1",
+        matomoUrl: "https://matomo.duckdns.org",
+        siteUrl: "https://www.laryart.it",
+        disableCookies: true,
+        requireConsent: true,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/assets/`,
@@ -89,5 +99,21 @@ module.exports = {
       },
     },
     "gatsby-plugin-offline",
+    {
+      resolve: `gatsby-plugin-cookiehub-banner`,
+      options: {
+        // The ID is part of the CookieHub URL: https://cookiehub.net/cc/YOUR_COOKIEHUB_ID.js
+        cookieHubId: "5e915478",
+        // Optional parameter (default false) - Use new v2 API.
+        cookieHubV2Api: true,
+        // Categories configured with CookieHub
+        categories: [
+          {
+            categoryName: "analytics", // Unique id of the category which is set by Cookiehub.
+            cookieName: "gatsby-plugin-matomo-gdpr_cookies-enabled", // Your custom cookie name
+          },
+        ],
+      },
+    },
   ],
 }
