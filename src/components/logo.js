@@ -7,8 +7,7 @@ const Logo = props => (
       {props.title}
     </Link>
     <Link to="/" className="visible-xs">
-      
-      <img src="" />
+      <img src="" alt="Logo LaryArt" />
     </Link>
   </div>
 )

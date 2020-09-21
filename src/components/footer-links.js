@@ -8,7 +8,7 @@ const FooterCredits = props => {
         <a
           href="https://www.flaticon.com/authors/freepik"
           target="_blank"
-          rel="noopener nofollow"
+          rel="noopener nofollow noreferrer"
           title="Freepik"
         >
           Freepik
@@ -17,7 +17,7 @@ const FooterCredits = props => {
         <a
           href="https://www.flaticon.com/"
           target="_blank"
-          rel="noopener nofollow"
+          rel="noopener nofollow noreferrer"
           title="Flaticon"
         >
           www.flaticon.com

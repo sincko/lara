@@ -89,7 +89,7 @@ collections:
               - name: "ctaLink"
                 label: "CTA Link"
                 widget: "string"
-      - label: "Chi somo"
+      - label: "Chi sono"
         name: "laryart"
         file: "src/content/pages/laryart.md"
         fields:
@@ -104,6 +104,24 @@ collections:
               name: "slug",
               widget: "hidden",
               default: "/laryart",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Privacy"
+        name: "privacy"
+        file: "src/content/pages/privacy.md"
+        fields:
+          - {
+              label: "Template",
+              name: "template",
+              widget: "hidden",
+              default: "privacy",
+            }
+          - {
+              label: "Slug",
+              name: "slug",
+              widget: "hidden",
+              default: "/privacy",
             }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }

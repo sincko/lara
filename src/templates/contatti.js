@@ -66,23 +66,10 @@ const Contact = ({ data }) => {
             messaggio: "",
           }}
           validationSchema={validationSchema}
-          /* validate={values => {
-            const errors = {}
-            if (!values.email) {
-              errors.email = "Manca la tua e-mail"
-            } else if (
-              !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
-            ) {
-              errors.email = "E-mail non corretta"
-            }
-            if (!values.nome) {
-              errors.nome = "Manca il tuo nome"
-            }
-            return errors
-          }} */
         >
           {({ values, errors, isSubmitting }) => (
             <Form
+              netlify
               className="contact-form"
               action="/thanks"
               name="contact"
@@ -102,12 +89,12 @@ const Contact = ({ data }) => {
               </p>
               <p>
                 <TextFieldConError
-                  aria-label="Email"
                   type="text"
                   name="email"
                   as={TextField}
                   placeholder="Email"
                   label="Email"
+                  aria-label="Email"
                   helperText="Email richiesta"
                 />
               </p>
