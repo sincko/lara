@@ -1,17 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
-import { RiHeart2Line } from "react-icons/ri"
+import FooterCredits from "./footer-links"
 
 const Footer = () => (
   <footer className="site-footer">
     <div className="container">
-      <p>
-        Made with{" "}
-        <span className="icon -love">
-          <RiHeart2Line />
-        </span>{" "}
-        Friendship for <Link to="/">Lara</Link>
+      <p class="credits">
+        Made with Friendship &amp; Respect for <Link to="/laryart">Lara</Link>
       </p>
+      <br />
+      <div class="footer-links">
+        <FooterCredits />
+      </div>
     </div>
   </footer>
 )

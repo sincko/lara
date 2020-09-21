@@ -1,9 +1,15 @@
-import React from "react"
 import { Link } from "gatsby"
+import React from "react"
 
-const Logo = (props) => (
+const Logo = props => (
   <div className="site-logo">
-    <Link to="/">{props.title}</Link>
+    <Link to="/" className="hidden-xs">
+      {props.title}
+    </Link>
+    <Link to="/" className="visible-xs">
+      
+      <img src="" />
+    </Link>
   </div>
 )
 

@@ -7,6 +7,7 @@ import Navigation from "./navigation"
 
 import "../assets/scss/style.scss"
 import Footer from "./footer"
+import TopContacts from "./top-contacts"
 
 const query = graphql`
   query LayoutQuery {
@@ -26,7 +27,10 @@ const Layout = ({ children, className }) => {
     <div className="primary-container">
       <Header>
         <Logo title={siteTitle} />
-        <Navigation />
+        <div class="cont-nav">
+          <TopContacts />
+          <Navigation />
+        </div>
       </Header>
       <main className={"container " + className + " main"}>{children}</main>
       <Footer />
