@@ -3,7 +3,7 @@ template: index-page
 slug: /
 title: LaryArt
 tagline: Gift Designer
-featuredImage: /assets/home-1.jpg
+featuredImage: /assets/img_20200814_201009_839.jpg
 cta:
   ctaText: Chi sono
   ctaLink: /laryart
