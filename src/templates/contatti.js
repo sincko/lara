@@ -74,8 +74,6 @@ const Contact = ({ data }) => {
               action="/thanks"
               name="contact"
               method="POST"
-              data-netlify="true"
-              data-netlify-honeypot="bot-field"
             >
               <p>
                 <TextFieldConError
