@@ -5,8 +5,12 @@ $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 
 :root {
+  @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400&display=swap');
+  --font-family-titles:'Parisienne', cursive;
   --font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
     helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    --font-family-subtitles: 'Noto Serif', serif;
   --font-family-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
     monospace;
   --font-size-small: 12px;
