@@ -99,7 +99,7 @@ module.exports = {
       },
     },
     "gatsby-plugin-offline",
-    {
+    /* {
       resolve: `gatsby-plugin-cookiehub-banner`,
       options: {
         // The ID is part of the CookieHub URL: https://cookiehub.net/cc/YOUR_COOKIEHUB_ID.js
@@ -113,7 +113,6 @@ module.exports = {
             cookieName: "gatsby-plugin-matomo-gdpr_cookies-enabled", // Your custom cookie name
           },
         ],
-      },
-    },
+      }, */
   ],
 }

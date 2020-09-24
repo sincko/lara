@@ -19,8 +19,13 @@
   left: 0;
   right: 0;
   background: var(--header-bg);
-  padding: 30px 20px;
+  padding: 9px 20px;
   z-index: 100;
+  
+  img {
+    display:block;
+    
+  }
   .cont-nav {
     display: flex;
     white-space: nowrap;
@@ -477,6 +482,10 @@ article img {
       display: none;
     }
   }
+}
+
+.img-responsive {
+  max-width:100%;
 }
 
 @import "utility";
