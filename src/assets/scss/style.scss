@@ -11,6 +11,11 @@
 h1, h2, h3, h4, h5, h6 {
   font-family:var(--font-family-titles);
 }
+
+.primary-container {
+  background-color:var(--primary-color);
+}
+
 .primary-container main {
   min-height: calc(100vh - 60px - 85px);
 }
@@ -22,7 +27,8 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   right: 0;
-  background: var(--header-bg);
+  background: #fff;
+  box-shadow:0px 0px 10px 0px #828282;
   padding: 9px 20px;
   z-index: 100;
 
@@ -36,12 +42,12 @@ h1, h2, h3, h4, h5, h6 {
 
     .icons-top {
       a {
-        color:#fff;
+        color:#8c1a3f;
         display: inline-block;
         padding: 0 5px;
 
         &:hover {
-          color: rgba(255, 255, 255, 0.8);
+          color:var(--primary-color);
         }
       }
     }
@@ -58,10 +64,11 @@ h1, h2, h3, h4, h5, h6 {
       margin-left: 20px;
     }
     a {
-      color: rgba(255, 255, 255, 0.6);
+      /* color: rgba(255, 255, 255, 0.6); */
+      color:#fff;
       text-decoration: none;
       &:hover {
-        color: rgba(255, 255, 255, 0.8);
+        color: #fff;
       }
     }
     a[aria-current="page"] {
@@ -72,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 24px;
       background: none;
       border: none;
-      color: white;
+      color: #8c1a3f;
       padding: 0;
       cursor: pointer;
     }
@@ -102,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
         right: 0;
         top: 100%;
         z-index: 1;
-        background: #421e2f;
+        background: #8c1a3f;
         width: 100%;
         max-width: 320px;
         border-radius: 0 0 0 12px;
@@ -135,14 +142,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   max-width: 1240px;
   padding: 0 20px;
-
-  /*&.main {
-    margin-top: 55px;
-
-    @media (max-width: $breakpoint-md) {
-      margin-top: 85px;
-    }
-  }*/
 }
 
 .site-logo {
@@ -166,8 +165,12 @@ time {
 
 
 .home-banner {
-  padding: 60px 0;
+  background-color: #fff;
+  margin-top: 60px;
+  border-radius: 25px;
+  padding: 30px;
   align-items: center;
+
   .title {
     font-size: 48px;
     line-height: 48px;
@@ -176,11 +179,16 @@ time {
   }
   .tagline {
     font-size: 24px;
-    margin-top: 0;
     margin-top: 2px;
-    color: rgba(0, 0, 0, 0.7);
-    font-family:var(--font-family-subtitles);
+    color: #fff;
+    font-family: var(--font-family-subtitles);
+    background-color: var(--primary-color);
+    border-radius: 9px;
+    display: inline-block;
+    padding: 0 16px;
+    margin-top: 15px;
   }
+
   .description {
     font-size: 20px;
     line-height: 1.4;
@@ -197,6 +205,7 @@ time {
   }
 }
 .home-posts {
+  color:#fff;
   .grids {
     padding-bottom: 30px;
   }
@@ -254,6 +263,7 @@ time {
   padding: 35px 0;
   text-align: center;
   margin: 0 auto;
+
   h1 {
     font-size: 36px;
     font-size: clamp(18px, calc(1rem + 2vw), 36px);
@@ -303,14 +313,21 @@ article img {
 }
 
 .blog-post {
+  background-color:#fff;
+  padding:30px;
+  border-radius:25px;
+
   .featured-image {
     min-height: 50vh;
     border-radius: 12px;
     margin:0 auto;
   }
+  @media (max-width: $breakpoint-md) {
+    padding:15px 10px;
+  }
 }
 // Buttons
-.button-pink {
+.button-pink, .button-white {
   --padding: 20px;
   --margin: 20px;
   display: inline-flex;
@@ -353,6 +370,18 @@ article img {
   }
 } 
 
+.button-white {
+  background-color: #fff;
+  color:var(--button-alternate-color);
+  border: 1px solid #fff;
+
+  &:hover {
+    
+    background-color: #8c1a3f;
+    color: #fff;
+  }
+}
+
 // Page
 .page,
 .blog-page,
@@ -363,6 +392,22 @@ article img {
   .wrapper {
     max-width: 768px;
     margin: 0 auto;
+    background-color:#fff;
+    border-radius: 25px;
+    padding: 30px;
+  }
+
+  @media (max-width: $breakpoint-md) {
+    padding: 25px 10px;
+    .wrapper {
+      padding:20px 10px;
+    }
+  }
+}
+
+.blog-page {
+  h1 {
+    color:#fff;
   }
 }
 // Contact page
@@ -503,6 +548,20 @@ article img {
 .img-responsive {
   max-width:100%;
 }
+
+/*.MuiInputBase-input,
+.MuiInputBase-input::placeholder,
+.MuiFormHelperText-root.Mui-error {
+  color:#fff !important;
+}
+
+.MuiInput-underline:hover:not(.Mui-disabled)::before,
+.MuiInput-underline::before,
+.MuiInput-underline.Mui-error::after, 
+.MuiInput-underline::after,
+.MuiInputBase-input::after {
+  border-bottom-color:#fff !important;
+}*/
 
 @import "utility";
 
