@@ -16,10 +16,10 @@ public_folder: "/assets"
 
 collections:
   - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Posts" # Used in the UI
+    label: "Articoli del Blog" # Used in the UI
     label_singular: "Post" # Used in the UI, ie: "New Post"
     description: >
-      Create awesome content here.
+      Crea bellissimi contenuti qui
     folder: "src/content/posts"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     summary: "{{title}} — {{year}}/{{month}}/{{day}}"
@@ -31,24 +31,24 @@ collections:
           widget: "hidden",
           default: "blog-post",
         }
-      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Titolo", name: "title", widget: "string", tagname: "h1" }
       - {
-          label: "Slug",
+          label: "Indirizzo della pagina",
           name: "slug",
           widget: "string",
-          hint: "Start slug with /. Use only alphanumeric characters, - and _. Avoid spaces in any cases.",
+          hint: "Inizia con /. usa solo caratteri alfanumerici, - e _. Non mettere spazi in nessun caso.",
         }
       - {
-          label: "Publish Date",
+          label: "Data di pubblicazione",
           name: "date",
           widget: "datetime",
           dateFormat: "YYYY-MM-DD",
           timeFormat: "HH:mm",
           format: "YYYY-MM-DD HH:mm",
         }
-      - { label: "SEO Description", name: "description", widget: "text" }
+      - { label: "Descrizione SEO", name: "description", widget: "text" }
       - {
-          label: "Featured Image",
+          label: "Immagine principale",
           name: "featuredImage",
           widget: "image",
           required: false,
@@ -56,12 +56,12 @@ collections:
         }
 
       - {
-          label: "Body",
+          label: "Corpo",
           name: "body",
           widget: "markdown",
           hint: "Main content goes here.",
         }
-  - label: "Pages"
+  - label: "Pagine"
     name: "pages"
     files:
       - label: "Home"
@@ -74,11 +74,11 @@ collections:
               widget: "hidden",
               default: "index-page",
             }
-          - { label: "Slug", name: "slug", widget: "hidden", default: "/" }
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Indirizzo della pagina", name: "slug", widget: "hidden", default: "/" }
+          - { label: "Titolo", name: "title", widget: "string" }
           - { label: "Tagline", name: "tagline", widget: "string" }
-          - { label: "Featured Image", name: "featuredImage", widget: "image" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Immagine principale", name: "featuredImage", widget: "image" }
+          - { label: "Corpo", name: "body", widget: "markdown" }
           - label: "CTA"
             name: "cta"
             widget: "object"
@@ -100,13 +100,13 @@ collections:
               default: "laryart",
             }
           - {
-              label: "Slug",
+              label: "Indirizzo della pagina",
               name: "slug",
               widget: "hidden",
               default: "/laryart",
             }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Titolo", name: "title", widget: "string" }
+          - { label: "Corpo", name: "body", widget: "markdown" }
       - label: "Privacy"
         name: "privacy"
         file: "src/content/pages/privacy.md"
@@ -118,13 +118,13 @@ collections:
               default: "privacy",
             }
           - {
-              label: "Slug",
+              label: "Indirizzo della pagina",
               name: "slug",
               widget: "hidden",
               default: "/privacy",
             }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Titolo", name: "title", widget: "string" }
+          - { label: "Corpo", name: "body", widget: "markdown" }
       - label: "Contatti"
         name: "contatti"
         file: "src/content/pages/contatti.md"
@@ -136,15 +136,15 @@ collections:
               default: "contatti",
             }
           - {
-              label: "Slug",
+              label: "Indirizzo della pagina",
               name: "slug",
               widget: "hidden",
               default: "/contatti",
             }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Titolo", name: "title", widget: "string" }
+          - { label: "Corpo", name: "body", widget: "markdown" }
   - name: settings
-    label: Settings
+    label: Impostazioni
     files:
       - name: general
         label: General
@@ -156,20 +156,20 @@ collections:
             fields:
               - widget: string
                 name: title
-                label: Site Title
+                label: Titolo del Sito
                 required: true
               - widget: string
                 name: titleTemplate
-                label: Title Template
+                label: Titolo del Template
                 default: "%s"
                 required: true
               - widget: string
                 name: siteUrl
-                label: Website URL
+                label: Indirizzo del sito
                 required: true
               - widget: text
                 name: description
-                label: Description
+                label: Descrizione
                 default: ""
                 required: false
               - widget: image

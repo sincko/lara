@@ -20,7 +20,7 @@ module.exports = {
       options: {
         siteId: "1",
         matomoUrl: "https://matomo.duckdns.org",
-        siteUrl: "https://www.laryart.it",
+        siteUrl: "https://laryart.it",
         disableCookies: true,
         requireConsent: true,
       },
