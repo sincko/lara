@@ -79,7 +79,11 @@ h1, h2, h3, h4, h5, h6 {
       }
     }
     a[aria-current="page"] {
-      color: rgba(255, 255, 255, 1);
+      color: var(--primary-color);
+      
+      @media (max-width: $breakpoint-md) {
+        color:rgba(255, 255, 255, 1);
+      }
     }
     .menu-trigger {
       display: none;
@@ -277,12 +281,14 @@ time {
     margin: 0 auto 6px;
     max-width: 768px;
     line-height: 1.3;
-    font-weight: 600;
   }
   time {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.6);
   }
+}
+h1 {
+  color: var(--primary-color);
 }
 @media (max-width: $breakpoint-sm) {
   .post-card .featured-image {
