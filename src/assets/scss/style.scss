@@ -65,10 +65,17 @@ h1, h2, h3, h4, h5, h6 {
     }
     a {
       /* color: rgba(255, 255, 255, 0.6); */
-      color:#fff;
+      color:#8c1a3f;
       text-decoration: none;
       &:hover {
-        color: #fff;
+        color: #8c1a3f;
+      }
+      @media (max-width: $breakpoint-md) {
+        color:#fff;
+
+        &:hover {
+          color: #fff;
+        }
       }
     }
     a[aria-current="page"] {
