@@ -1,28 +1,9 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Formik, Form, Field, useField } from "formik"
 import { TextField, Button } from "@material-ui/core"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import * as yup from "yup"
 
-export const pageQuery = graphql`
-  query ContactQuery($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      id
-      html
-      excerpt(pruneLength: 140)
-      frontmatter {
-        title
-      }
-    }
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
-
-/* const TextFieldConError = ({ placeholder, ...props }) => {
+const TextFieldConError = ({ placeholder, ...props }) => {
   const [field, meta] = useField(props)
   const errorText = meta.error && meta.touched ? meta.error : ""
   return (
@@ -34,35 +15,31 @@ export const pageQuery = graphql`
       as={TextField}
     />
   )
-} */
+}
 
-/* const onSubmit = (values) => {
+const onSubmit = values => {
   console.log("Grazie di avermi scelto per i tuoi regali")
-  console.log(values);
-} */
+  console.log(values)
+}
 
-/* const validationSchema = yup.object({
+const validationSchema = yup.object({
   email: yup.string().email().required(),
   nome: yup.string().required(),
-}) */
-const Contact = ({ data }) => {
-  const { markdownRemark, site } = data // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark
-
+})
+const FormikContact = ({ data }) => {
   return (
-    <Layout className="contact-page">
-      <SEO
-        title={frontmatter.title}
-        description={frontmatter.title + " " + site.siteMetadata.title}
-      />
-      <div className="wrapper">
-        <h1>{frontmatter.title}</h1>
-        <div
-          className="description"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-
-        <form
+    <Formik
+      initialValues={{
+        nome: "",
+        email: "",
+        cellulare: "",
+        messaggio: "",
+      }}
+      onSubmit={onSubmit}
+      validationSchema={validationSchema}
+    >
+      {({ values, errors, isSubmitting }) => (
+        <Form
           data-netlify="true"
           className="contact-form"
           name="contact"
@@ -70,10 +47,10 @@ const Contact = ({ data }) => {
           method="POST"
           action="/thanks"
         >
-          <input name="contact-form" value="LaryArt form" type="hidden" />
+          <input name="contact-form" value="LaryAet form" type="hidden" />
 
           <div className="item">
-            <TextField
+            <TextFieldConError
               type="text"
               name="nome"
               placeholder="Nome"
@@ -83,7 +60,7 @@ const Contact = ({ data }) => {
             />
           </div>
           <div className="item">
-            <TextField
+            <TextFieldConError
               type="text"
               name="email"
               as={TextField}
@@ -94,7 +71,7 @@ const Contact = ({ data }) => {
             />
           </div>
           <div className="item">
-            <TextField
+            <Field
               aria-label="Cellulare"
               type="text"
               name="cellulare"
@@ -103,7 +80,7 @@ const Contact = ({ data }) => {
             />
           </div>
           <div className="item">
-            <TextField
+            <Field
               type="text"
               name="messaggio"
               multiline
@@ -117,16 +94,19 @@ const Contact = ({ data }) => {
           <div className="item text-align-right">
             <Button
               type="submit"
+              disabled={isSubmitting}
               variant="contained"
               color="primary"
             >
               Invia
             </Button>
           </div>
-        </form>
-      </div>
-    </Layout>
+          {/* <pre>{JSON.stringify(values, null, 2)}</pre>
+              <pre>{JSON.stringify(errors, null, 2)}</pre> */}
+        </Form>
+      )}
+    </Formik>
   )
 }
 
-export default Contact
+export default FormikContact

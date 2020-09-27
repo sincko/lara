@@ -16,11 +16,11 @@ const NotFound = () => (
           fontSize: "128px",
           color: "var(--primary-color)"
         }}/>
-        <h1>Oops we did not expect that to happen</h1>
-        <p>Have you wondered into the unknow. Let us help you, Please take a look at below options</p>
+        <h1>Oops non mi aspettavo che capitasse ;)</h1>
+        <p>Sei finita/o in una parte del sito dove non c'è niente.</p>
       </header>
-      <Link to="/" className="button"><RiArrowLeftSLine className="icon -left"/>Back to Homepage</Link>
-      <Link to="/contact" className="button -outline">Report this <RiBugLine className="icon -right"/></Link>
+      <Link to="/" className="button"><RiArrowLeftSLine className="icon -left"/>Ritorna in Homepage</Link>
+      <Link to="/contatti" className="button -outline">Contattami per farmelo sapere <RiBugLine className="icon -right"/></Link>
     </div>
   </Layout>
 )
