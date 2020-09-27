@@ -38,6 +38,11 @@ const TextFieldConError = ({ placeholder, ...props }) => {
   )
 }
 
+const onSubmit = (values) => {
+  console.log("Grazie di avermi scelto per i tuoi regali")
+  console.log(values);
+}
+
 const validationSchema = yup.object({
   email: yup.string().email().required(),
   nome: yup.string().required(),
@@ -60,22 +65,25 @@ const Contact = ({ data }) => {
         />
         <Formik
           initialValues={{
-            email: "",
             nome: "",
+            email: "",
             cellulare: "",
             messaggio: "",
           }}
+          onSubmit={onSubmit}
           validationSchema={validationSchema}
         >
           {({ values, errors, isSubmitting }) => (
             <Form
-              netlify
+              data-netlify="true"
               className="contact-form"
-              action="/thanks"
               name="contact"
+              form-name="contact-form"
               method="POST"
             >
-              <p>
+              <input name="contact-form" value="LaryAet form" type="hidden" />
+
+              <div className="item">
                 <TextFieldConError
                   type="text"
                   name="nome"
@@ -84,8 +92,8 @@ const Contact = ({ data }) => {
                   helperText="Nome richiesto"
                   aria-label="Nome"
                 />
-              </p>
-              <p>
+              </div>
+              <div className="item">
                 <TextFieldConError
                   type="text"
                   name="email"
@@ -95,8 +103,8 @@ const Contact = ({ data }) => {
                   aria-label="Email"
                   helperText="Email richiesta"
                 />
-              </p>
-              <p>
+              </div>
+              <div className="item">
                 <Field
                   aria-label="Cellulare"
                   type="text"
@@ -104,8 +112,8 @@ const Contact = ({ data }) => {
                   as={TextField}
                   placeholder="Cellulare"
                 />
-              </p>
-              <p>
+              </div>
+              <div className="item">
                 <Field
                   type="text"
                   name="messaggio"
@@ -116,8 +124,8 @@ const Contact = ({ data }) => {
                   aria-label="Scrivi qui il motivo per cui mi contatti"
                   placeholder="Scrivi qui il motivo per cui mi contatti"
                 />
-              </p>
-              <p className="text-align-right">
+              </div>
+              <div className="item text-align-right">
                 <Button
                   type="submit"
                   disabled={isSubmitting}
@@ -126,9 +134,9 @@ const Contact = ({ data }) => {
                 >
                   Invia
                 </Button>
-              </p>
-              <pre>{JSON.stringify(values, null, 2)}</pre>
-              <pre>{JSON.stringify(errors, null, 2)}</pre>
+              </div>
+              {/* <pre>{JSON.stringify(values, null, 2)}</pre>
+              <pre>{JSON.stringify(errors, null, 2)}</pre> */}
             </Form>
           )}
         </Formik>

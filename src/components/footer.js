@@ -5,11 +5,11 @@ import FooterCredits from "./footer-links"
 const Footer = () => (
   <footer className="site-footer">
     <div className="container">
-      <p class="credits">
+      <p className="credits">
         Made with Friendship &amp; Respect for <Link to="/laryart">Lara</Link>
       </p>
       <br />
-      <div class="footer-links">
+      <div className="footer-links">
         <FooterCredits /><br />
         <Link to="/privacy">Privacy policy</Link>
       </div>

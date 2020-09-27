@@ -4,6 +4,6 @@ slug: /contatti
 title: Contattami
 ---
 
-Se vuoi contattarmi, il miglior modo è scrivermi un messaggio.
+Se vuoi contattarmi, il miglior modo è scrivermi un messaggio compilando il form qui sotto,
 
-Che sia su messenger, su WhatsApp o compilando il form qui sotto, cercherò di risponderti nel più breve tempo possibile.
+Cercherò di risponderti nel più breve tempo possibile.

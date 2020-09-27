@@ -435,9 +435,13 @@ article img {
 }
 .contact-form {
   margin-top: 36px;
+  
   label {
     color: var(--label-text);
     display: block;
+  }
+  .item {
+    padding-bottom:15px;
   }
   /*   input,
   textarea {

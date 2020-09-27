@@ -27,7 +27,7 @@ const Layout = ({ children, className }) => {
     <div className="primary-container">
       <Header>
         <Logo title={siteTitle} />
-        <div class="cont-nav">
+        <div className="cont-nav">
           <TopContacts />
           <Navigation />
         </div>

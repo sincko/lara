@@ -2,7 +2,7 @@ import React from "react"
 
 const FooterCredits = props => {
   return (
-    <div class="links">
+    <div className="links">
       <div>
         Some icons made by{" "}
         <a
