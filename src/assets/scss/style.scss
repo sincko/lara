@@ -73,7 +73,7 @@ h6 {
       &:hover {
         color: #8c1a3f;
       }
-      @media (max-width: $breakpoint-md) {
+      @media (max-width: 991px) {
         color: #fff;
 
         &:hover {
@@ -84,7 +84,7 @@ h6 {
     a[aria-current="page"] {
       color: var(--primary-color);
 
-      @media (max-width: $breakpoint-md) {
+      @media (max-width: 991px) {
         color: rgba(255, 255, 255, 1);
       }
     }
@@ -201,7 +201,7 @@ time {
   .featured-image {
     border-radius: 12px;
   }
-  @media (max-width: $breakpoint-md) {
+  @media (max-width: 991px) {
     padding-top: 30px;
     > div:nth-child(1) {
       padding-bottom: 30px;
@@ -250,7 +250,7 @@ time {
   .post-content {
     margin-top: 16px;
   }
-  @media (max-width: $breakpoint-md) {
+  @media (max-width: 991px) {
     padding: 0;
     .post-content {
       padding: 16px;
@@ -281,7 +281,7 @@ time {
 h1 {
   color: var(--primary-color);
 }
-@media (max-width: $breakpoint-sm) {
+@media (max-width: 991px) {
   .post-card .featured-image {
     min-height: 300px;
   }
@@ -326,7 +326,7 @@ article img {
     border-radius: 12px;
     margin: 0 auto;
   }
-  @media (max-width: $breakpoint-md) {
+  @media (max-width: 991px) {
     padding: 15px 10px;
   }
 }
@@ -401,7 +401,7 @@ article img {
     padding: 30px;
   }
 
-  @media (max-width: $breakpoint-md) {
+  @media (max-width: 991px) {
     padding: 25px 10px;
     .wrapper {
       padding: 20px 10px;
@@ -528,7 +528,7 @@ article img {
       line-height: 1.3;
     }
   }
-  @media (max-width: $breakpoint-md) {
+  @media (max-width: 991px) {
     padding: 50px 0 ul {
       display: flex;
       justify-content: space-between;
