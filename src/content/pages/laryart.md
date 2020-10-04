@@ -13,6 +13,6 @@ Scelgo con cura **materiali e decorazioni** per dare alle persone dei regali fat
 
 Pezzi unici a prezzi vantaggiosi anche per addobbare la tua casa in maniera originale.
 
-Scopri su questo sito alcuned delle mie realizzazioni.
+Scopri su questo sito alcune delle mie realizzazioni.
 
 ![Fiore](/assets/118567456_191698939241431_9061150908446432638_o.jpg "Fiore")

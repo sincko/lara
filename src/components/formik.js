@@ -2,6 +2,9 @@ import React from "react"
 import { Formik, Form, Field, useField } from "formik"
 import { TextField, Button } from "@material-ui/core"
 import * as yup from "yup"
+import emailjs from "emailjs-com"
+
+emailjs.init("user_06xz85hi92oABMZqCIUu7")
 
 const TextFieldConError = ({ placeholder, ...props }) => {
   const [field, meta] = useField(props)
@@ -13,20 +16,17 @@ const TextFieldConError = ({ placeholder, ...props }) => {
       helperText={errorText}
       error={!!errorText}
       as={TextField}
+      {...props}
     />
   )
-}
-
-const onSubmit = values => {
-  console.log("Grazie di avermi scelto per i tuoi regali")
-  console.log(values)
 }
 
 const validationSchema = yup.object({
   email: yup.string().email().required(),
   nome: yup.string().required(),
 })
-const FormikContact = ({ data }) => {
+
+const FormikContact = () => {
   return (
     <Formik
       initialValues={{
@@ -35,21 +35,42 @@ const FormikContact = ({ data }) => {
         cellulare: "",
         messaggio: "",
       }}
-      onSubmit={onSubmit}
+      onSubmit={actions => {
+        emailjs
+          .sendForm("service_q3997uk", "template_m6tzcmm", "contact_form")
+          .then((res, req) => {
+            console.log("email spedita", req)
+
+            /* document.location.assign("/thanks") */
+          })
+          .catch(err => {
+            console.log("Invio email fallito", err)
+            return
+          })
+        actions.resetForm()
+        actions.setSubmitting(false)
+      }}
       validationSchema={validationSchema}
     >
-      {({ values, errors, isSubmitting }) => (
+      {props => (
         <Form
+          id="contact_form"
           data-netlify="true"
-          className="contact-form"
-          name="contact"
-          form-name="contact-form"
+          className="contact_form"
+          name="contact_form"
+          form-name="contact_form"
           method="POST"
           action="/thanks"
+          onSubmit={props.handleSubmit}
         >
-          <input name="contact-form" value="LaryAet form" type="hidden" />
+          <p className="hidden">
+            <label>
+              Non compilare questo campo se sei un umano:{" "}
+              <input name="bot-field" />
+            </label>
+          </p>
 
-          <div className="item">
+          <div className="item material">
             <TextFieldConError
               type="text"
               name="nome"
@@ -92,17 +113,12 @@ const FormikContact = ({ data }) => {
             />
           </div>
           <div className="item text-align-right">
-            <Button
-              type="submit"
-              disabled={isSubmitting}
-              variant="contained"
-              color="primary"
-            >
+            <Button type="submit" variant="contained" color="primary">
               Invia
             </Button>
           </div>
-          {/* <pre>{JSON.stringify(values, null, 2)}</pre>
-              <pre>{JSON.stringify(errors, null, 2)}</pre> */}
+          <pre>{JSON.stringify(props.values, null, 2)}</pre>
+          <pre>{JSON.stringify(props.errors, null, 2)}</pre>
         </Form>
       )}
     </Formik>
