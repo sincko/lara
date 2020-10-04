@@ -35,14 +35,14 @@ const FormikContact = () => {
         cellulare: "",
         messaggio: "",
       }}
-      onSubmit={actions => {
+      onSubmit={(values, actions) => {
         emailjs
           .sendForm("service_q3997uk", "template_m6tzcmm", "contact_form")
-          .then((res, req) => {
-            console.log("form spedito", req)
+          .then(() => {
+            console.log("form spedito")
           })
-          .catch(err => {
-            console.log("Invio form fallito", err)
+          .catch(() => {
+            console.log("Invio form fallito")
             return
           })
         actions.resetForm()
