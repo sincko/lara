@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-matomo",
       options: {
-        siteId: "1",
+        siteId: "4",
         matomoUrl: "https://matomo.duckdns.org",
         siteUrl: "https://laryart.it",
         disableCookies: true,
@@ -79,12 +79,12 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
-    {
+    /*{
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: settings.ga,
       },
-    },
+    },*/
     `gatsby-plugin-advanced-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
