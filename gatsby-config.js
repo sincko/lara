@@ -19,10 +19,9 @@ module.exports = {
       resolve: "gatsby-plugin-matomo",
       options: {
         siteId: "4",
-        matomoUrl: "https://matomo.duckdns.org",
+        matomoUrl: "https://matomo.duckdns.org/",
         siteUrl: "https://laryart.it",
-        disableCookies: true,
-        requireConsent: true,
+        disableCookies: false,
       },
     },
     {
