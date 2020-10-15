@@ -13,3 +13,5 @@ Può essere usato come decorazione a se stante da porre su di una parete o appog
 I materiali sono legno e colori Shabby.
 
 Il costo è di 10€
+
+[Contattami](/contatti) se sei interessata o per saperne di più
