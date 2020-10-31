@@ -7,8 +7,8 @@ description: Disegno di farfalla in tonalità di blu che sfuma in azzurro
 featuredImage: /assets/img_20200814_201009_839.jpg
 ---
 
-Disegno di farfalla in tonalità di blu che sfuma in azzurro.\
-Ho una grande passione nel realizzare disegni su carta con le matite coèlorate.
+Disegno di farfalla in tonalità di blu che sfuma in azzurro.
+Ho una grande passione nel realizzare disegni su carta con le matite colorate.
 
 Questa è una mia realizzazione alla quale sono molto attaccata e secondo il mio gusto è venuta particolarmente bene.
 
