@@ -517,15 +517,32 @@ article img {
     p {
       font-size: 14px;
       margin: 0 0 5px;
-      color: rgba(0, 0, 0, 0.5);
+      color: #fff;
     }
     a {
       font-weight: normal;
       font-size: 16px;
       padding: 0;
     }
+    a.prev-next {
+      color: #fff;
+
+      .icon {
+        padding-top: 5px;
+
+        &.-right {
+          margin-left: 3px;
+        }
+      }
+      &:hover {
+        p {
+          color: rgba(255, 255, 255, 0.6);
+        }
+      }
+    }
     .page-title {
       line-height: 1.3;
+      color: #fff;
     }
   }
   @media (max-width: 991px) {
@@ -554,6 +571,15 @@ article img {
   max-width: 100%;
 }
 
+.gatsby-resp-image-wrapper {
+  img {
+    border-radius: 12px;
+  }
+}
+
+.lara {
+  font-family: var(--font-family-titles);
+}
 @import "utility";
 
 // Libraries
