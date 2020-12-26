@@ -14,7 +14,11 @@ const settings = require("./src/util/site.json")
 
 module.exports = {
   siteMetadata: settings.meta,
+  /* siteMetadata: {
+    siteUrl: `https://laryart.it`,
+  }, */
   plugins: [
+    "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-matomo",
       options: {
