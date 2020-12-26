@@ -4,6 +4,7 @@ import { TextField, Button } from "@material-ui/core"
 import * as yup from "yup"
 import emailjs from "emailjs-com"
 
+//https://dashboard.emailjs.com/admin
 emailjs.init("user_06xz85hi92oABMZqCIUu7")
 
 const TextFieldConError = ({ placeholder, ...props }) => {
