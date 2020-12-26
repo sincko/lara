@@ -38,17 +38,17 @@ const FormikContact = () => {
       }}
       onSubmit={(values, actions) => {
         emailjs
-          .sendForm("service_q3997uk", "template_m6tzcmm", "contact_form")
-          .then(() => {
-            console.log("form spedito")
+          .sendForm("service_q3997uk", "template_m6tzcmm", "#contact_form")
+          .then(result => {
+            console.log(result.text, result.status)
           })
-          .catch(() => {
-            console.log("Invio form fallito")
+          .catch(error => {
+            console.log(error.text)
             return
           })
         actions.resetForm()
         actions.setSubmitting(false)
-        document.location.assign("/thanks")
+        //document.location.assign("/thanks")
       }}
       validationSchema={validationSchema}
     >
@@ -117,7 +117,7 @@ const FormikContact = () => {
               Invia
             </Button>
           </div>
-          {/* <pre>{JSON.stringify(props.values, null, 2)}</pre>
+          {/*<pre>{JSON.stringify(props.values, null, 2)}</pre>
           <pre>{JSON.stringify(props.errors, null, 2)}</pre> */}
         </Form>
       )}
