@@ -48,7 +48,7 @@ const FormikContact = () => {
           })
         actions.resetForm()
         actions.setSubmitting(false)
-        //document.location.assign("/thanks")
+        document.location.assign("/thanks")
       }}
       validationSchema={validationSchema}
     >
