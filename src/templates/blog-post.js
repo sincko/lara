@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const Pagination = props => (
   <div className="pagination -post">
@@ -64,7 +64,7 @@ const Post = ({ data, pageContext }) => {
 
   return (
     <Layout className="page">
-      <SEO
+      <Seo
         title={frontmatter.title}
         description={
           frontmatter.description ? frontmatter.description : excerpt
@@ -131,9 +131,6 @@ export const pageQuery = graphql`
             fluid(quality: 80, srcSetBreakpoints: [350, 700, 1050, 1400]) {
               ...GatsbyImageSharpFluid
               ...GatsbyImageSharpFluidLimitPresentationSize
-            }
-            sizes {
-              src
             }
           }
         }

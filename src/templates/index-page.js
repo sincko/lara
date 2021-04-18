@@ -5,7 +5,7 @@ import { RiArrowRightSLine } from "react-icons/ri"
 
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 export const pageQuery = graphql`
   query HomeQuery($id: String!) {
@@ -19,9 +19,6 @@ export const pageQuery = graphql`
           childImageSharp {
             fluid(quality: 80, srcSetBreakpoints: [960, 1440]) {
               ...GatsbyImageSharpFluid
-            }
-            sizes {
-              src
             }
           }
         }
@@ -42,7 +39,7 @@ const HomePage = ({ data }) => {
     : ""
   return (
     <Layout>
-      <SEO />
+      <Seo />
       <div className="home-banner grids col-1 sm-2">
         <div>
           <h1 className="title">{frontmatter.title}</h1>

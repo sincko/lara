@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import FormikContact from "../components/formik"
 
 export const pageQuery = graphql`
@@ -28,7 +28,7 @@ const Contact = ({ data }) => {
 
   return (
     <Layout className="contact-page">
-      <SEO
+      <Seo
         title={frontmatter.title}
         description={frontmatter.title + " " + site.siteMetadata.title}
       />

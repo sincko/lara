@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 export const pageQuery = graphql`
   query PrivacyQuery($id: String!) {
@@ -27,7 +27,7 @@ const Privacy = ({ data }) => {
 
   return (
     <Layout className="contact-page">
-      <SEO
+      <Seo
         title={frontmatter.title}
         description={frontmatter.title + " " + site.siteMetadata.title}
       />
