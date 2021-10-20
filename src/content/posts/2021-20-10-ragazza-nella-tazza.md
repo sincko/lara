@@ -13,6 +13,6 @@ Coi capelli tirati su, si gode un momento di relax in pigiama, magari in attesa 
 
 Aria distesa e sognante questo disegno è per noi ragazze che amiamo il calore del nostro rifugio...
 
-...come sempre vestite comode ;-)
+...come sempre vestite comode e magari dentro una tazza gigante ;-)
 
 Lary
