@@ -7,10 +7,12 @@ description: La ragazza nella tazza che sorseggia il suo té
 featuredImage: /assets/ragazza-tazza.jpg
 ---
 
-La ragazza sorseggia il suo té al calduccio in una giornata d'autunno.
+La ragazza sorseggia il suo té al calduccio dentro la sua tazza.
 
-Vestita comoda e coi capelli tirati su, magari in pigiama, si gode la sera forse davanti ad un film.
+Coi capelli tirati su, si gode un momento di relax in pigiama, magari in attesa di guardare la sua serie preferita su Netflix.
 
-Aria distesa e sognante questo disegno è per noi ragazze che amiamo il calore del nostro comodo rifugio.
+Aria distesa e sognante questo disegno è per noi ragazze che amiamo il calore del nostro rifugio...
+
+...come sempre vestite comode ;-)
 
 Lary
