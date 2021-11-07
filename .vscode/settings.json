@@ -2,5 +2,14 @@
     "prettier.useTabs": true,
     "editor.tabSize": 2,
     "html.format.wrapLineLength": 80,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "cSpell.words": [
+        "avermi",
+        "contattato",
+        "Grazie",
+        "messaggio",
+        "ricevuto",
+        "risponderò",
+        "Ritorna"
+    ]
 }
