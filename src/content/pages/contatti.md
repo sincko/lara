@@ -8,7 +8,7 @@ Se vuoi contattarmi, il miglior modo è scrivermi un messaggio su <a
             href="https://wa.me/393356785620"
             target="_blank"
             rel="noopener noreferrer"
-          >whatsapp</a> o compilando il form qui sotto,
+          >WhatsApp</a> o compilando il form qui sotto,
 
 Cercherò di risponderti nel più breve tempo possibile.
 
