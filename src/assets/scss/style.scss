@@ -2,6 +2,10 @@
 @import "defaults";
 @import "lib/css-grid-utility";
 
+@import "utility";
+
+// Libraries
+@import "lib/prism-default";
 // .primary-container {
 // 	display: grid;
 // 	grid-template-rows: 60px auto 60px;
@@ -210,10 +214,10 @@ time {
 }
 .home-posts {
   color: #fff;
+  padding-bottom: 100px;©
   .grids {
     padding-bottom: 30px;
   }
-  padding-bottom: 100px;
 }
 .post-card {
   padding: 16px;
@@ -580,7 +584,3 @@ article img {
 .lara {
   font-family: var(--font-family-titles);
 }
-@import "utility";
-
-// Libraries
-@import "lib/prism-default";
