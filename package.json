@@ -60,7 +60,7 @@
   },
   "devDependencies": {
     "acorn": "^8.8.0",
-    "netlify-cms-lib-widge1s": "^1.8.1",
+    "netlify-cms-lib-widgets": "^1.8.1",
     "prettier": "^3.8.0",
     "react-refresh": "0.18.0",
     "redux": "^5.0.1",
