@@ -30,7 +30,15 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. The suite covers form validation, the form submit failure path, pagination math, and page creation, with at least one passing assertion each
   3. Lighthouse + PSI baseline (median of 3, mobile) for LCP, CLS, and INP is captured on the live site before any dependency or code changes
   4. Baseline results are stored in `.planning/` so Phase 6 can compare against them
-**Plans**: TBD
+**Plans**: 4 plans
+
+```
+Plans:
+- [ ] 01-01-PLAN.md — Jest pipeline tracer: install pinned devDeps, official Gatsby scaffold (manual __mocks__/gatsby.js — D-01 mechanism swap), formik validation suite + D-05 failure-path regression (it.skip)
+- [ ] 01-02-PLAN.md — Remaining FNDT-05 suites: blog-list pagination math, navigation toggle, gatsby-node createPages (node env)
+- [ ] 01-03-PLAN.md — Baseline tooling: capture-baseline.js (Lighthouse 13.4.1 + PSI 429 fallback), median.js, methodology README
+- [ ] 01-04-PLAN.md — Full baseline capture (3 URLs × 3 runs × 2 sources, mobile) + BASELINE.md medians, checkpoint-gated
+```
 
 ### Phase 2: Foundation Cleanup
 **Goal**: The repo state is unambiguous — one lockfile, one Node version, no dead code or unused dependencies
@@ -101,7 +109,7 @@ Phases execute in numeric order; Phases 4 and 5 touch disjoint file sets and may
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Test Scaffolding + Performance Baseline | TBD | Not started | - |
+| 1. Test Scaffolding + Performance Baseline | 0/4 | Not started | - |
 | 2. Foundation Cleanup | TBD | Not started | - |
 | 3. Core Upgrade | TBD | Not started | - |
 | 4. MUI Removal + Form Reliability | TBD | Not started | - |
