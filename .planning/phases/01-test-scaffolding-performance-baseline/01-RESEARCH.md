@@ -158,8 +158,8 @@ Note: `babel-preset-gatsby@3.16.0` is already a transitive dep of gatsby@5.15.0 
  │   jsdom env:                         │   target URLs:                    │
  │   ├─ formik.test.js  (yup + fail     │   ├─ https://laryart.it/          │
  │   │   path via mocked emailjs)       │   ├─ https://laryart.it/blog      │
- │   ├─ blog-list.test.js (pagination)  │   └─ (1 post page, e.g.            │
- │   ├─ navigation.test.js (toggle)     │      /2024-08-15-minnie)          │
+  │   ├─ blog-list.test.js (pagination)  │   └─ (1 post page, e.g.            │
+  │   ├─ navigation.test.js (toggle)     │      /minnie)                      │
  │   └─ header/footer/logo snapshots*   │                                   │
  │   node env (@jest-environment node): │   * optional, agent's discretion  │
  │   └─ gatsby-node.test.js (createPages)                                   │
@@ -614,26 +614,30 @@ Recommend a small `node` script (`.planning/baseline/median.js` or inline) that 
 
 **If this table is empty:** n/a — table above contains all `[ASSUMED]`-tagged claims; A4/A6/A7 are test-implementation details with documented fallbacks, A2/A5 have concrete workarounds.
 
-## Open Questions
+## Open Questions (RESOLVED)
 
-1. **PSI API key — provide one, or accept CLI-only baseline?**
+1. **PSI API key — provide one, or accept CLI-only baseline?** **[RESOLVED in Plan 04]**
    - What we know: PSI v5 works without a key for low volume, but the anonymous shared quota returned HTTP 429 "Quota exceeded" on 2026-08-18 (verified live). D-08 locks "Lighthouse CLI + PageSpeed Insights"; D-09 locks storage, not the key.
    - What's unclear: whether the quota recovers quickly (per-hour/day window) and whether the user has/wants a Google Cloud API key (free, raises quota).
    - Recommendation: baseline script tries PSI with retry/backoff and falls back to Lighthouse-CLI-against-live-URL per metric; if the user can provide a key, pass it via env var (`PSI_API_KEY`) without committing it. Planner: add a `checkpoint:human-verify` before the PSI capture step to confirm key availability.
+   - **Resolution (plans 01-03/01-04):** capture-baseline.js implements retry/backoff (3 retries, 10s/30s/60s) + `process.env.PSI_API_KEY` support + per-metric Lighthouse-CLI fallback with `{ source: "lighthouse-fallback", psi_quota: "429" }` markers; Plan 04's blocking checkpoint lets the owner choose psi-key or psi-fallback before the full capture.
 
-2. **Which URLs for the baseline?**
+2. **Which URLs for the baseline?** **[RESOLVED in Plan 03]**
    - What we know: success criteria say "live site" median-3 mobile LCP/CLS/INP. Repo has `/` (home), `/blog` (301 → `/blog/` — trailing slash; Lighthouse follows redirects), post pages (19), `/laryart`, `/contatti` (contact form — most interesting for Phase 6 font/asset work), `/privacy`.
    - What's unclear: the minimal URL set Phase 6 must match. ROADMAP Phase 6 says "CWV verification on the live site" without listing URLs.
-   - Recommendation: capture 3 URLs as the canonical set — `https://laryart.it/`, `https://laryart.it/blog/`, and one post (`https://laryart.it/2024-08-15-minnie` — verify actual slug from frontmatter at execution). More URLs = more time per run (3 URLs × 3 runs × 2 sources ≈ 20+ min). Record the set in BASELINE.md; Phase 6 uses the same set.
+   - Recommendation: capture 3 URLs as the canonical set — `https://laryart.it/`, `https://laryart.it/blog/`, and one post (`https://laryart.it/minnie` — frontmatter slug verified at planning time: src/content/posts/2024-08-15-minnie.md line 4). More URLs = more time per run (3 URLs × 3 runs × 2 sources ≈ 20+ min). Record the set in BASELINE.md; Phase 6 uses the same set.
+   - **Resolution (plan 01-03):** canonical set hardcoded in capture-baseline.js as `["https://laryart.it/", "https://laryart.it/blog/", "https://laryart.it/minnie"]`; slugify → home / blog / post-minnie; recorded in README.md.
 
-3. **Snapshot tests (D-06, agent's discretion) — take or skip?**
+3. **Snapshot tests (D-06, agent's discretion) — take or skip?** **[RESOLVED in Plan 02]**
    - What we know: header.js is a 7-line passthrough, footer/logo are small; snapshots are cheap. But Phase 4 removes MUI and Phase 5 changes images — presentational snapshots of header/footer/logo are unaffected by those.
    - What's unclear: executor preference.
    - Recommendation: include 1-2 trivial snapshots (header, logo) to satisfy D-06's "at least one passing assertion per covered area" beyond the required areas — but never snapshot MUI-rendered output.
+   - **Resolution (plan 01-02):** snapshots skipped — blog-list pagination, navigation toggle, and gatsby-node createPages tests provide the required passing assertions; header/footer/logo snapshots left to executor discretion per D-06 (no snapshot task in the plans).
 
-4. **Does the 301 `/blog` → `/blog/` matter for Lighthouse?**
+4. **Does the 301 `/blog` → `/blog/` matter for Lighthouse?** **[RESOLVED in Plan 03]**
    - What we know: `curl -I https://laryart.it/blog` → 301. Lighthouse follows redirects and reports the final URL.
    - Recommendation: use the canonical `/blog/` URL in the baseline script to avoid a redirect in the critical path; note the choice in BASELINE.md.
+   - **Resolution (plan 01-03):** canonical `/blog/` used in the URLS constant; the redirect note is documented in capture-baseline.js and README.md, and re-verified at execution via `curl -sI`.
 
 ## Environment Availability
 
