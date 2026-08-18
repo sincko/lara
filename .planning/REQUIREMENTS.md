@@ -83,40 +83,40 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FNDT-01 | | Pending |
-| FNDT-02 | | Pending |
-| FNDT-03 | | Pending |
-| FNDT-04 | | Pending |
-| FNDT-05 | | Pending |
-| FNDT-06 | | Pending |
-| UPGR-01 | | Pending |
-| UPGR-02 | | Pending |
-| UPGR-03 | | Pending |
-| UPGR-04 | | Pending |
-| UPGR-05 | | Pending |
-| UPGR-06 | | Pending |
-| UPGR-07 | | Pending |
-| FORM-01 | | Pending |
-| FORM-02 | | Pending |
-| FORM-03 | | Pending |
-| FORM-04 | | Pending |
-| IMAG-01 | | Pending |
-| IMAG-02 | | Pending |
-| IMAG-03 | | Pending |
-| SEOS-01 | | Pending |
-| SEOS-02 | | Pending |
-| SEOS-03 | | Pending |
-| SEOS-04 | | Pending |
-| PERF-01 | | Pending |
-| PERF-02 | | Pending |
-| PERF-03 | | Pending |
-| PERF-04 | | Pending |
+| FNDT-01 | Phase 2 | Pending |
+| FNDT-02 | Phase 2 | Pending |
+| FNDT-03 | Phase 2 | Pending |
+| FNDT-04 | Phase 2 | Pending |
+| FNDT-05 | Phase 1 | Pending |
+| FNDT-06 | Phase 1 | Pending |
+| UPGR-01 | Phase 3 | Pending |
+| UPGR-02 | Phase 3 | Pending |
+| UPGR-03 | Phase 3 | Pending |
+| UPGR-04 | Phase 3 | Pending |
+| UPGR-05 | Phase 4 | Pending |
+| UPGR-06 | Phase 3 | Pending |
+| UPGR-07 | Phase 3 | Pending |
+| FORM-01 | Phase 4 | Pending |
+| FORM-02 | Phase 4 | Pending |
+| FORM-03 | Phase 4 | Pending |
+| FORM-04 | Phase 4 | Pending |
+| IMAG-01 | Phase 5 | Pending |
+| IMAG-02 | Phase 5 | Pending |
+| IMAG-03 | Phase 5 | Pending |
+| SEOS-01 | Phase 5 | Pending |
+| SEOS-02 | Phase 5 | Pending |
+| SEOS-03 | Phase 5 | Pending |
+| SEOS-04 | Phase 2 | Pending |
+| PERF-01 | Phase 6 | Pending |
+| PERF-02 | Phase 6 | Pending |
+| PERF-03 | Phase 6 | Pending |
+| PERF-04 | Phase 6 | Pending |
 
 **Coverage:**
 - v1 requirements: 28 total
-- Mapped to phases: 0
-- Unmapped: 28 ⚠️
+- Mapped to phases: 28
+- Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-08-18*
-*Last updated: 2026-08-18 after initial definition*
+*Last updated: 2026-08-18 after roadmap creation (traceability mapped)*
