@@ -9,10 +9,10 @@ Requirements for milestone v1.0 (Updates, Debugging and Refinements). Each maps 
 
 ### Foundation
 
-- [ ] **FNDT-01**: Repo has a single package manager (yarn) — package-lock.json removed, yarn.lock is the only lockfile
+- [x] **FNDT-01**: Repo has a single package manager (yarn) — package-lock.json removed, yarn.lock is the only lockfile
 - [ ] **FNDT-02**: Node version is unambiguous — netlify.toml NODE_VERSION removed or aligned with .nvmrc (Node 22 LTS)
 - [ ] **FNDT-03**: Dead components removed (old-form.js, form-pulito.js)
-- [ ] **FNDT-04**: Unused dependencies removed (codemirror, seamless-immutable, redux, react-refresh, typescript, gatsby-background-image, y18n, prismjs, package-doctor, acorn, yarn-as-dep) — verified with `yarn why` per removal
+- [x] **FNDT-04**: Unused dependencies removed (codemirror, seamless-immutable, redux, react-refresh, typescript, gatsby-background-image, y18n, prismjs, package-doctor, acorn, yarn-as-dep) — verified with `yarn why` per removal
 - [x] **FNDT-05**: Minimal test suite scaffolded (jest + testing-library) covering form validation, pagination math, and page creation
 - [x] **FNDT-06**: Performance baseline captured (Lighthouse + PSI on live site) before any changes
 
@@ -83,10 +83,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FNDT-01 | Phase 2 | Pending |
+| FNDT-01 | Phase 2 | Complete |
 | FNDT-02 | Phase 2 | Pending |
 | FNDT-03 | Phase 2 | Pending |
-| FNDT-04 | Phase 2 | Pending |
+| FNDT-04 | Phase 2 | Complete |
 | FNDT-05 | Phase 1 | Complete |
 | FNDT-06 | Phase 1 | Complete |
 | UPGR-01 | Phase 3 | Pending |
