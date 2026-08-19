@@ -23,11 +23,22 @@
 
 | Option | Description | Selected |
 |--------|-------------|----------|
-| sass ^1.30.0 + remove node-sass hygiene guards | Swap to dart-sass, delete clean-node-sass-vendor.js + postinstall, keep Node 20 enforcement | ✓ |
+| sass ^1.30.0 + remove node-sass hygiene guards | Swap to dart-sass, delete clean-node-sass-vendor.js + postinstall, keep Node enforcement | ✓ |
 | sass ^1.30.0, keep guards | Swap but leave the now-dead node-sass cleanup script in place | |
 
 **User's choice:** [auto] sass ^1.30.0 + remove node-sass hygiene guards (recommended default)
-**Notes:** [auto] The vendor-cleanup script is dead weight once node-sass is gone; Node 20 enforcement (engines, engine-strict, check-node-version.js) stays. Nested `@import url()` in _theme-variables.scss may need a minimal hoist if dart-sass errors.
+**Notes:** [auto] The vendor-cleanup script is dead weight once node-sass is gone; Node enforcement (engines, engine-strict, check-node-version.js) stays. Nested `@import url()` in _theme-variables.scss may need a minimal hoist if dart-sass errors.
+
+## Node Version Bump (owner decision)
+
+| Option | Description | Selected |
+|--------|-------------|----------|
+| Node 24 (LTS) | Bump .nvmrc + engines to 24 after dart-sass lands — aligns with local dev environment | ✓ |
+| Node 22 | Bump to 22 instead | |
+| Stay on Node 20 | Keep 20 for this milestone | |
+
+**User's choice:** Node 24 (LTS) — owner explicitly chose 24 over 22 ("Try node 24 bump instead of 22")
+**Notes:** Supersedes Phase 2 D-05 (Node 20 pinned until dart-sass). The bump is a separate commit AFTER the 5.16.1 + dart-sass matrix is verified green under Node 20 (D-07b).
 
 ## Decap CMS Swap (UPGR-03)
 
@@ -78,7 +89,6 @@
 
 ## Deferred Ideas
 
-- Node 22 bump — beyond this milestone
 - gatsby-plugin-image migration — Phase 5
 - Font self-hosting — Phase 6
 - Matomo consent banner — future enhancement

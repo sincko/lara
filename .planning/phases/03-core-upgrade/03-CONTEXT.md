@@ -6,7 +6,7 @@
 <domain>
 ## Phase Boundary
 
-This phase upgrades the core stack in lockstep: Gatsby 5.15.0 → 5.16.1 (latest stable) with every gatsby-* plugin bumped to the matching 5.16.x version in one commit, node-sass → dart-sass (`sass` ^1.30.0, the peer dep of gatsby-plugin-sass), netlify-cms-app → decap-cms-app 3.6.4 + gatsby-plugin-decap-cms 4.0.4, gatsby-plugin-matomo → vendored `_paq` snippet in gatsby-browser.js with `disableCookies: true`, and the redundant gatsby-plugin-advanced-sitemap removed so exactly one sitemap plugin remains. The site must keep building and deploying reliably throughout — no visual redesign, no new features, no content changes.
+This phase upgrades the core stack in lockstep: Gatsby 5.15.0 → 5.16.1 (latest stable) with every gatsby-* plugin bumped to the matching 5.16.x version in one commit, node-sass → dart-sass (`sass` ^1.30.0, the peer dep of gatsby-plugin-sass), netlify-cms-app → decap-cms-app 3.6.4 + gatsby-plugin-decap-cms 4.0.4, gatsby-plugin-matomo → vendored `_paq` snippet in gatsby-browser.js with `disableCookies: true`, and the redundant gatsby-plugin-advanced-sitemap removed so exactly one sitemap plugin remains. Once dart-sass removes the native-binding constraint, Node bumps from 20 to 24 (LTS) — the owner's choice, aligning the enforced version with the local dev environment. The site must keep building and deploying reliably throughout — no visual redesign, no new features, no content changes.
 
 </domain>
 
@@ -20,9 +20,10 @@ This phase upgrades the core stack in lockstep: Gatsby 5.15.0 → 5.16.1 (latest
 
 ### dart-sass Replacement (UPGR-02)
 - **D-04:** Replace `node-sass` ^9.0.0 with `sass` ^1.30.0 (dart-sass) — the peer dependency gatsby-plugin-sass 6.16.1 expects. No gatsby-config.js change needed (gatsby-plugin-sass auto-detects the implementation). **Reversibility:** reversible
-- **D-05:** After the swap, the Phase 2 node-sass hygiene guards become dead weight: remove `scripts/clean-node-sass-vendor.js` and the `postinstall` script entry from package.json. Keep `scripts/check-node-version.js` + `preinstall`/`prebuild`/`predevelop` + `engines` + `.yarnrc` engine-strict (Node 20 enforcement stays). **Reversibility:** reversible
+- **D-05:** After the swap, the Phase 2 node-sass hygiene guards become dead weight: remove `scripts/clean-node-sass-vendor.js` and the `postinstall` script entry from package.json. Keep `scripts/check-node-version.js` + `preinstall`/`prebuild`/`predevelop` + `engines` + `.yarnrc` engine-strict (Node enforcement stays). **Reversibility:** reversible
 - **D-06:** Verify the SCSS compiles identically — the repo uses only local `@import`s, but `_theme-variables.scss` has a nested `@import url(...)` (Google Fonts) inside `:root` that dart-sass may warn about. If dart-sass errors on it, hoist the `@import` to the top of `style.scss` (minimal fix, no font strategy change — self-hosting is Phase 6 PERF-01). **Reversibility:** reversible
-- **D-07:** With node-sass gone, the Node 22 bump becomes possible — but it stays OUT of scope for this milestone (D-05 from Phase 2 stands; re-evaluate in a future milestone).
+- **D-07:** **Node 24 bump (owner decision, supersedes Phase 2 D-05).** After dart-sass replaces node-sass, the native-binding constraint is gone — bump Node from 20 to 24 (LTS): update `.nvmrc` to `24`, `engines.node` to `"24.x"`, and verify `nvm use 24 && yarn install && yarn build && yarn test` green. This aligns the enforced version with the owner's local dev environment (nvm default `lts/*` = Node 24). **Reversibility:** reversible — revert `.nvmrc`/`engines` and re-run the loop under Node 20
+- **D-07b:** The Node 24 bump is a separate commit from the dart-sass swap, and it must come AFTER the full 5.16.1 + dart-sass matrix is verified green under Node 20 — never in the same commit as the dependency changes.
 
 ### Decap CMS Swap (UPGR-03)
 - **D-08:** Replace `netlify-cms-app` ^2.15.72 + `gatsby-plugin-netlify-cms` 6.22.0 with `decap-cms-app` 3.6.4 + `gatsby-plugin-decap-cms` 4.0.4. `static/admin/config.yml` is compatible as-is (Decap is the maintained fork). **Reversibility:** reversible
@@ -41,7 +42,7 @@ This phase upgrades the core stack in lockstep: Gatsby 5.15.0 → 5.16.1 (latest
 - **D-15:** The first post-upgrade Netlify deploy MUST run with cleared cache (Netlify UI: Deploys → Clear cache and deploy site) — the stale NODE_VERSION/cache history has broken builds before. This is a manual user step; the plan must surface it as a checkpoint, not attempt to automate it.
 
 ### the agent's Discretion
-- Exact ordering of the upgrade commits (lockstep bump first, then each tooling swap as its own verified commit)
+- Exact ordering of the upgrade commits (lockstep bump first, then each tooling swap as its own verified commit; Node 24 bump last per D-07b)
 - Whether the Decap swap and sitemap removal share a commit or stay separate
 - Exact `_paq` snippet structure (standard Matomo tracking code, vendored)
 - Whether to keep or remove `gatsby-plugin-netlify-cms-paths` (D-09 gives the decision rule: remove if broken/redundant with Decap)
@@ -56,8 +57,8 @@ This phase upgrades the core stack in lockstep: Gatsby 5.15.0 → 5.16.1 (latest
 ### Phase & Requirements
 - `.planning/ROADMAP.md` §Phase 3 — Goal, 5 success criteria, requirements UPGR-01..04, UPGR-06, UPGR-07
 - `.planning/REQUIREMENTS.md` §UPGR-01..07 — Requirement definitions (UPGR-05 belongs to Phase 4)
-- `.planning/phases/02-foundation-cleanup/02-CONTEXT.md` — D-05 (Node 20 pinned until dart-sass lands), D-04/D-05 (Node enforcement guards added in 02-04)
-- `.planning/phases/02-foundation-cleanup/02-04-SUMMARY.md` — Node enforcement implementation (engines, engine-strict, check-node-version.js, clean-node-sass-vendor.js) — D-05 removes the node-sass-specific parts
+- `.planning/phases/02-foundation-cleanup/02-CONTEXT.md` — D-05 (Node 20 pinned until dart-sass lands — SUPERSEDED by D-07 here), D-04/D-05 (Node enforcement guards added in 02-04)
+- `.planning/phases/02-foundation-cleanup/02-04-SUMMARY.md` — Node enforcement implementation (engines, engine-strict, check-node-version.js, clean-node-sass-vendor.js) — D-05 removes the node-sass-specific parts; D-07 updates the version targets
 - `.planning/phases/01-test-scaffolding-performance-baseline/01-SUMMARY.md` — jest suite exists; `yarn test` must stay green through the upgrade
 
 ### Codebase Maps
@@ -91,9 +92,11 @@ This phase upgrades the core stack in lockstep: Gatsby 5.15.0 → 5.16.1 (latest
 ### Integration Points
 - `gatsby-config.js` — plugin registry: remove gatsby-plugin-matomo (lines ~22-30), gatsby-plugin-advanced-sitemap (~84), gatsby-plugin-netlify-cms (~83), possibly gatsby-plugin-netlify-cms-paths (~7-9)
 - `gatsby-browser.js` — add vendored `_paq` tracking with disableCookies
-- `package.json` — dependency swaps: node-sass → sass, netlify-cms-app → decap-cms-app, gatsby-plugin-netlify-cms → gatsby-plugin-decap-cms; remove gatsby-plugin-matomo, gatsby-plugin-advanced-sitemap; remove postinstall script (D-05)
+- `package.json` — dependency swaps: node-sass → sass, netlify-cms-app → decap-cms-app, gatsby-plugin-netlify-cms → gatsby-plugin-decap-cms; remove gatsby-plugin-matomo, gatsby-plugin-advanced-sitemap; remove postinstall script (D-05); engines.node → "24.x" (D-07)
+- `.nvmrc` — `20` → `24` (D-07, after the 5.16.1 + dart-sass matrix is green under Node 20)
+- `scripts/check-node-version.js` — reads `.nvmrc`; no code change needed, it enforces whatever `.nvmrc` pins
 - `static/admin/config.yml` — branch fix (D-10)
-- `README.md` — update CMS local-dev command (npx decap-server) and any Node/dependency notes
+- `README.md` — update CMS local-dev command (npx decap-server) and Node version notes (24)
 - `netlify.toml` — no change needed (yarn build + .nvmrc already correct from Phase 2); first deploy needs cache clear (D-15)
 
 </code_context>
@@ -108,7 +111,6 @@ No specific requirements — standard approaches per CONCERNS.md evidence and th
 <deferred>
 ## Deferred Ideas
 
-- **Node 22 bump** — deferred beyond this milestone (D-07; Phase 2 D-05 stands)
 - **gatsby-plugin-image migration** — Phase 5 (IMAG-01); legacy gatsby-image stays working through this phase
 - **Font self-hosting / preconnect** — Phase 6 (PERF-01); only the minimal dart-sass `@import` hoist is allowed here (D-06)
 - **Matomo consent banner** — out of scope; disableCookies: true is the privacy-compliant baseline, a banner is a future enhancement
