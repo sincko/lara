@@ -117,12 +117,12 @@ Plans:
   4. Failed email send shows an inline error and the form stays on the page — no false success; the success message and redirect only happen on `.then`
   5. Successful email send still shows the success state and redirects as before — the emailjs-com → @emailjs/browser v4 swap works end-to-end
 
-**Plans**: 3/4 plans executed
+**Plans**: 4/4 plans executed
 
 - [x] 04-01-PLAN.md
 - [x] 04-02-PLAN.md
 - [x] 04-03-PLAN.md
-- [ ] 04-04-PLAN.md
+- [x] 04-04-PLAN.md
 
 **UI hint**: yes
 
@@ -167,6 +167,6 @@ Phases execute in numeric order; Phases 4 and 5 touch disjoint file sets and may
 | 1. Test Scaffolding + Performance Baseline | 4/4 | ✓ Complete | 2026-08-19 |
 | 2. Foundation Cleanup | 3/3 | Complete   | 2026-08-19 |
 | 3. Core Upgrade | 6/6 | Complete    | 2026-08-19 |
-| 4. MUI Removal + Form Reliability | 3/4 | In Progress|  |
+| 4. MUI Removal + Form Reliability | 4/4 | In Progress|  |
 | 5. Image Pipeline + SEO Fixes | TBD | Not started | - |
 | 6. Performance + Asset Cleanup + Final Verification | TBD | Not started | - |
