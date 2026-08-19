@@ -146,3 +146,13 @@ None - no external service configuration required.
 
 *Phase: 03-core-upgrade*
 *Completed: 2026-08-19*
+
+## Self-Check: PASSED
+
+- SUMMARY.md exists on disk: FOUND
+- scripts/clean-node-sass-vendor.js deleted: CONFIRMED
+- Commit e70c7f2 (feat, Task 1): FOUND
+- Commit 2297390 (fix, Task 2): FOUND
+- Commit 011e365 (docs, Task 3): FOUND
+- Commit 42c9471 (docs, plan metadata): FOUND
+- Plan-level verification re-run green: yarn install && yarn clean && yarn build && yarn test exit 0 under Node 20; font imports at top level in built CSS
