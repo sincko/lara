@@ -177,7 +177,7 @@ None - no external service configuration required.
 ## Self-Check: PASSED
 
 - Files exist: src/templates/blog-list.test.js, src/components/navigation.test.js, gatsby-node.test.js (all on disk, all prettier-clean)
-- Commits present: 3825e06 (Task 1 test), c58d1a5 (Task 2 test), a0b024c (Task 3 test), 969321d (style) — verified in git log
+- Commits present: 3825e06 (Task 1 test), c58d1a5 (Task 2 test), a0b024c (Task 3 test), 969321d (style), 178ed4e (docs metadata) — verified in git log
 - `yarn test` exits 0: 4 suites passed, 8 passed + 1 skipped, 0 failed
 - No production source modified: `git status` shows only the 3 test files + jest.setup.js (+ untracked .planning/config.json, pre-existing)
 - Acceptance criteria met: 5 jest.mock calls present before BlogIndex import (grep-counted 1 each); literal hrefs "/blog/2" and "/blog/" in test source; absence-of-Next asserted; gatsby-node paths /blog + /blog/2 asserted for the 10-post fixture; panicOnBuild asserted; semicolon scan clean (only for-loop header + comment usage)
