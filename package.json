@@ -26,7 +26,6 @@
   "dependencies": {
     "@emailjs/browser": "4.4.1",
     "decap-cms-app": "3.6.4",
-    "emailjs-com": "^3.2.0",
     "formik": "^2.2.9",
     "gatsby": "5.16.1",
     "gatsby-image": "^3.11.0",
