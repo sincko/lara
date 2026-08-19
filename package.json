@@ -24,8 +24,6 @@
     "test": "jest --watch=false"
   },
   "dependencies": {
-    "@material-ui/core": "^4.12.4",
-    "@material-ui/icons": "^4.11.3",
     "decap-cms-app": "3.6.4",
     "emailjs-com": "^3.2.0",
     "formik": "^2.2.9",
