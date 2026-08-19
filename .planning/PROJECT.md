@@ -55,23 +55,27 @@ Visitors can browse the artisan's work and blog, and contact the artisan through
 
 ## Constraints
 
-- **Tech stack**: Gatsby (5 → possibly 6), React 18, Netlify CMS — keep Netlify CMS
+- **Tech stack**: Gatsby 5.16.1 (latest stable — Gatsby 6 does not exist), React 18, Decap CMS (fork mantenuto di Netlify CMS)
 - **Package manager**: Yarn 1.22.22 — single source of truth; remove package-lock.json
 - **Deployment**: Netlify — build must keep working
 - **Language**: Italian site content — UI copy and SEO meta must be Italian
-- **Compatibility**: Node 20 per `.nvmrc`; `netlify.toml` NODE_VERSION must be fixed
+- **Compatibility**: Node 24 per `.nvmrc` (enforced via engines + engine-strict + check-node-version.js)
 - **Security**: No secrets in source — emailjs key must move to env var
 
 ## Key Decisions
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Attempt Gatsby 6 upgrade | Latest major; user opted in despite breaking changes | — Pending |
-| Replace MUI v4 with plain CSS | MUI v4 unmaintained; only TextField/Button used in contact form | — Pending |
-| Yarn as single package manager | package.json declares yarn 1.22.22; Netlify prefers yarn.lock | — Pending |
-| Keep Netlify CMS | Content editing workflow stays | — Pending |
-| emailjs key → env var | Remove hardcoded secret from source | — Pending |
-| Include website optimization | User opted in | — Pending |
+| Gatsby 5.16.1 lockstep matrix | Latest stable; Gatsby 6 does not exist; all gatsby-* plugins at .16.0 (registry-verified) | ✓ Done (Phase 3) |
+| dart-sass replaces node-sass | node-sass EOL, no Node 24 binary; sass ^1.30.0 is the gatsby-plugin-sass peer | ✓ Done (Phase 3) |
+| Decap CMS replaces Netlify CMS | netlify-cms-app EOL; decap-cms-app 3.6.4 + gatsby-plugin-decap-cms 4.0.4 | ✓ Done (Phase 3) |
+| GA4 replaces Matomo | matomo.duckdns.org unreachable from browser; vendored gtag snippet G-JFNK4HVQCC, anonymize_ip | ✓ Done (Phase 3, owner decision) |
+| Single sitemap plugin | advanced-sitemap unmaintained; official gatsby-plugin-sitemap kept | ✓ Done (Phase 3) |
+| Node 24 bump | Owner choice (over 22); safe after dart-sass removed the native-binding constraint | ✓ Done (Phase 3) |
+| Replace MUI v4 with plain CSS | MUI v4 unmaintained; only TextField/Button used in contact form | — Pending (Phase 4) |
+| Yarn as single package manager | package.json declares yarn 1.22.22; Netlify prefers yarn.lock | ✓ Done (Phase 2) |
+| emailjs key → env var | Remove hardcoded secret from source | — Pending (Phase 4) |
+| Include website optimization | User opted in | — Pending (Phases 5-6) |
 
 ## Evolution
 
@@ -91,4 +95,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-08-19 after Phase 1 completion*
+*Last updated: 2026-08-19 after Phase 3 completion*
