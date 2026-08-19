@@ -47,6 +47,8 @@ function round2(n) {
 
 function readRuns(sourceDir, slug) {
   const runs = []
+  let fallbackMarkers = 0
+  let errorMarkers = 0
   for (let i = 1; i <= 3; i++) {
     const file = path.join(sourceDir, `${slug}-${i}.json`)
     if (!fs.existsSync(file)) continue
@@ -56,10 +58,22 @@ function readRuns(sourceDir, slug) {
     } catch (_) {
       continue
     }
-    if (data && data.error) continue
+    if (data && data.error) {
+      errorMarkers++
+      continue
+    }
+    // A PSI artifact marked "lighthouse-fallback" (PSI quota 429 exhausted after
+    // retries) carries NO measurement — it only records provenance. It must not
+    // count toward runs_used or the medians (the underlying Lighthouse run is
+    // already counted in the lighthouse/ set; double-counting it here would
+    // inflate the psi rows with numbers that were never PSI's).
+    if (data && data.source === "lighthouse-fallback") {
+      fallbackMarkers++
+      continue
+    }
     runs.push(data)
   }
-  return runs
+  return { runs, fallbackMarkers, errorMarkers }
 }
 
 function metricValue(lhr, metric) {
@@ -80,10 +94,23 @@ function computeMedians(sourceDir, slug) {
     return { used: 0, captured: false, warns: [], metrics: {}, perfScore: null }
   }
 
-  const runs = readRuns(sourceDir, slug)
+  const { runs, fallbackMarkers, errorMarkers } = readRuns(sourceDir, slug)
   const used = runs.length
 
   if (used < 1) {
+    // No real measurement from this source. Error markers are a hard failure
+    // (README contract); PSI quota fallback markers are an expected outcome
+    // (documented fallback) reported as n/a with a provenance note.
+    if (fallbackMarkers > 0 && errorMarkers === 0) {
+      return {
+        used: 0,
+        captured: false,
+        fallbackOnly: true,
+        warns: [],
+        metrics: {},
+        perfScore: null,
+      }
+    }
     throw new Error(`all runs failed for slug "${slug}" in ${path.basename(sourceDir)}/`)
   }
 
@@ -120,7 +147,12 @@ function main() {
         continue
       }
       if (!res.captured) {
-        console.log(`# ${source}\t${slug}\t(not captured yet — Plan 04 full capture)`)
+        if (res.fallbackOnly) {
+          console.log(`${source}\t${slug}\tn/a\tn/a\tn/a\tn/a\t0`)
+          console.log(`  WARN: all ${source} runs for slug "${slug}" fell back to lighthouse (quota 429) — no ${source} measurement; see .planning/baseline/psi/ markers`)
+        } else {
+          console.log(`# ${source}\t${slug}\t(not captured yet — Plan 04 full capture)`)
+        }
         continue
       }
       const inp = res.metrics.inp_ms === null ? "n/a" : res.metrics.inp_ms

@@ -62,7 +62,11 @@ strategy=mobile, median of 3.**
 - 1 valid run → single value, `WARN runs_used=1` (exit 0; Plan 03's tracer
   artifacts are exactly this). The strict ≥2 gate applies **only** to the full
   Plan 04 capture.
-- 0 valid runs for a slug → script exits non-zero naming the slug.
+- 0 valid runs for a slug → script exits non-zero naming the slug — EXCEPT
+  when every artifact is a PSI `lighthouse-fallback` marker (quota 429): that is
+  the documented fallback outcome, printed as an `n/a` row with a provenance
+  WARN and exit 0. Fallback markers never count toward `runs_used` (the
+  underlying Lighthouse run is already counted in the `lighthouse/` set).
 - A run carrying an `error` marker is invalid and skipped.
 - Metrics: LCP (ms), CLS, INP (ms), performance score (×100, rounded).
 
@@ -83,7 +87,7 @@ failure, and matches PSI lab output for the same page type.
 | PSI API version | v5 |
 | Chrome | auto-detected by LH (headless) |
 | Node | v24.18.0 (nvm default) |
-| Capture date(s) | 2026-08-19 (tracer: home URL, 1 run; full capture in Plan 04) |
+| Capture date(s) | 2026-08-19 (full capture: 3 URLs × 3 runs × 2 sources; PSI quota 429 → lighthouse-fallback markers per run) |
 | Git commit SHA | see `git log --oneline .planning/baseline/` (baseline artifacts are committed; git history is the integrity record) |
 
 ## Phase 6 Reproducibility
