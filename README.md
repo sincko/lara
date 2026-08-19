@@ -25,6 +25,8 @@ Prerequisiti:
 - Node.js 20 (con [nvm](https://github.com/nvm-sh/nvm): `nvm use` legge `.nvmrc`)
 - yarn 1.22
 
+> Il progetto impone automaticamente Node 20: `yarn install`, `yarn build` e `yarn develop` falliscono con un errore esplicito sotto qualsiasi altra versione (campo `engines` + `engine-strict` in `.yarnrc` + guardia `scripts/check-node-version.js`). Se l'installazione fallisce per versione di Node, il comando di ripristino è `nvm use && yarn install`. Per chi usa nvm, `nvm alias default 20` evita di ripetere `nvm use` a ogni sessione.
+
 Comandi:
 
 ```bash
