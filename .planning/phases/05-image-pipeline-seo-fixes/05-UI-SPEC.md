@@ -60,12 +60,15 @@ Exceptions (existing values preserved verbatim — parity rule): `30px` (`.home-
 
 ## Typography (preserved — no changes in this phase)
 
+The declared weight scale is **400 + 700** (2 weights). Body/meta use 400, headings use 700:
+
 | Role | Size | Weight | Line Height | Source |
 |------|------|--------|-------------|--------|
 | Body (`.blog-post-content`) | 20px | 400 | 1.5 | style.scss:322-323 |
 | Meta (`.post-card .meta`, `time`) | 12px | 400 | 1.5 | style.scss:254, `--font-size-small` |
 | Heading (`.article-header h1`) | clamp(18px, calc(1rem + 2vw), 36px) | 700 | 1.3 | style.scss:277-281 |
-| Display (`.home-banner .title`) | 48px | 900 | 1 (48px) | style.scss:186-189 |
+
+Exceptions (existing values preserved verbatim — parity rule, D-04): `.home-banner .title` (style.scss:186-189) — Display role at 48px, `font-weight: 900`, line-height 1 (48px). The 900 weight is a standalone preserved value from the locked SCSS, **not a member of the 400/700 scale** — justification: locked SCSS, no font changes in this phase (same treatment as the `30px`/`50px`/`10px`/`9px` spacing exceptions above). The executor MUST NOT apply weight 900 to any other surface; `.home-banner .title` keeps it as-is.
 
 Fonts: Ubuntu (body, weight 400/700 loaded), Parisienne (headings). No font changes in this phase. The only typography-adjacent changes are **meta content** (Italian strings), never font/size/weight — see Copywriting Contract.
 
