@@ -13,7 +13,7 @@ Milestone v1.0 (Updates, Debugging and Refinements) modernizes the laryart.it Ga
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Test Scaffolding + Performance Baseline** - Regression net (jest + testing-library) and pre-change Lighthouse/PSI baseline
+- [x] **Phase 1: Test Scaffolding + Performance Baseline** - Regression net (jest + testing-library) and pre-change Lighthouse/PSI baseline
 - [ ] **Phase 2: Foundation Cleanup** - Single lockfile, unambiguous Node version, dead code and dependencies removed
 - [ ] **Phase 3: Core Upgrade** - Gatsby 5.16.1 lockstep, dart-sass, Decap CMS, vendored Matomo, single sitemap
 - [ ] **Phase 4: MUI Removal + Form Reliability** - Plain-SCSS contact form, @emailjs/browser + env vars, false-success bug fixed
@@ -134,7 +134,7 @@ Phases execute in numeric order; Phases 4 and 5 touch disjoint file sets and may
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Test Scaffolding + Performance Baseline | 0/4 | Not started | - |
+| 1. Test Scaffolding + Performance Baseline | 4/4 | ✓ Complete | 2026-08-19 |
 | 2. Foundation Cleanup | TBD | Not started | - |
 | 3. Core Upgrade | TBD | Not started | - |
 | 4. MUI Removal + Form Reliability | TBD | Not started | - |
