@@ -5,15 +5,15 @@ milestone_name: Updates, Debugging and Refinements
 current_phase: 01
 current_phase_name: test-scaffolding-performance-baseline
 status: executing
-stopped_at: Completed 01-01-PLAN.md
-last_updated: "2026-08-19T06:40:48.080Z"
+stopped_at: Completed 01-03-PLAN.md
+last_updated: "2026-08-19T07:03:19.439Z"
 last_activity: 2026-08-19
 last_activity_desc: Phase 01 execution started
 progress:
   total_phases: 1
   completed_phases: 0
   total_plans: 4
-  completed_plans: 1
+  completed_plans: 2
 ---
 
 # Project State
@@ -28,11 +28,11 @@ See: .planning/PROJECT.md (updated 2026-08-18)
 ## Current Position
 
 Phase: 01 (test-scaffolding-performance-baseline) — EXECUTING
-Plan: 2 of 4
+Plan: 3 of 4
 Status: Ready to execute
 Last activity: 2026-08-19 -- Phase 01 execution started
 
-Progress: [███░░░░░░░] 25%
+Progress: [█████░░░░░] 50%
 
 ## Performance Metrics
 
@@ -59,6 +59,7 @@ Progress: [███░░░░░░░] 25%
 | Plan | Duration | Tasks | Files |
 |------|----------|-------|-------|
 | Phase 01-test-scaffolding-performance-baseline P01 | 24min | 2 tasks | 9 files |
+| Phase 01-test-scaffolding-performance-baseline P03 | 42min | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -73,6 +74,8 @@ Recent decisions affecting current work:
 - [Roadmap]: SEOS-04 (ga placeholder + README) placed in Phase 2 — starter-remnant cleanup belongs with foundation work
 - [Phase ?]: Test scaffold: jest 29.7.0 + babel-preset-gatsby manual-mock setup replaces unpublished gatsby-plugin-jest; @testing-library/dom added as explicit devDep (yarn 1 lacks peer auto-install)
 - [Phase ?]: yup error messages do not render verbatim (TextFieldConError props order) — validation asserted via Mui-error class flip
+- [Phase 01-test-scaffolding-performance-baseline]: Chrome headless flags (--headless=new --no-sandbox --disable-dev-shm-usage) required in this environment — Lighthouse fails NO_FCP without them — Chrome headless flags (--headless=new --no-sandbox --disable-dev-shm-usage) required in this environment — Lighthouse fails NO_FCP without them
+- [Phase 01-test-scaffolding-performance-baseline]: LH 13.4.1 navigation runs exclude interaction-to-next-paint (timespan-only audit) — INP n/a for static pages; Phase 6 comparison must account for it — LH 13.4.1 navigation runs exclude interaction-to-next-paint (timespan-only audit) — INP n/a for static pages; Phase 6 comparison must account for it
 
 ### Pending Todos
 
@@ -95,6 +98,6 @@ Items acknowledged and carried forward from previous milestone close:
 
 ## Session Continuity
 
-Last session: 2026-08-19T06:40:45.150Z
-Stopped at: Completed 01-01-PLAN.md
+Last session: 2026-08-19T07:03:08.992Z
+Stopped at: Completed 01-03-PLAN.md
 Resume file: None
