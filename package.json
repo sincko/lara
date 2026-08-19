@@ -15,7 +15,6 @@
     "preinstall": "node scripts/check-node-version.js",
     "prebuild": "node scripts/check-node-version.js",
     "predevelop": "node scripts/check-node-version.js",
-    "postinstall": "node scripts/clean-node-sass-vendor.js",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -48,12 +47,12 @@
     "gatsby-transformer-remark": "6.16.0",
     "gatsby-transformer-sharp": "5.16.0",
     "netlify-cms-app": "^2.15.72",
-    "node-sass": "^9.0.0",
     "prismjs": "^1.30.0",
     "react": "^18.0.2",
     "react-dom": "^18.0.2",
     "react-helmet": "^6.1.0",
     "react-icons": "^5.7.0",
+    "sass": "^1.30.0",
     "yup": "^1.7.1"
   },
   "devDependencies": {
