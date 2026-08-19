@@ -69,6 +69,6 @@
     "@mapbox/jsonlint-lines-primitives": "2.0.2"
   },
   "engines": {
-    "node": "20.x"
+    "node": "24.x"
   }
 }

@@ -16,16 +16,16 @@ Sito personale di Lara, che realizza decoupage originali e oggetti d'arte fatti 
 - [Sass](https://sass-lang.com/) (dart-sass) — compilazione SCSS
 - Formik + yup — modulo di contatto
 - [Matomo](https://matomo.org/) — statistiche di visita
-- Node.js 20 (`.nvmrc`) e yarn 1.22.22 (`packageManager` in `package.json`)
+- Node.js 24 (`.nvmrc`) e yarn 1.22.22 (`packageManager` in `package.json`)
 
 ## Sviluppo locale
 
 Prerequisiti:
 
-- Node.js 20 (con [nvm](https://github.com/nvm-sh/nvm): `nvm use` legge `.nvmrc`)
+- Node.js 24 (con [nvm](https://github.com/nvm-sh/nvm): `nvm use` legge `.nvmrc`)
 - yarn 1.22
 
-> Il progetto impone automaticamente Node 20: `yarn install`, `yarn build` e `yarn develop` falliscono con un errore esplicito sotto qualsiasi altra versione (campo `engines` + `engine-strict` in `.yarnrc` + guardia `scripts/check-node-version.js`). Se l'installazione fallisce per versione di Node, il comando di ripristino è `nvm use && yarn install`. Per chi usa nvm, `nvm alias default 20` evita di ripetere `nvm use` a ogni sessione.
+> Il progetto impone automaticamente Node 24: `yarn install`, `yarn build` e `yarn develop` falliscono con un errore esplicito sotto qualsiasi altra versione (campo `engines` + `engine-strict` in `.yarnrc` + guardia `scripts/check-node-version.js`). Se l'installazione fallisce per versione di Node, il comando di ripristino è `nvm use && yarn install`. Per chi usa nvm, `nvm alias default 24` evita di ripetere `nvm use` a ogni sessione.
 
 Comandi:
 
@@ -55,7 +55,7 @@ Il sito è pubblicato su Netlify:
 
 - Build command: `yarn build`
 - Publish directory: `public`
-- Versione Node: 20 (letta da `.nvmrc`)
+- Versione Node: 24 (letta da `.nvmrc`)
 
 ## Struttura del progetto
 
