@@ -243,6 +243,20 @@ yarn build                     # node-sass downloads/uses linux-x64-115 binary
 
 **Key insight:** this phase's entire risk profile is "delete something still needed." The only two packages in that category (prismjs, @testing-library/dom) are hidden by yarn 1's peer-dep laxity — the exact failure mode Pitfall 7 documents. Verification is cheap (grep + yarn why + build), so the discipline is: verify before, build after, one group per commit.
 
+## Runtime State Inventory
+
+> Applies because this phase deletes files, removes dependencies, and rewrites configuration — the planner needs explicit confirmation that no runtime system holds the removed state.
+
+| Category | Items Found | Action Required |
+|----------|-------------|------------------|
+| Stored data | None — no databases, no key-value stores, no datastore keys reference the removed items (site.json `ga` field is a plain JSON file in git, not a datastore) | None |
+| Live service config | `netlify.toml` build command (`npm run build`) and `NODE_VERSION = "10"` — in git, changes deploy on next push. Netlify UI may hold a Node pin (see Open Question 1) | Code edit (netlify.toml) + post-deploy log check |
+| OS-registered state | None — no pm2/launchd/systemd registrations reference laryart files | None |
+| Secrets/env vars | None — no `.env` files exist; no env var names change (D-11 removes a JSON field, not an env var) | None |
+| Build artifacts | `node_modules/` will be refreshed by `yarn install` after removals (stale entries pruned by yarn). `public/` is gitignored and rebuilt. `package-lock.json` is deleted via `git rm` — no npm cache holds it as a lockfile; npm's cache may hold packages but that is inert | `yarn install` (prunes), `yarn build` (regenerates public/) |
+
+**Nothing found in categories:** stored data, OS-registered state, secrets/env vars — verified by inspection above. The only live-state risk is the Netlify-side Node pin (Open Question 1).
+
 ## Common Pitfalls
 
 ### Pitfall 1: Removing prismjs and breaking the build at the first code block
