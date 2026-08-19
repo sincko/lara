@@ -44,7 +44,7 @@ Requirements for milestone v1.0 (Updates, Debugging and Refinements). Each maps 
 - [ ] **SEOS-01**: html lang set to "it" (not en-US); redundant hreflang alternates removed
 - [ ] **SEOS-02**: Hardcoded English starter meta replaced with real Italian descriptions
 - [ ] **SEOS-03**: Privacy page HTML cleaned up — valid markdown, no broken fragments
-- [ ] **SEOS-04**: Stale site.json ga placeholder removed; README rewritten for laryart.it
+- [x] **SEOS-04**: Stale site.json ga placeholder removed; README rewritten for laryart.it
 
 ### Performance
 
@@ -106,7 +106,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SEOS-01 | Phase 5 | Pending |
 | SEOS-02 | Phase 5 | Pending |
 | SEOS-03 | Phase 5 | Pending |
-| SEOS-04 | Phase 2 | Pending |
+| SEOS-04 | Phase 2 | Complete |
 | PERF-01 | Phase 6 | Pending |
 | PERF-02 | Phase 6 | Pending |
 | PERF-03 | Phase 6 | Pending |

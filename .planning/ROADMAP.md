@@ -14,7 +14,7 @@ Milestone v1.0 (Updates, Debugging and Refinements) modernizes the laryart.it Ga
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Test Scaffolding + Performance Baseline** - Regression net (jest + testing-library) and pre-change Lighthouse/PSI baseline
-- [ ] **Phase 2: Foundation Cleanup** - Single lockfile, unambiguous Node version, dead code and dependencies removed
+- [x] **Phase 2: Foundation Cleanup** - Single lockfile, unambiguous Node version, dead code and dependencies removed (completed 2026-08-19)
 - [ ] **Phase 3: Core Upgrade** - Gatsby 5.16.1 lockstep, dart-sass, Decap CMS, vendored Matomo, single sitemap
 - [ ] **Phase 4: MUI Removal + Form Reliability** - Plain-SCSS contact form, @emailjs/browser + env vars, false-success bug fixed
 - [ ] **Phase 5: Image Pipeline + SEO Fixes** - gatsby-plugin-image migration, og:image fix, Italian SEO meta and valid pages
@@ -74,7 +74,7 @@ Plans:
 **Wave 2** *(blocked on Wave 1 / 02-01 completion; 02-02 and 02-03 run in parallel — zero file overlap)*
 
 - [x] 02-02-PLAN.md — Node config (delete NODE_VERSION) + dead components (old-form.js, form-pulito.js) + dependency sweep (4 runtime + 5 devDep removals, prismjs/@testing-library/dom kept) — FNDT-02, FNDT-03, FNDT-04
-- [ ] 02-03-PLAN.md — Starter remnants: remove site.json ga placeholder, rewrite README in Italian for laryart.it — SEOS-04
+- [x] 02-03-PLAN.md — Starter remnants: remove site.json ga placeholder, rewrite README in Italian for laryart.it — SEOS-04
 
 ```
 
@@ -148,7 +148,7 @@ Phases execute in numeric order; Phases 4 and 5 touch disjoint file sets and may
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Test Scaffolding + Performance Baseline | 4/4 | ✓ Complete | 2026-08-19 |
-| 2. Foundation Cleanup | 2/3 | In Progress|  |
+| 2. Foundation Cleanup | 3/3 | Complete   | 2026-08-19 |
 | 3. Core Upgrade | TBD | Not started | - |
 | 4. MUI Removal + Form Reliability | TBD | Not started | - |
 | 5. Image Pipeline + SEO Fixes | TBD | Not started | - |
