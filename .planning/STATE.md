@@ -5,8 +5,8 @@ milestone_name: Updates, Debugging and Refinements
 current_phase: 4
 current_phase_name: MUI Removal + Form Reliability
 status: planning
-stopped_at: Phase 4 context gathered
-last_updated: "2026-08-19T19:06:24.433Z"
+stopped_at: Phase 4 UI-SPEC approved
+last_updated: "2026-08-19T19:20:02.876Z"
 last_activity: 2026-08-19
 last_activity_desc: Phase 3 complete, transitioned to Phase 4
 progress:
@@ -112,6 +112,6 @@ Items acknowledged and carried forward from previous milestone close:
 
 ## Session Continuity
 
-Last session: 2026-08-19T19:06:24.426Z
-Stopped at: Phase 4 context gathered
-Resume file: .planning/phases/04-mui-removal-form-reliability/04-CONTEXT.md
+Last session: 2026-08-19T19:20:02.862Z
+Stopped at: Phase 4 UI-SPEC approved
+Resume file: .planning/phases/04-mui-removal-form-reliability/04-UI-SPEC.md
