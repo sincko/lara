@@ -7,7 +7,12 @@ if (typeof window !== "undefined") {
     window.dataLayer.push(arguments)
   }
   window.gtag("js", new Date())
-  window.gtag("config", GA_MEASUREMENT_ID, { anonymize_ip: true })
+  // send_page_view: false — onRouteUpdate owns every pageview (it fires on the
+  // initial mount too, so a module-scope pageview would double-count the first page)
+  window.gtag("config", GA_MEASUREMENT_ID, {
+    anonymize_ip: true,
+    send_page_view: false,
+  })
 
   const d = document
   const g = d.createElement("script")
@@ -22,7 +27,10 @@ export const onRouteUpdate = ({ location, prevLocation }) => {
   if (typeof window === "undefined" || !window.gtag) return
   const url = location.pathname + location.search + location.hash
   const prevUrl = prevLocation
-    ? prevLocation.pathname + prevLocation.search + prevLocation.hash
+    ? window.location.origin +
+      prevLocation.pathname +
+      prevLocation.search +
+      prevLocation.hash
     : null
   // document.title workaround (react-helmet updates title after route change)
   setTimeout(() => {
