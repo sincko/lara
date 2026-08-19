@@ -19,23 +19,20 @@ Visitors can browse the artisan's work and blog, and contact the artisan through
 
 ### Validated
 
-- ✓ Static site generation with Gatsby 5.15 + React 18 — existing
+- ✓ Static site generation with Gatsby 5.16.1 + React 18 — existing (upgraded Phase 3)
 - ✓ Blog with 19 posts, pagination, post pages — existing
 - ✓ Informational pages (index, laryart, privacy, contatti) — existing
-- ✓ Contact form (Formik + yup + emailjs + MUI) — existing
-- ✓ Netlify CMS content editing — existing
+- ✓ Contact form (Formik + yup + @emailjs/browser + plain SCSS) — Phase 4 (MUI removed, false-success fixed, env-var creds)
+- ✓ Decap CMS content editing — Phase 3 (fork mantenuto di Netlify CMS)
 - ✓ SEO meta (helmet, OG/Twitter cards, sitemap) — existing
 - ✓ SCSS styling with theme variables — existing
-- ✓ Matomo analytics — existing
-- ✓ Test suite (jest + @testing-library/react, 4 suites) — Phase 1
+- ✓ GA4 analytics (vendored gtag, anonymize_ip) — Phase 3 (owner decision, replaces Matomo)
+- ✓ Test suite (jest + @testing-library/react, 10 suites / 85 tests) — Phases 1 + 4
 - ✓ Performance baseline (Lighthouse median 3, mobile) — Phase 1
 
 ### Active
 
-- [ ] Resolve all documented codebase concerns (dead code, stale config, broken privacy page, SEO/lang fixes)
-- [ ] Upgrade dependencies to latest versions (Gatsby 5.16.1; drop MUI v4 in favor of plain CSS)
-- [ ] Single package manager (yarn) — remove package-lock.json
-- [ ] Move hardcoded emailjs key to environment variable
+- [ ] Resolve remaining documented codebase concerns (broken privacy page HTML, SEO/lang fixes, SCSS bugs CR-01/CR-02)
 - [ ] Optimize website performance (Core Web Vitals, images, bundle size)
 
 ### Out of Scope
@@ -43,7 +40,7 @@ Visitors can browse the artisan's work and blog, and contact the artisan through
 - New features/content sections — this milestone is maintenance/refactoring only
 - Redesign of visual identity — keep existing design language
 - Migration away from Netlify — deployment stays on Netlify
-- Removing Netlify CMS — content editing stays
+- Removing Decap CMS — content editing stays
 
 ## Context
 
@@ -60,7 +57,7 @@ Visitors can browse the artisan's work and blog, and contact the artisan through
 - **Deployment**: Netlify — build must keep working
 - **Language**: Italian site content — UI copy and SEO meta must be Italian
 - **Compatibility**: Node 24 per `.nvmrc` (enforced via engines + engine-strict + check-node-version.js)
-- **Security**: No secrets in source — emailjs key must move to env var
+- **Security**: No secrets in source — emailjs creds moved to GATSBY_* env vars (Phase 4); .env.example documents the contract
 
 ## Key Decisions
 
@@ -95,4 +92,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-08-19 after Phase 3 completion*
+*Last updated: 2026-08-19 after Phase 4 completion*
