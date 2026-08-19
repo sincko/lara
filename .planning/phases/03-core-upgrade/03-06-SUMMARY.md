@@ -35,7 +35,7 @@ key-decisions:
 patterns-established:
   - "D-07b commit ordering: dependency matrix green under old Node → then Node bump as its own commit → then full loop under new Node"
 
-requirements-completed: []  # UPGR-02/UPGR-07 remain open until the manual Netlify deploy checkpoint (Task 2) is verified by the user
+requirements-completed: [UPGR-02, UPGR-07]
 
 # Coverage metadata (#1602)
 coverage:
@@ -53,26 +53,29 @@ coverage:
   - id: D2
     description: "First post-upgrade Netlify deploy with cleared cache succeeds on Node 24; live site passes CMS, analytics, and sitemap checks"
     requirement: UPGR-07
-    verification: []
+    verification:
+      - kind: manual
+        ref: "User confirmed: Netlify clear-cache deploy succeeded on Node 24; /admin login + post save via Decap CMS; GA4 visits recorded; sitemap-0.xml served"
+        status: pass
     human_judgment: true
     rationale: "Manual user action in the Netlify UI (Deploys → Clear cache and deploy site) plus live-site checks (/admin login + post save, GA4 visits, sitemap.xml) — not automatable from this environment; requires the user's Netlify access and live-site verification"
 
 # Metrics
 duration: 2min
 completed: 2026-08-19
-status: in-progress
+status: complete
 ---
 
 # Phase 3 Plan 6: Node 24 Bump + Netlify Deploy Checkpoint Summary
 
-**Node 24 enforced (.nvmrc + engines.node + README) with the full install/build/test loop green under Node 24, committed separately after the Node 20 matrix was verified (D-07/D-07b); manual Netlify clear-cache deploy checkpoint (D-15) pending user action**
+**Node 24 enforced (.nvmrc + engines.node + README) with the full install/build/test loop green under Node 24, committed separately after the Node 20 matrix was verified (D-07/D-07b); manual Netlify clear-cache deploy checkpoint (D-15) passed — user confirmed the live deploy on Node 24 with CMS, GA4, and sitemap all working**
 
 ## Performance
 
 - **Duration:** 2 min
 - **Started:** 2026-08-19T16:09:34Z
 - **Completed:** 2026-08-19T16:11:53Z
-- **Tasks:** 1 of 2 complete (Task 2 is a manual user checkpoint — not executable by the agent)
+- **Tasks:** 2 of 2 complete (Task 2 was a manual user checkpoint — confirmed by the user)
 - **Files modified:** 3
 
 ## Accomplishments
@@ -87,9 +90,9 @@ status: in-progress
 Each task was committed atomically:
 
 1. **Task 1: Node 24 bump: .nvmrc + engines.node + README Node notes (UPGR-02, D-07/D-07b)** - `293a776` (feat)
-2. **Task 2: First post-upgrade Netlify deploy with cleared cache + live-site verification (UPGR-07, D-15)** - NOT EXECUTED (manual user checkpoint — returned to orchestrator)
+2. **Task 2: First post-upgrade Netlify deploy with cleared cache + live-site verification (UPGR-07, D-15)** - COMPLETE (user-confirmed checkpoint: deploy succeeded on Node 24, all pages render, /admin login + post save via Decap CMS, GA4 visits recorded, sitemap-0.xml served; GA4 swap included in commit `d370540`)
 
-**Plan metadata:** pending — SUMMARY committed at checkpoint return (plan not complete)
+**Plan metadata:** complete — 2 of 2 tasks complete
 
 ## Files Created/Modified
 
@@ -114,15 +117,15 @@ Each task was committed atomically:
 
 ## User Setup Required
 
-None - no external service configuration required from the agent side. The remaining work is the manual Netlify deploy checkpoint (Task 2).
+None - the manual Netlify deploy checkpoint (Task 2) was completed and confirmed by the user.
 
 ## Next Phase Readiness
 
-- Local stack fully upgraded and green under Node 24 — ready for the manual Netlify deploy checkpoint
-- **Blocking:** Task 2 (D-15) requires the user to push the branch, run the first post-upgrade Netlify deploy with cleared cache, and verify the live site (pages render, /admin login + post save, GA4 visits, sitemap.xml)
-- After the checkpoint passes: UPGR-02 and UPGR-07 can be marked complete, and Phase 3's ROADMAP success criteria 2-5 are satisfied
+- Local stack fully upgraded and green under Node 24
+- **Checkpoint passed:** Task 2 (D-15) — the user ran the first post-upgrade Netlify deploy with cleared cache and confirmed the live site: Node 24 in the build log, all pages render, /admin login + post save via Decap CMS, GA4 records visits, sitemap-0.xml served
+- UPGR-02 and UPGR-07 are marked complete; Phase 3's ROADMAP success criteria 2-5 are satisfied
 
 ---
 
 *Phase: 03-core-upgrade*
-*Status: in-progress — 1 of 2 tasks complete, manual checkpoint pending*
+*Status: complete — 2 of 2 tasks complete*
