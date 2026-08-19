@@ -28,7 +28,7 @@ Requirements for milestone v1.0 (Updates, Debugging and Refinements). Each maps 
 
 ### Form
 
-- [ ] **FORM-01**: MUI v4 removed (core + icons) — contact form uses plain CSS with existing SCSS theme variables
+- [x] **FORM-01**: MUI v4 removed (core + icons) — contact form uses plain CSS with existing SCSS theme variables
 - [ ] **FORM-02**: Formik error/helperText UX preserved in the plain-CSS replacement
 - [ ] **FORM-03**: EmailJS key moved to GATSBY_* environment variable — no hardcoded key in source; .env.example committed
 - [ ] **FORM-04**: False-success bug fixed — form no longer reports success when email send fails
@@ -96,7 +96,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | UPGR-05 | Phase 4 | Pending |
 | UPGR-06 | Phase 3 | Complete |
 | UPGR-07 | Phase 3 | Complete |
-| FORM-01 | Phase 4 | Pending |
+| FORM-01 | Phase 4 | Complete |
 | FORM-02 | Phase 4 | Pending |
 | FORM-03 | Phase 4 | Pending |
 | FORM-04 | Phase 4 | Pending |
