@@ -56,7 +56,7 @@ describe("createPages", () => {
     // next = null — gatsby-node.js lines 39-42 ordering semantics. The context
     // stores the node object directly (posts[index + 1].node), not an edge.
     const firstPostCall = createPage.mock.calls.find(
-      call => call[0].path === "/post-1"
+      call => call[0].path === "/post-1",
     )
     expect(firstPostCall[0].context).toMatchObject({ id: "1" })
     expect(firstPostCall[0].context.previous.id).toBe("2")
@@ -64,14 +64,14 @@ describe("createPages", () => {
 
     // middle post: previous = next edge's node, next = previous edge's node
     const fifthPostCall = createPage.mock.calls.find(
-      call => call[0].path === "/post-5"
+      call => call[0].path === "/post-5",
     )
     expect(fifthPostCall[0].context.previous.id).toBe("6")
     expect(fifthPostCall[0].context.next.id).toBe("4")
 
     // last post: previous = null
     const lastPostCall = createPage.mock.calls.find(
-      call => call[0].path === "/post-10"
+      call => call[0].path === "/post-10",
     )
     expect(lastPostCall[0].context.previous).toBeNull()
     expect(lastPostCall[0].context.next.id).toBe("9")
@@ -84,7 +84,7 @@ describe("createPages", () => {
     await promise
 
     expect(reporter.panicOnBuild).toHaveBeenCalledWith(
-      "Error while running GraphQL query."
+      "Error while running GraphQL query.",
     )
     expect(createPage).not.toHaveBeenCalled()
   })
