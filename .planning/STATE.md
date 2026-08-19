@@ -2,13 +2,13 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: Updates, Debugging and Refinements
-current_phase: 02
-current_phase_name: foundation-cleanup
+current_phase: 3
+current_phase_name: core-upgrade
 status: executing
 stopped_at: Phase 3 context gathered
-last_updated: "2026-08-19T15:14:27.985Z"
+last_updated: "2026-08-19T15:15:13.689Z"
 last_activity: 2026-08-19
-last_activity_desc: "Completed quick task 260819-l2v: Fix deprecated GraphQL sort syntax warnings in Gatsby build logs (sort: {order, fields: [frontmatter___date]} -> sort: {frontmatter: {date: DESC}}) in blog-list-home.js, blog-list.js, and the createPages query"
+last_activity_desc: Phase 3 execution started
 progress:
   total_phases: 3
   completed_phases: 2
@@ -23,14 +23,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-08-18)
 
 **Core value:** Visitors can browse the artisan's work and blog, and contact the artisan through the contact form — the site must always build and deploy reliably.
-**Current focus:** Phase 02 — foundation-cleanup
+**Current focus:** Phase 3 — core-upgrade
 
 ## Current Position
 
-Phase: 02 (foundation-cleanup) — EXECUTING
-Plan: 1 of 4
-Status: Ready to execute
-Last activity: 2026-08-19 — Completed quick task 260819-l2v: Fix deprecated GraphQL sort syntax warnings in Gatsby build logs (sort: {order, fields: [frontmatter___date]} -> sort: {frontmatter: {date: DESC}}) in blog-list-home.js, blog-list.js, and the createPages query
+Phase: 3 (core-upgrade) — EXECUTING
+Plan: 1 of 6
+Status: Executing Phase 3
+Last activity: 2026-08-19 — Phase 3 execution started
 
 Progress: [██████████] 100%
 
