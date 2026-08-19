@@ -1,6 +1,7 @@
 import "@testing-library/jest-dom"
 
-if (!window.matchMedia) {
+// node-env suites (e.g. gatsby-node.test.js) have no window — guard first
+if (typeof window !== "undefined" && !window.matchMedia) {
   window.matchMedia = query => ({
     matches: false,
     media: query,
