@@ -27,11 +27,13 @@ Visitors can browse the artisan's work and blog, and contact the artisan through
 - ✓ SEO meta (helmet, OG/Twitter cards, sitemap) — existing
 - ✓ SCSS styling with theme variables — existing
 - ✓ Matomo analytics — existing
+- ✓ Test suite (jest + @testing-library/react, 4 suites) — Phase 1
+- ✓ Performance baseline (Lighthouse median 3, mobile) — Phase 1
 
 ### Active
 
 - [ ] Resolve all documented codebase concerns (dead code, stale config, broken privacy page, SEO/lang fixes)
-- [ ] Upgrade dependencies to latest versions (attempt Gatsby 6; drop MUI v4 in favor of plain CSS)
+- [ ] Upgrade dependencies to latest versions (Gatsby 5.16.1; drop MUI v4 in favor of plain CSS)
 - [ ] Single package manager (yarn) — remove package-lock.json
 - [ ] Move hardcoded emailjs key to environment variable
 - [ ] Optimize website performance (Core Web Vitals, images, bundle size)
@@ -89,4 +91,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-08-18 after milestone v1.0 initialization*
+*Last updated: 2026-08-19 after Phase 1 completion*
