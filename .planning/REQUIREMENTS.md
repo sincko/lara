@@ -20,7 +20,7 @@ Requirements for milestone v1.0 (Updates, Debugging and Refinements). Each maps 
 
 - [x] **UPGR-01**: Gatsby upgraded to 5.16.1 (latest stable) with all gatsby-* plugins in lockstep (one commit, exact version matrix)
 - [ ] **UPGR-02**: node-sass replaced with dart-sass (sass ^1.30.0) — build passes locally and on Netlify
-- [ ] **UPGR-03**: netlify-cms-app replaced with decap-cms-app 3.6.4 + gatsby-plugin-decap-cms 4.0.4 — /admin works
+- [x] **UPGR-03**: netlify-cms-app replaced with decap-cms-app 3.6.4 + gatsby-plugin-decap-cms 4.0.4 — /admin works
 - [ ] **UPGR-04**: gatsby-plugin-matomo replaced with vendored _paq snippet in gatsby-browser.js (with disableCookies: true)
 - [ ] **UPGR-05**: emailjs-com replaced with @emailjs/browser v4
 - [ ] **UPGR-06**: gatsby-plugin-advanced-sitemap replaced or removed (deprecated)
@@ -91,7 +91,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | FNDT-06 | Phase 1 | Complete |
 | UPGR-01 | Phase 3 | Complete |
 | UPGR-02 | Phase 3 | Pending |
-| UPGR-03 | Phase 3 | Pending |
+| UPGR-03 | Phase 3 | Complete |
 | UPGR-04 | Phase 3 | Pending |
 | UPGR-05 | Phase 4 | Pending |
 | UPGR-06 | Phase 3 | Pending |
