@@ -1,6 +1,6 @@
 # LaryArt — decoupage ed oggetti d'arte fatti a mano
 
-Sito personale di Lara, che realizza decoupage originali e oggetti d'arte fatti a mano per passione. Il sito è costruito con [Gatsby](https://www.gatsbyjs.com/) e [Netlify CMS](https://www.netlifycms.org/) ed è pubblicato su Netlify all'indirizzo [https://laryart.it](https://laryart.it).
+Sito personale di Lara, che realizza decoupage originali e oggetti d'arte fatti a mano per passione. Il sito è costruito con [Gatsby](https://www.gatsbyjs.com/) e [Decap CMS](https://decapcms.org/) (il fork mantenuto di Netlify CMS) ed è pubblicato su Netlify all'indirizzo [https://laryart.it](https://laryart.it).
 
 ## Contenuti
 
@@ -12,7 +12,7 @@ Sito personale di Lara, che realizza decoupage originali e oggetti d'arte fatti 
 
 - [Gatsby](https://www.gatsbyjs.com/) 5.15 — generatore di siti statici
 - [React](https://react.dev/) 18
-- [Netlify CMS](https://www.netlifycms.org/) — gestione dei contenuti su `/admin/`
+- [Decap CMS](https://decapcms.org/) — gestione dei contenuti su `/admin/` (fork mantenuto di Netlify CMS)
 - [Sass](https://sass-lang.com/) (dart-sass) — compilazione SCSS
 - Formik + yup — modulo di contatto
 - [Matomo](https://matomo.org/) — statistiche di visita
@@ -40,12 +40,12 @@ yarn clean      # pulisce la cache di Gatsby
 
 > Usa solo i comandi yarn: un altro package manager reintrodurrebbe il doppio lockfile.
 
-## Netlify CMS
+## Decap CMS
 
-La gestione dei contenuti avviene tramite Netlify CMS all'indirizzo `/admin/` (autenticazione via git-gateway). Per usare il CMS in locale:
+La gestione dei contenuti avviene tramite Decap CMS (il fork mantenuto di Netlify CMS) all'indirizzo `/admin/` (autenticazione via git-gateway). Per usare il CMS in locale:
 
 ```bash
-npx netlify-cms-proxy-server
+npx decap-server
 yarn develop
 ```
 
@@ -63,5 +63,5 @@ Il sito è pubblicato su Netlify:
 - `src/components/` — componenti React
 - `src/templates/` — template delle pagine
 - `src/assets/scss/` — stili SCSS
-- `static/admin/config.yml` — configurazione di Netlify CMS
+- `static/admin/config.yml` — configurazione di Decap CMS
 - `gatsby-config.js` — configurazione del sito (metadati da `src/util/site.json`)
