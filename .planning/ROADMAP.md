@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Test Scaffolding + Performance Baseline** - Regression net (jest + testing-library) and pre-change Lighthouse/PSI baseline
 - [x] **Phase 2: Foundation Cleanup** - Single lockfile, unambiguous Node version, dead code and dependencies removed (completed 2026-08-19)
-- [ ] **Phase 3: Core Upgrade** - Gatsby 5.16.1 lockstep, dart-sass, Decap CMS, vendored Matomo, single sitemap
+- [x] **Phase 3: Core Upgrade** - Gatsby 5.16.1 lockstep, dart-sass, Decap CMS, vendored Matomo, single sitemap (completed 2026-08-19)
 - [ ] **Phase 4: MUI Removal + Form Reliability** - Plain-SCSS contact form, @emailjs/browser + env vars, false-success bug fixed
 - [ ] **Phase 5: Image Pipeline + SEO Fixes** - gatsby-plugin-image migration, og:image fix, Italian SEO meta and valid pages
 - [ ] **Phase 6: Performance + Asset Cleanup + Final Verification** - Fonts, assets, PWA manifest cleaned; CWV verified vs baseline
@@ -160,7 +160,7 @@ Phases execute in numeric order; Phases 4 and 5 touch disjoint file sets and may
 |-------|----------------|--------|-----------|
 | 1. Test Scaffolding + Performance Baseline | 4/4 | ✓ Complete | 2026-08-19 |
 | 2. Foundation Cleanup | 3/3 | Complete   | 2026-08-19 |
-| 3. Core Upgrade | 6/6 | In Progress|  |
+| 3. Core Upgrade | 6/6 | Complete    | 2026-08-19 |
 | 4. MUI Removal + Form Reliability | TBD | Not started | - |
 | 5. Image Pipeline + SEO Fixes | TBD | Not started | - |
 | 6. Performance + Asset Cleanup + Final Verification | TBD | Not started | - |

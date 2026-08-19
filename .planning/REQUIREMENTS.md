@@ -23,7 +23,7 @@ Requirements for milestone v1.0 (Updates, Debugging and Refinements). Each maps 
 - [x] **UPGR-03**: netlify-cms-app replaced with decap-cms-app 3.6.4 + gatsby-plugin-decap-cms 4.0.4 — /admin works
 - [x] **UPGR-04**: gatsby-plugin-matomo replaced with vendored _paq snippet in gatsby-browser.js (with disableCookies: true)
 - [ ] **UPGR-05**: emailjs-com replaced with @emailjs/browser v4
-- [ ] **UPGR-06**: gatsby-plugin-advanced-sitemap replaced or removed (deprecated)
+- [x] **UPGR-06**: gatsby-plugin-advanced-sitemap replaced or removed (deprecated)
 - [x] **UPGR-07**: First post-upgrade Netlify deploy runs with cleared cache
 
 ### Form
@@ -90,12 +90,12 @@ Which phases cover which requirements. Updated during roadmap creation.
 | FNDT-05 | Phase 1 | Complete |
 | FNDT-06 | Phase 1 | Complete |
 | UPGR-01 | Phase 3 | Complete |
-| UPGR-02 | Phase 3 | Pending |
+| UPGR-02 | Phase 3 | Complete |
 | UPGR-03 | Phase 3 | Complete |
 | UPGR-04 | Phase 3 | Complete |
 | UPGR-05 | Phase 4 | Pending |
-| UPGR-06 | Phase 3 | Pending |
-| UPGR-07 | Phase 3 | Pending |
+| UPGR-06 | Phase 3 | Complete |
+| UPGR-07 | Phase 3 | Complete |
 | FORM-01 | Phase 4 | Pending |
 | FORM-02 | Phase 4 | Pending |
 | FORM-03 | Phase 4 | Pending |
