@@ -38,7 +38,7 @@ patterns-established:
   - "Pattern 1: honest async submit — return the promise chain from onSubmit; all post-send actions live inside .then/.catch"
   - "Pattern 2: submit-level error via Formik status + role=\"alert\" for testability"
 
-requirements-completed: [FORM-04]
+requirements-completed: [FORM-03, FORM-04]
 
 # Coverage metadata (#1602) — one entry per shipped deliverable.
 coverage:
@@ -64,7 +64,10 @@ coverage:
   - id: D3
     description: "Owner checkpoint: GATSBY_EMAILJS_* env vars set in Netlify UI, cache-cleared redeploy, live form send verified end-to-end (D-09, A2)"
     requirement: FORM-03
-    verification: []
+    verification:
+      - kind: manual
+        ref: "User confirmed: Netlify GATSBY_EMAILJS_* env vars set, cache-cleared redeploy, live form send → /thanks + email received"
+        status: pass
     human_judgment: true
     rationale: "Netlify UI configuration and live email delivery cannot be automated from the repo — requires the owner's dashboard access and a real inbox check"
 
@@ -83,7 +86,7 @@ status: complete
 - **Duration:** 3 min
 - **Started:** 2026-08-19T20:14:57Z
 - **Completed:** 2026-08-19T20:17:51Z
-- **Tasks:** 2 of 3 (task 3 is a manual owner checkpoint — handed off, not executable from the repo)
+- **Tasks:** 3 of 3 (task 3 was a manual owner checkpoint — user-confirmed complete)
 - **Files modified:** 2
 
 ## Accomplishments
@@ -100,7 +103,7 @@ Each task was committed atomically:
 
 1. **Task 1: Honest promise chain: redirect only in .then, inline error in .catch, disabled={isSubmitting} (FORM-04, D-11/D-13)** - `e8ebfca` (fix)
 2. **Task 2: Unskip the FORM-04 regression test + assert the inline alert (FORM-04, D-12)** - `f48764f` (test)
-3. **Task 3: Owner checkpoint: set GATSBY_EMAILJS_* in Netlify + cache-cleared redeploy + live form test** - not executed (manual — handed off to owner, see below)
+3. **Task 3: Owner checkpoint: set GATSBY_EMAILJS_* in Netlify + cache-cleared redeploy + live form test** - COMPLETE (user-confirmed: env vars set, cache-cleared redeploy done, live form send → /thanks + email received)
 
 **Plan metadata:** committed with this SUMMARY (docs)
 
@@ -139,9 +142,9 @@ Each task was committed atomically:
 
 ## User Setup Required
 
-**External services require manual configuration.** The plan's Task 3 is a manual owner checkpoint (not executable from the repo):
+**External services require manual configuration.** The plan's Task 3 was a manual owner checkpoint (not executable from the repo):
 
-### Owner Checkpoint: Netlify env vars + live form test (FORM-03/FORM-04, D-09)
+### Owner Checkpoint: Netlify env vars + live form test (FORM-03/FORM-04, D-09) — COMPLETE
 
 1. **Netlify → Site settings → Environment variables:** add
    - `GATSBY_EMAILJS_PUBLIC_KEY=user_06xz85hi92oABMZqCIUu7`
@@ -152,11 +155,13 @@ Each task was committed atomically:
 3. **Live form test on laryart.it:** submit the contact form with valid data → expect redirect to /thanks and an email in the inbox (verifies A2: the EmailJS service/template are still active). Optionally verify the failure path by temporarily breaking a value → expect the inline Italian error, no redirect.
 4. **Report the result back** so the phase can be marked verified.
 
+**Status: PASS — user confirmed all four steps.** Env vars set in Netlify, cache-cleared redeploy done, live form send → /thanks + email received.
+
 ## Next Phase Readiness
 
 - FORM-04 is code-complete and regression-tested: the form only reports success when the send resolves; failures show the inline Italian error with values kept; the double-send guard is in place
-- The phase's only non-automatable verification (Netlify env vars + live send) is documented above and awaits the owner
-- Ready for `/gsd-verify-work 4` once the owner completes the checkpoint
+- The phase's only non-automatable verification (Netlify env vars + live send) has PASSED — user confirmed env vars set, cache-cleared redeploy, live form send → /thanks + email received
+- Ready for `/gsd-verify-work 4`
 
 ## Self-Check: PASSED
 
@@ -169,4 +174,5 @@ Each task was committed atomically:
 ---
 
 *Phase: 04-mui-removal-form-reliability*
+*Status: complete — 3 of 3 tasks complete*
 *Completed: 2026-08-19*
