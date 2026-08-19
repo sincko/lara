@@ -63,7 +63,7 @@ Plans:
   4. Every listed unused dependency is removed, each removal verified via `yarn why`; `yarn install` succeeds with no dangling references
   5. The site.json `ga` placeholder is gone and the README describes laryart.it accurately — no starter boilerplate remains
 
-**Plans**: 2/3 plans executed
+**Plans**: 3/4 plans executed
 
 ```
 Plans:
@@ -75,6 +75,10 @@ Plans:
 
 - [x] 02-02-PLAN.md — Node config (delete NODE_VERSION) + dead components (old-form.js, form-pulito.js) + dependency sweep (4 runtime + 5 devDep removals, prismjs/@testing-library/dom kept) — FNDT-02, FNDT-03, FNDT-04
 - [x] 02-03-PLAN.md — Starter remnants: remove site.json ga placeholder, rewrite README in Italian for laryart.it — SEOS-04
+
+**Wave 3** *(gap closure — UAT blockers G-02-1, G-02-2: node-sass has no Node 24 prebuilt binary; install.js wrote the GitHub 404 body to vendor/ as the binding)*
+
+- [ ] 02-04-PLAN.md — Gap closure: enforce Node 20 (engines + engine-strict + pre* guard), postinstall cleanup of poisoned node-sass vendor bindings, README recovery docs — FNDT-02
 
 ```
 
