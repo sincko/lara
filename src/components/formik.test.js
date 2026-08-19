@@ -7,6 +7,7 @@ jest.mock("@emailjs/browser", () => ({
   init: jest.fn(),
   sendForm: jest.fn(),
 }))
+import emailjs from "@emailjs/browser"
 import FormikContact from "./formik"
 
 describe("FormikContact validation", () => {
@@ -26,9 +27,7 @@ describe("FormikContact validation", () => {
 })
 
 describe("submit failure path", () => {
-  // FNDT-05 → FORM-04 regression net: unskip when Phase 4 fixes the false-success bug.
-  // Fails on the current formik.js by design.
-  it.skip("does NOT navigate to /thanks when emailjs.sendForm rejects — regression net for FORM-04", async () => {
+  it("does NOT navigate to /thanks when emailjs.sendForm rejects — regression net for FORM-04", async () => {
     emailjs.sendForm.mockRejectedValue({ text: "network error" })
     // stub document.location.assign so jsdom doesn't actually navigate
     delete window.location
@@ -48,7 +47,11 @@ describe("submit failure path", () => {
     fireEvent.click(screen.getByRole("button", { name: "Invia" }))
 
     await waitFor(() => expect(emailjs.sendForm).toHaveBeenCalledTimes(1))
-    // Current buggy code calls assign() unconditionally after the promise chain:
-    expect(assign).not.toHaveBeenCalled() // FAILS today → regression net proves the bug; Phase 4 fixes it
+    expect(assign).not.toHaveBeenCalled()
+    await waitFor(() =>
+      expect(screen.getByRole("alert")).toHaveTextContent(
+        "Si è verificato un errore",
+      ),
+    )
   })
 })
