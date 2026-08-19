@@ -1,10 +1,11 @@
 ---
 phase: 5
 slug: image-pipeline-seo-fixes
-status: draft
+status: approved
 shadcn_initialized: false
 preset: none
 created: 2026-08-19
+reviewed_at: 2026-08-19
 ---
 
 # Phase 5 — UI Design Contract
@@ -178,19 +179,48 @@ Rebuild `src/content/pages/privacy.md` lines ~34-137 to clean markdown:
 
 ## UI Considerations (state coverage)
 
-Applicable state considerations resolved: 5 covered, 1 backstop, 0 unresolved
+> State-coverage contract produced by the ui-consideration probe over the six phase surfaces (E1 blog-post image, E2 index hero, E3 post card, E4 Seo meta, E5 blog pagination, E6 privacy page). 38 applicable considerations; 33 covered, 4 dismissed with reason, 1 backstop, 0 unresolved.
 
 | Category | Element(s) | Status | Resolution / Reason |
 |----------|------------|--------|---------------------|
-| empty | post / hero / card with no `featuredImage` | ✅ covered | Existing conditional guard renders no image element — identical to today (parity, D-04) |
-| loading | hero placeholder | ✅ covered | `placeholder: DOMINANT_COLOR` + `loading="eager"` — above-the-fold, lean LCP (D-07) |
-| loading | post + card placeholders | ✅ covered | `placeholder: BLURRED` + `loading="lazy"` — same blur-up look as legacy fluid |
-| error | Seo `image` prop misuse | ✅ covered | Non-string image → omitted/fallback to `defaultImage` (D-11) — no [object Object] in any state |
-| populated | all three image surfaces | ✅ covered | 540×360 crop (card), natural aspect (banner), natural aspect in 50vh min-height (post) — cover/50%-50% fills box as today |
-| zero-one-many | blog list pages 1…N | ✅ covered | Title/description logic handled in every page-count case incl. single-page blog (page 1, no next/prev) |
-| long-text / overflow | privacy page rendering | 🧪 backstop | Rebuilt markdown renders as valid HTML — held-out visual check on `/privacy` after build (catches dangling HTML, `####` as text) |
-| overflow | long card titles | ✅ covered | No change — `.post-card .title` existing SCSS (unchanged) |
-| loading | body images (remark path) | ✅ covered | tracedSVG removed → default blur-up placeholder (D-06, D-08); lazy stays |
+| empty | E1 blog-post image — no `featuredImage` | ✅ covered | Existing conditional guard renders no image element — identical to today (parity, D-04) |
+| loading | E1 blog-post image — loading state | ✅ covered | `placeholder: BLURRED` + `loading="lazy"` — same blur-up look as legacy fluid |
+| error | E1 blog-post image — image processing failure | 🧪 backstop | Build-time failure surfaces as a Gatsby build error (sharp pipeline, not a runtime state); held-out visual check on a post page after build |
+| populated | E1 blog-post image — happy path | ✅ covered | Constrained layout, natural aspect in 50vh min-height banner, `objectFit="cover"` `objectPosition="50% 50%"` — fills box as today |
+| overflow | E1 blog-post image — content exceeds container | ✅ covered | CSS `min-height: 50vh; border-radius: 12px; margin: 0 auto` (style.scss:331-335) — existing, unchanged |
+| long-text | E1 blog-post image — alt text length | ✅ covered | `alt={title + " - Featured image"}` unchanged (D-04); alt is a string prop, no layout impact |
+| empty | E2 index hero — no `featuredImage` | ✅ covered | Existing conditional guard renders no image element — identical to today (parity, D-04) |
+| loading | E2 index hero — loading state | ✅ covered | `placeholder: DOMINANT_COLOR` + `loading="eager"` — above-the-fold, lean LCP (D-07) |
+| error | E2 index hero — image processing failure | 🧪 backstop | Build-time failure surfaces as a Gatsby build error; held-out visual check on `/` after build |
+| populated | E2 index hero — happy path | ✅ covered | Constrained layout, natural aspect in grid column, `border-radius: 12px` (style.scss:208-210) — existing, unchanged |
+| partial | E2 index hero — partially loaded data | ✅ covered | `getImage()` returns null for missing data → guard renders no image; no partial state exists |
+| overflow | E2 index hero — content exceeds container | ✅ covered | Grid column + SCSS constrain the hero; existing `.home-banner` padding preserved (no new wrappers, executor prohibition in Spacing section) |
+| zero-one-many | E2 index hero — single surface | ✅ covered | Hero is a single fixed surface (one home page); no count variation exists |
+| empty | E3 post card — no `featuredImage` | ✅ covered | Existing conditional guard renders no image element — identical to today (parity, D-04) |
+| loading | E3 post card — loading state | ✅ covered | `placeholder: BLURRED` + `loading="lazy"` — same blur-up look as legacy fluid |
+| error | E3 post card — image processing failure | 🧪 backstop | Build-time failure surfaces as a Gatsby build error; held-out visual check on `/blog` after build |
+| populated | E3 post card — happy path | ✅ covered | 540×360 constrained box, `fit: COVER, cropFocus: CENTER` — reproduces legacy center-crop (parity rule 1) |
+| partial | E3 post card — partially loaded data | ✅ covered | `getImage()` null → guard renders no image; no partial state exists |
+| overflow | E3 post card — image exceeds box | ✅ covered | `objectFit="cover"` + `objectPosition="50% 50%"` — crop fills box as today (parity rule 2) |
+| zero-one-many | E3 post card — card count variation | ✅ covered | Grid layout `.grids col-1 sm-2 lg-3` (existing SCSS, unchanged) handles 0..N cards; missing featuredImage posts still render title cards as today |
+| empty | E4 Seo — no image prop | ✅ covered | Falls back to `defaultImage` (`/assets/heart.png` from site.json) — same interpolation as today (D-11) |
+| loading | E4 Seo — meta during image load | ✅ covered | Meta tags are build-time SSR output (react-helmet) — no client-side loading state exists |
+| error | E4 Seo — non-string image misuse | ✅ covered | Non-string `image` ignored → fallback to `defaultImage` (D-11) — no [object Object] in any state |
+| populated | E4 Seo — happy path | ✅ covered | All five tag families (`description`, `image`, `og:*`, `twitter:*`, `google-site-verification`) emit valid strings; `og:image`/`twitter:image` get `getSrc()` string (D-10) |
+| empty | E5 pagination — single blog page | ✅ covered | Page 1 only: title `Blog`, no Prev/Next links rendered (`!props.isFirst` / `!props.isLast` guards, blog-list.js:42,62) — no empty pagination state exists |
+| loading | E5 pagination — loading state | ✅ covered | Static SSR output — no client-side loading state exists |
+| error | E5 pagination — malformed page context | 🧪 backstop | `pageContext.currentPage/numPages` are computed in gatsby-node.js (ceil math, tests in blog-list.test.js cover pagination math); held-out check: pagination renders correctly on /blog and /blog/2 |
+| populated | E5 pagination — happy path | ✅ covered | Title `Blog — Pagina N` (page ≥ 2), Italian meta description, `Precedente`/`Successivo` labels (D-15/D-16) |
+| partial | E5 pagination — partial page context | ✅ covered | `isFirst`/`isLast` derive from `currentPage`/`numPages` — every combination renders consistent links (existing logic, only label strings change) |
+| overflow | E5 pagination — many pages | ✅ covered | Numbered links generated by `Array.from({ length: numPages })` — 19 posts / 9 per page = 3 pages today; existing SCSS `.pagination` unchanged |
+| zero-one-many | E5 pagination — page count variation | ✅ covered | 1 page: no links; N pages: full prev/numbered/next row — title logic handles every case (page 1 vs ≥ 2) |
+| long-text | E5 pagination — long post titles in prev/next | ✅ covered | Only labels change ("Precedente"/"Successivo"); post titles not shown in this pagination (blog-list.js shows numbers only) |
+| empty | E6 privacy — empty content | ✅ covered | Page is a fixed Markdown source file with locked frontmatter; no empty state exists |
+| loading | E6 privacy — loading state | ✅ covered | Static SSR output — no client-side loading state exists |
+| error | E6 privacy — malformed markdown | 🧪 backstop | Rebuilt markdown renders as valid HTML — held-out visual check on `/privacy` after build (catches dangling HTML, `####` as text, orphan links) |
+| partial | E6 privacy — partially converted content | ✅ covered | Full-file conversion task (D-19): no intermediate state shipped; every link and heading converted in one change |
+| overflow | E6 privacy — long content | ✅ covered | Markdown paragraphs/headings flow naturally — existing `.wrapper` SCSS unchanged |
+| long-text | E6 privacy — long links/headings | ✅ covered | Markdown links wrap inline; headings at H2-H4 depths preserved — existing SCSS handles reflow |
 
 ---
 
