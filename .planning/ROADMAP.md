@@ -63,7 +63,19 @@ Plans:
   4. Every listed unused dependency is removed, each removal verified via `yarn why`; `yarn install` succeeds with no dangling references
   5. The site.json `ga` placeholder is gone and the README describes laryart.it accurately — no starter boilerplate remains
 
-**Plans**: TBD
+**Plans**: 3 plans
+
+```
+Plans:
+**Wave 1**
+
+- [ ] 02-01-PLAN.md — Tracer: single-lockfile consolidation (delete package-lock.json, netlify.toml → yarn build, .prettierignore cleanup, remove yarn/y18n hack deps) — FNDT-01, FNDT-04 subset
+
+**Wave 2** *(blocked on Wave 1 / 02-01 completion; 02-02 and 02-03 run in parallel — zero file overlap)*
+
+- [ ] 02-02-PLAN.md — Node config (delete NODE_VERSION) + dead components (old-form.js, form-pulito.js) + dependency sweep (4 runtime + 5 devDep removals, prismjs/@testing-library/dom kept) — FNDT-02, FNDT-03, FNDT-04
+- [ ] 02-03-PLAN.md — Starter remnants: remove site.json ga placeholder, rewrite README in Italian for laryart.it — SEOS-04
+```
 
 ### Phase 3: Core Upgrade
 
@@ -135,7 +147,7 @@ Phases execute in numeric order; Phases 4 and 5 touch disjoint file sets and may
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Test Scaffolding + Performance Baseline | 4/4 | ✓ Complete | 2026-08-19 |
-| 2. Foundation Cleanup | TBD | Not started | - |
+| 2. Foundation Cleanup | 0/3 | Not started | - |
 | 3. Core Upgrade | TBD | Not started | - |
 | 4. MUI Removal + Form Reliability | TBD | Not started | - |
 | 5. Image Pipeline + SEO Fixes | TBD | Not started | - |
