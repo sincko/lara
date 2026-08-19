@@ -30,7 +30,7 @@ See: .planning/PROJECT.md (updated 2026-08-18)
 Phase: 02 (foundation-cleanup) — EXECUTING
 Plan: 1 of 4
 Status: Executing Phase 02
-Last activity: 2026-08-19 — Phase 02 execution started
+Last activity: 2026-08-19 — Completed quick task 260819-l2v: Fix deprecated GraphQL sort syntax warnings in Gatsby build logs (sort: {order, fields: [frontmatter___date]} -> sort: {frontmatter: {date: DESC}}) in blog-list-home.js, blog-list.js, and the createPages query
 
 Progress: [██████████] 100%
 
@@ -94,6 +94,12 @@ None yet.
 - [Phase 2]: dart-sass behavior with nested `@import url()` in `_theme-variables.scss` — needs build test (research flag; may pull font fix forward)
 - [Phase 3]: first post-upgrade Netlify deploy MUST be clear-cache
 - [Phase 4]: EmailJS vs native Netlify form dual-channel conflict — owner decision (CONCERNS.md)
+
+### Quick Tasks Completed
+
+| # | Description | Date | Commit | Directory |
+|---|-------------|------|--------|-----------|
+| 260819-l2v | Fix deprecated GraphQL sort syntax warnings in Gatsby build logs (sort: {order, fields: [frontmatter___date]} -> sort: {frontmatter: {date: DESC}}) in blog-list-home.js, blog-list.js, and the createPages query | 2026-08-19 | 600f66c | [260819-l2v-fix-deprecated-graphql-sort-syntax-warni](./quick/260819-l2v-fix-deprecated-graphql-sort-syntax-warni/) |
 
 ## Deferred Items
 
