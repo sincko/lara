@@ -151,3 +151,9 @@ None - no external service configuration required.
 
 *Phase: 02-foundation-cleanup*
 *Completed: 2026-08-19*
+
+## Self-Check: PASSED
+
+- All 4 key files exist on disk (scripts/check-node-version.js, scripts/clean-node-sass-vendor.js, .yarnrc, 02-04-SUMMARY.md)
+- All 4 commits present in git history (405fa48, 553ced3, e6b62dc, e412242)
+- Plan-level verification re-run green: `nvm use 20 && yarn install && yarn build && yarn test` exit 0; Node 24 install fails with NODE_VERSION_MISMATCH; poisoned 137 binding absent, ABI-115 binding intact
