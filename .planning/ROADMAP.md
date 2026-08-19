@@ -40,7 +40,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 Plans:
 **Wave 1**
 
-- [ ] 01-01-PLAN.md — Jest pipeline tracer: install pinned devDeps, official Gatsby scaffold (manual __mocks__/gatsby.js — D-01 mechanism swap), formik validation suite + D-05 failure-path regression (it.skip)
+- [x] 01-01-PLAN.md — Jest pipeline tracer: install pinned devDeps, official Gatsby scaffold (manual __mocks__/gatsby.js — D-01 mechanism swap), formik validation suite + D-05 failure-path regression (it.skip)
 - [ ] 01-03-PLAN.md — Baseline tooling: capture-baseline.js (Lighthouse 13.4.1 + PSI 429 fallback), median.js, methodology README
 
 **Wave 2** *(blocked on Wave 1 completion)*

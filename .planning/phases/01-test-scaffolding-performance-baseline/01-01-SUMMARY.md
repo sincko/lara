@@ -177,3 +177,10 @@ None - no external service configuration required.
 
 *Phase: 01-test-scaffolding-performance-baseline*
 *Completed: 2026-08-19*
+
+## Self-Check: PASSED
+
+- All 7 scaffold/test files exist on disk (jest.config.js, jest-preprocess.js, jest.setup.js, loadershim.js, __mocks__/gatsby.js, __mocks__/file-mock.js, src/components/formik.test.js)
+- Commit `98f3777` (Task 1 feat), `3b07eba` (Task 2 test), `2888073` (docs metadata) all present in git log
+- `yarn test` exits 0: 1 passed, 1 skipped, 0 failed
+

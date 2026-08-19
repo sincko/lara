@@ -2,16 +2,18 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: Updates, Debugging and Refinements
+current_phase: 01
+current_phase_name: test-scaffolding-performance-baseline
 status: executing
-stopped_at: Phase 1 context gathered
-last_updated: "2026-08-18T21:31:10.411Z"
-last_activity: 2026-08-18 -- Phase 01 planning complete
+stopped_at: Completed 01-01-PLAN.md
+last_updated: "2026-08-19T06:40:48.080Z"
+last_activity: 2026-08-19
+last_activity_desc: Phase 01 execution started
 progress:
-  total_phases: 6
+  total_phases: 1
   completed_phases: 0
   total_plans: 4
-  completed_plans: 0
-  percent: 0
+  completed_plans: 1
 ---
 
 # Project State
@@ -21,16 +23,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-08-18)
 
 **Core value:** Visitors can browse the artisan's work and blog, and contact the artisan through the contact form — the site must always build and deploy reliably.
-**Current focus:** Phase 1 — Test Scaffolding + Performance Baseline
+**Current focus:** Phase 01 — test-scaffolding-performance-baseline
 
 ## Current Position
 
-Phase: 1 of 6 (Test Scaffolding + Performance Baseline)
-Plan: 0 of TBD in current phase
+Phase: 01 (test-scaffolding-performance-baseline) — EXECUTING
+Plan: 2 of 4
 Status: Ready to execute
-Last activity: 2026-08-18 -- Phase 01 planning complete
+Last activity: 2026-08-19 -- Phase 01 execution started
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [███░░░░░░░] 25%
 
 ## Performance Metrics
 
@@ -52,6 +54,11 @@ Progress: [░░░░░░░░░░] 0%
 - Trend: —
 
 *Updated after each plan completion*
+**Per-Plan Metrics:**
+
+| Plan | Duration | Tasks | Files |
+|------|----------|-------|-------|
+| Phase 01-test-scaffolding-performance-baseline P01 | 24min | 2 tasks | 9 files |
 
 ## Accumulated Context
 
@@ -64,6 +71,8 @@ Recent decisions affecting current work:
 - [Roadmap]: Phase order follows research: test+baseline → foundation → core upgrade → (MUI/form ∥ images/SEO) → performance verification
 - [Roadmap]: emailjs-com swap (UPGR-05) placed in Phase 4 with the form work — same file (formik.js), same commit discipline
 - [Roadmap]: SEOS-04 (ga placeholder + README) placed in Phase 2 — starter-remnant cleanup belongs with foundation work
+- [Phase ?]: Test scaffold: jest 29.7.0 + babel-preset-gatsby manual-mock setup replaces unpublished gatsby-plugin-jest; @testing-library/dom added as explicit devDep (yarn 1 lacks peer auto-install)
+- [Phase ?]: yup error messages do not render verbatim (TextFieldConError props order) — validation asserted via Mui-error class flip
 
 ### Pending Todos
 
@@ -86,6 +95,6 @@ Items acknowledged and carried forward from previous milestone close:
 
 ## Session Continuity
 
-Last session: 2026-08-18T20:03:25.326Z
-Stopped at: Phase 1 context gathered
-Resume file: .planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md
+Last session: 2026-08-19T06:40:45.150Z
+Stopped at: Completed 01-01-PLAN.md
+Resume file: None
