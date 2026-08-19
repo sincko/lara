@@ -45,7 +45,7 @@ Plans:
 
 **Wave 2** *(blocked on Wave 1 completion)*
 
-- [ ] 01-02-PLAN.md — Remaining FNDT-05 suites: blog-list pagination math, navigation toggle, gatsby-node createPages (node env)
+- [x] 01-02-PLAN.md — Remaining FNDT-05 suites: blog-list pagination math, navigation toggle, gatsby-node createPages (node env)
 - [ ] 01-04-PLAN.md — Full baseline capture (3 URLs × 3 runs × 2 sources, mobile) + BASELINE.md medians, checkpoint-gated
 
 ```
