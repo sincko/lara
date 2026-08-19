@@ -20,15 +20,6 @@ module.exports = {
   plugins: [
     "gatsby-plugin-sitemap",
     {
-      resolve: "gatsby-plugin-matomo",
-      options: {
-        siteId: "4",
-        matomoUrl: "https://matomo.duckdns.org/",
-        siteUrl: "https://laryart.it",
-        disableCookies: false,
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/assets/`,
