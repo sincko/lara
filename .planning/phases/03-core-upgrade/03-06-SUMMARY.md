@@ -55,7 +55,7 @@ coverage:
     requirement: UPGR-07
     verification: []
     human_judgment: true
-    rationale: "Manual user action in the Netlify UI (Deploys → Clear cache and deploy site) plus live-site checks (/admin login + post save, Matomo visits, sitemap.xml) — not automatable from this environment; requires the user's Netlify access and live-site verification"
+    rationale: "Manual user action in the Netlify UI (Deploys → Clear cache and deploy site) plus live-site checks (/admin login + post save, GA4 visits, sitemap.xml) — not automatable from this environment; requires the user's Netlify access and live-site verification"
 
 # Metrics
 duration: 2min
@@ -105,11 +105,12 @@ Each task was committed atomically:
 
 ## Deviations from Plan
 
-None - plan executed exactly as written for Task 1. Task 2 is a manual user checkpoint and was correctly not executed by the agent.
+- **GA4 swap (owner decision during UPGR-07 checkpoint):** matomo.duckdns.org proved unreachable from the browser (`no-response` on matomo.js), so the vendored `_paq` snippet could not track. Replaced with a vendored gtag.js snippet (GA4 measurement ID `G-JFNK4HVQCC`, `anonymize_ip: true`, same window-guard + onRouteUpdate pattern) in commit `d370540`. Privacy page updated to reflect GA4 (external processor) instead of self-hosted Matomo; README stack list updated. Supersedes D-12/D-13. Verified: `yarn build` + `yarn test` green under Node 24.
 
 ## Issues Encountered
 
-None. The Node 24 loop was green on the first run (no dependency incompatibilities surfaced — T-03-15 mitigated).
+- Matomo endpoint unreachable from the browser (no-response on matomo.js) — resolved by the GA4 swap above.
+- Netlify Identity invite link not working — Netlify-side configuration (re-invite via Identity UI), not a repo issue.
 
 ## User Setup Required
 
@@ -118,7 +119,7 @@ None - no external service configuration required from the agent side. The remai
 ## Next Phase Readiness
 
 - Local stack fully upgraded and green under Node 24 — ready for the manual Netlify deploy checkpoint
-- **Blocking:** Task 2 (D-15) requires the user to push the branch, run the first post-upgrade Netlify deploy with cleared cache, and verify the live site (pages render, /admin login + post save, Matomo visits, sitemap.xml)
+- **Blocking:** Task 2 (D-15) requires the user to push the branch, run the first post-upgrade Netlify deploy with cleared cache, and verify the live site (pages render, /admin login + post save, GA4 visits, sitemap.xml)
 - After the checkpoint passes: UPGR-02 and UPGR-07 can be marked complete, and Phase 3's ROADMAP success criteria 2-5 are satisfied
 
 ---
