@@ -1,0 +1,255 @@
+{
+  "nodes": [
+    {
+      "id": "home_simos_progs_lara_readme_md",
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "lara_readme_foundation",
+      "label": "Foundation",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "lara_readme_features",
+      "label": "\ud83d\udc4c Features",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L13"
+    },
+    {
+      "id": "lara_readme_quick_deploy",
+      "label": "\ud83d\ude80 Quick Deploy",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L30"
+    },
+    {
+      "id": "lara_readme_further_instructions",
+      "label": "Further Instructions",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L38"
+    },
+    {
+      "id": "lara_readme_access_to_netlify_cms",
+      "label": "\u2699 Access to Netlify CMS",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "lara_readme_editing_content_and_adding_posts",
+      "label": "\ud83d\udcdd Editing content and Adding posts",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L58"
+    },
+    {
+      "id": "lara_readme_customing_site_details",
+      "label": "\u2699 Customing Site details",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L64"
+    },
+    {
+      "id": "lara_readme_adding_custom_domain_to_netlify_website",
+      "label": "\ud83c\udf10 Adding Custom domain to netlify website",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L68"
+    },
+    {
+      "id": "lara_readme_install_locally",
+      "label": "\ud83d\udda5 Install Locally",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L72"
+    },
+    {
+      "id": "lara_readme_codeblock_1",
+      "label": "code:bash (gatsby new gatsby-starter-foundation https://github.com/stac)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L76"
+    },
+    {
+      "id": "lara_readme_start_developing",
+      "label": "Start developing",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L82"
+    },
+    {
+      "id": "lara_readme_codeblock_2",
+      "label": "code:shell (cd my-hello-world-starter/)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L86"
+    },
+    {
+      "id": "lara_readme_folder_structure",
+      "label": "\ud83d\udcc1 Folder Structure",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L101"
+    },
+    {
+      "id": "lara_readme_learning_gatsby",
+      "label": "\ud83c\udf93 Learning Gatsby",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L140"
+    },
+    {
+      "id": "lara_readme_thank_you",
+      "label": "\ud83d\ude4f Thank you",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L148"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_simos_progs_lara_readme_md",
+      "target": "lara_readme_foundation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "lara_readme_foundation",
+      "target": "lara_readme_features",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "lara_readme_foundation",
+      "target": "lara_readme_quick_deploy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "lara_readme_quick_deploy",
+      "target": "lara_readme_further_instructions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "lara_readme_foundation",
+      "target": "lara_readme_access_to_netlify_cms",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "lara_readme_foundation",
+      "target": "lara_readme_editing_content_and_adding_posts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "lara_readme_foundation",
+      "target": "lara_readme_customing_site_details",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "lara_readme_foundation",
+      "target": "lara_readme_adding_custom_domain_to_netlify_website",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "lara_readme_foundation",
+      "target": "lara_readme_install_locally",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "lara_readme_install_locally",
+      "target": "lara_readme_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "lara_readme_install_locally",
+      "target": "lara_readme_start_developing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "lara_readme_start_developing",
+      "target": "lara_readme_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "lara_readme_foundation",
+      "target": "lara_readme_folder_structure",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "lara_readme_foundation",
+      "target": "lara_readme_learning_gatsby",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "lara_readme_foundation",
+      "target": "lara_readme_thank_you",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/README.md",
+      "source_location": "L148",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

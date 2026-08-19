@@ -1,0 +1,159 @@
+{
+  "nodes": [
+    {
+      "id": "home_simos_progs_lara_planning_phases_02_foundation_cleanup_02_discussion_log_md",
+      "label": "02-DISCUSSION-LOG.md",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "02_foundation_cleanup_02_discussion_log_phase_2_foundation_cleanup_discussion_log",
+      "label": "Phase 2: Foundation Cleanup - Discussion Log",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "02_foundation_cleanup_02_discussion_log_lockfile_consolidation",
+      "label": "Lockfile Consolidation",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "02_foundation_cleanup_02_discussion_log_node_version_strategy",
+      "label": "Node Version Strategy",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L22"
+    },
+    {
+      "id": "02_foundation_cleanup_02_discussion_log_dead_component_removal",
+      "label": "Dead Component Removal",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L32"
+    },
+    {
+      "id": "02_foundation_cleanup_02_discussion_log_unused_dependency_sweep",
+      "label": "Unused Dependency Sweep",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L41"
+    },
+    {
+      "id": "02_foundation_cleanup_02_discussion_log_site_json_ga_placeholder",
+      "label": "site.json ga Placeholder",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L50"
+    },
+    {
+      "id": "02_foundation_cleanup_02_discussion_log_readme_rewrite",
+      "label": "README Rewrite",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L59"
+    },
+    {
+      "id": "02_foundation_cleanup_02_discussion_log_the_agent_s_discretion",
+      "label": "the agent's Discretion",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L70"
+    },
+    {
+      "id": "02_foundation_cleanup_02_discussion_log_deferred_ideas",
+      "label": "Deferred Ideas",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L76"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_simos_progs_lara_planning_phases_02_foundation_cleanup_02_discussion_log_md",
+      "target": "02_foundation_cleanup_02_discussion_log_phase_2_foundation_cleanup_discussion_log",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "02_foundation_cleanup_02_discussion_log_phase_2_foundation_cleanup_discussion_log",
+      "target": "02_foundation_cleanup_02_discussion_log_lockfile_consolidation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "02_foundation_cleanup_02_discussion_log_phase_2_foundation_cleanup_discussion_log",
+      "target": "02_foundation_cleanup_02_discussion_log_node_version_strategy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "02_foundation_cleanup_02_discussion_log_phase_2_foundation_cleanup_discussion_log",
+      "target": "02_foundation_cleanup_02_discussion_log_dead_component_removal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "02_foundation_cleanup_02_discussion_log_phase_2_foundation_cleanup_discussion_log",
+      "target": "02_foundation_cleanup_02_discussion_log_unused_dependency_sweep",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "02_foundation_cleanup_02_discussion_log_phase_2_foundation_cleanup_discussion_log",
+      "target": "02_foundation_cleanup_02_discussion_log_site_json_ga_placeholder",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "02_foundation_cleanup_02_discussion_log_phase_2_foundation_cleanup_discussion_log",
+      "target": "02_foundation_cleanup_02_discussion_log_readme_rewrite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "02_foundation_cleanup_02_discussion_log_phase_2_foundation_cleanup_discussion_log",
+      "target": "02_foundation_cleanup_02_discussion_log_the_agent_s_discretion",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "02_foundation_cleanup_02_discussion_log_phase_2_foundation_cleanup_discussion_log",
+      "target": "02_foundation_cleanup_02_discussion_log_deferred_ideas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md",
+      "source_location": "L76",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

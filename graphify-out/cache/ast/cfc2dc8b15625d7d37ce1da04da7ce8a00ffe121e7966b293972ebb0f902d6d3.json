@@ -1,0 +1,1215 @@
+{
+  "nodes": [
+    {
+      "id": "home_simos_progs_lara_planning_phases_01_test_scaffolding_performance_baseline_01_research_md",
+      "label": "01-RESEARCH.md",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "label": "Phase 1: Test Scaffolding + Performance Baseline - Research",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_user_constraints_from_context_md",
+      "label": "User Constraints (from CONTEXT.md)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L8"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_locked_decisions",
+      "label": "Locked Decisions",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L10"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_the_agent_s_discretion",
+      "label": "the agent's Discretion",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L26"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_deferred_ideas_out_of_scope",
+      "label": "Deferred Ideas (OUT OF SCOPE)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L29"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_phase_requirements",
+      "label": "Phase Requirements",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L36"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_project_constraints_from_agents_md",
+      "label": "Project Constraints (from AGENTS.md)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L44"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_summary",
+      "label": "Summary",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L48"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_architectural_responsibility_map",
+      "label": "Architectural Responsibility Map",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L60"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_standard_stack",
+      "label": "Standard Stack",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L72"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_core",
+      "label": "Core",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L74"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_supporting",
+      "label": "Supporting",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L85"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_alternatives_considered",
+      "label": "Alternatives Considered",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L93"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_1",
+      "label": "code:bash (yarn add --dev jest@29.7.0 babel-jest@29.7.0 jest-environmen)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L103"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_package_legitimacy_audit",
+      "label": "Package Legitimacy Audit",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L112"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_architecture_patterns",
+      "label": "Architecture Patterns",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L131"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_system_architecture_diagram",
+      "label": "System Architecture Diagram",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L133"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_2",
+      "label": "code:block2 (\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L135"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_recommended_project_structure_additions_only",
+      "label": "Recommended Project Structure (additions only)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L170"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_3",
+      "label": "code:block3 (\u251c\u2500\u2500 jest.config.js           # Official Gatsby config (trans)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L172"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_pattern_1_official_gatsby_jest_configuration_manual_mocks_no_gatsby_plugin_jest",
+      "label": "Pattern 1: Official Gatsby Jest Configuration (manual mocks, no gatsby-plugin-jest)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L195"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_4",
+      "label": "code:javascript (// jest.config.js \u2014 Source: https://www.gatsbyjs.com/docs/ho)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L199"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_5",
+      "label": "code:javascript (// jest-preprocess.js \u2014 Source: same official guide)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L221"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_6",
+      "label": "code:javascript (// loadershim.js \u2014 Source: same official guide)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L228"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_7",
+      "label": "code:javascript (// __mocks__/gatsby.js \u2014 Source: same official guide (trimme)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L234"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_pattern_2_per_file_test_environment_jsdom_vs_node",
+      "label": "Pattern 2: Per-file test environment (jsdom vs node)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L251"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_8",
+      "label": "code:javascript (// src/components/formik.test.js \u2014 line 1)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L255"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_9",
+      "label": "code:javascript (// gatsby-node.test.js \u2014 line 1 (default is node, but be exp)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L259"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_pattern_3_behavioral_form_tests_formik_js_no_exports_to_unit_test",
+      "label": "Pattern 3: Behavioral form tests (formik.js \u2014 no exports to unit-test)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L281"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_10",
+      "label": "code:javascript (/** @jest-environment jsdom */)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L285"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_anti_patterns_to_avoid",
+      "label": "Anti-Patterns to Avoid",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L328"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_don_t_hand_roll",
+      "label": "Don't Hand-Roll",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L334"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_common_pitfalls",
+      "label": "Common Pitfalls",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L347"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_pitfall_1_gatsby_plugin_jest_is_gone_from_npm",
+      "label": "Pitfall 1: gatsby-plugin-jest is gone from npm",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L349"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_pitfall_2_scss_image_imports_crash_the_transform",
+      "label": "Pitfall 2: SCSS + image imports crash the transform",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L355"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_pitfall_3_transformignorepatterns_missing_gatsby_unexpected_token_import",
+      "label": "Pitfall 3: transformIgnorePatterns missing gatsby \u2192 \"Unexpected token import\"",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L361"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_pitfall_4_emailjs_init_at_module_load",
+      "label": "Pitfall 4: emailjs.init() at module load",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L367"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_pitfall_5_mui_v4_jsdom_issues",
+      "label": "Pitfall 5: MUI v4 + jsdom issues",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L373"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_11",
+      "label": "code:javascript (// jest.setup.js)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L377"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_pitfall_6_prettier_style_conflicts_in_test_files",
+      "label": "Pitfall 6: Prettier style conflicts in test files",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L387"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_pitfall_7_jest_dom_import_path_changed",
+      "label": "Pitfall 7: jest-dom import path changed",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L393"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_pitfall_8_gatsby_node_tests_must_run_in_node_env",
+      "label": "Pitfall 8: gatsby-node tests must run in node env",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L399"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_pitfall_9_psi_anonymous_quota_429",
+      "label": "Pitfall 9: PSI anonymous quota 429",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L405"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_pitfall_10_baseline_variance_apples_to_oranges_comparison_in_phase_6",
+      "label": "Pitfall 10: Baseline variance / apples-to-oranges comparison in Phase 6",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L411"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_code_examples",
+      "label": "Code Examples",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L417"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_1_full_official_jest_scaffold_for_gatsby_5_config_preprocess_mocks",
+      "label": "1. Full official Jest scaffold for Gatsby 5 (config + preprocess + mocks)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L421"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_12",
+      "label": "code:javascript (// jest.config.js \u2014 Source: https://www.gatsbyjs.com/docs/ho)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L422"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_2_manual_gatsby_module_mock_official_trimmed_to_repo_imports",
+      "label": "2. Manual gatsby module mock (official, trimmed to repo imports)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L447"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_13",
+      "label": "code:javascript (// __mocks__/gatsby.js \u2014 Source: official guide (fetched 202)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L448"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_3_gatsby_node_createpages_test_node_environment",
+      "label": "3. gatsby-node createPages test (node environment)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L466"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_14",
+      "label": "code:javascript (/** @jest-environment node */)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L467"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_4_pagination_math_navigation_toggle_tests",
+      "label": "4. Pagination math + Navigation toggle tests",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L501"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_15",
+      "label": "code:javascript (/** @jest-environment jsdom */)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L502"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_16",
+      "label": "code:javascript (/** @jest-environment jsdom */)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L525"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_5_performance_baseline_capture_lighthouse_cli_psi_median_of_3_mobile",
+      "label": "5. Performance baseline capture (Lighthouse CLI + PSI, median of 3, mobile)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L542"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_17",
+      "label": "code:bash (# One URL, three runs, raw JSON each (exact versions pinned )",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L543"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_18",
+      "label": "code:bash (# PSI (may 429 \u2014 see Pitfall 9); three runs per URL, raw res)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L561"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_codeblock_19",
+      "label": "code:bash (# Median extraction (LCP numericValue ms, CLS, INP, perf sco)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L573"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_state_of_the_art",
+      "label": "State of the Art",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L585"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_assumptions_log",
+      "label": "Assumptions Log",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L602"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_open_questions_resolved",
+      "label": "Open Questions (RESOLVED)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L617"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_environment_availability",
+      "label": "Environment Availability",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L642"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_validation_architecture",
+      "label": "Validation Architecture",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L661"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_test_framework",
+      "label": "Test Framework",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L665"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_phase_requirements_test_map",
+      "label": "Phase Requirements \u2192 Test Map",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L673"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_sampling_rate",
+      "label": "Sampling Rate",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L685"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_wave_0_gaps",
+      "label": "Wave 0 Gaps",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L692"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_security_domain",
+      "label": "Security Domain",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L701"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_applicable_asvs_categories",
+      "label": "Applicable ASVS Categories",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L705"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_known_threat_patterns_for_this_stack",
+      "label": "Known Threat Patterns for this stack",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L715"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_sources",
+      "label": "Sources",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L725"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_primary_high_confidence",
+      "label": "Primary (HIGH confidence)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L727"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_secondary_medium_confidence",
+      "label": "Secondary (MEDIUM confidence)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L736"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_tertiary_low_confidence_needs_validation",
+      "label": "Tertiary (LOW confidence \u2014 needs validation)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L741"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_research_metadata",
+      "label": "Metadata",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L746"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_simos_progs_lara_planning_phases_01_test_scaffolding_performance_baseline_01_research_md",
+      "target": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_user_constraints_from_context_md",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_user_constraints_from_context_md",
+      "target": "01_test_scaffolding_performance_baseline_01_research_locked_decisions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_user_constraints_from_context_md",
+      "target": "01_test_scaffolding_performance_baseline_01_research_the_agent_s_discretion",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_user_constraints_from_context_md",
+      "target": "01_test_scaffolding_performance_baseline_01_research_deferred_ideas_out_of_scope",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_phase_requirements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_project_constraints_from_agents_md",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_summary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_architectural_responsibility_map",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_standard_stack",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_standard_stack",
+      "target": "01_test_scaffolding_performance_baseline_01_research_core",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_standard_stack",
+      "target": "01_test_scaffolding_performance_baseline_01_research_supporting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_standard_stack",
+      "target": "01_test_scaffolding_performance_baseline_01_research_alternatives_considered",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_alternatives_considered",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_package_legitimacy_audit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_architecture_patterns",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_architecture_patterns",
+      "target": "01_test_scaffolding_performance_baseline_01_research_system_architecture_diagram",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_system_architecture_diagram",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_architecture_patterns",
+      "target": "01_test_scaffolding_performance_baseline_01_research_recommended_project_structure_additions_only",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_recommended_project_structure_additions_only",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_architecture_patterns",
+      "target": "01_test_scaffolding_performance_baseline_01_research_pattern_1_official_gatsby_jest_configuration_manual_mocks_no_gatsby_plugin_jest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L195",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_pattern_1_official_gatsby_jest_configuration_manual_mocks_no_gatsby_plugin_jest",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L199",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_pattern_1_official_gatsby_jest_configuration_manual_mocks_no_gatsby_plugin_jest",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_5",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L221",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_pattern_1_official_gatsby_jest_configuration_manual_mocks_no_gatsby_plugin_jest",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L228",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_pattern_1_official_gatsby_jest_configuration_manual_mocks_no_gatsby_plugin_jest",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L234",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_architecture_patterns",
+      "target": "01_test_scaffolding_performance_baseline_01_research_pattern_2_per_file_test_environment_jsdom_vs_node",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L251",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_pattern_2_per_file_test_environment_jsdom_vs_node",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L255",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_pattern_2_per_file_test_environment_jsdom_vs_node",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_9",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L259",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_architecture_patterns",
+      "target": "01_test_scaffolding_performance_baseline_01_research_pattern_3_behavioral_form_tests_formik_js_no_exports_to_unit_test",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L281",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_pattern_3_behavioral_form_tests_formik_js_no_exports_to_unit_test",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_10",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L285",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_architecture_patterns",
+      "target": "01_test_scaffolding_performance_baseline_01_research_anti_patterns_to_avoid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L328",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_don_t_hand_roll",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L334",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_common_pitfalls",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L347",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_common_pitfalls",
+      "target": "01_test_scaffolding_performance_baseline_01_research_pitfall_1_gatsby_plugin_jest_is_gone_from_npm",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L349",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_common_pitfalls",
+      "target": "01_test_scaffolding_performance_baseline_01_research_pitfall_2_scss_image_imports_crash_the_transform",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L355",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_common_pitfalls",
+      "target": "01_test_scaffolding_performance_baseline_01_research_pitfall_3_transformignorepatterns_missing_gatsby_unexpected_token_import",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L361",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_common_pitfalls",
+      "target": "01_test_scaffolding_performance_baseline_01_research_pitfall_4_emailjs_init_at_module_load",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L367",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_common_pitfalls",
+      "target": "01_test_scaffolding_performance_baseline_01_research_pitfall_5_mui_v4_jsdom_issues",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L373",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_pitfall_5_mui_v4_jsdom_issues",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_11",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L377",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_common_pitfalls",
+      "target": "01_test_scaffolding_performance_baseline_01_research_pitfall_6_prettier_style_conflicts_in_test_files",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L387",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_common_pitfalls",
+      "target": "01_test_scaffolding_performance_baseline_01_research_pitfall_7_jest_dom_import_path_changed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L393",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_common_pitfalls",
+      "target": "01_test_scaffolding_performance_baseline_01_research_pitfall_8_gatsby_node_tests_must_run_in_node_env",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L399",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_common_pitfalls",
+      "target": "01_test_scaffolding_performance_baseline_01_research_pitfall_9_psi_anonymous_quota_429",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L405",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_common_pitfalls",
+      "target": "01_test_scaffolding_performance_baseline_01_research_pitfall_10_baseline_variance_apples_to_oranges_comparison_in_phase_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L411",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_code_examples",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L417",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_code_examples",
+      "target": "01_test_scaffolding_performance_baseline_01_research_1_full_official_jest_scaffold_for_gatsby_5_config_preprocess_mocks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L421",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_1_full_official_jest_scaffold_for_gatsby_5_config_preprocess_mocks",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_12",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L422",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_code_examples",
+      "target": "01_test_scaffolding_performance_baseline_01_research_2_manual_gatsby_module_mock_official_trimmed_to_repo_imports",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L447",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_2_manual_gatsby_module_mock_official_trimmed_to_repo_imports",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_13",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L448",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_code_examples",
+      "target": "01_test_scaffolding_performance_baseline_01_research_3_gatsby_node_createpages_test_node_environment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L466",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_3_gatsby_node_createpages_test_node_environment",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_14",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L467",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_code_examples",
+      "target": "01_test_scaffolding_performance_baseline_01_research_4_pagination_math_navigation_toggle_tests",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L501",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_4_pagination_math_navigation_toggle_tests",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_15",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L502",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_4_pagination_math_navigation_toggle_tests",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_16",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L525",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_code_examples",
+      "target": "01_test_scaffolding_performance_baseline_01_research_5_performance_baseline_capture_lighthouse_cli_psi_median_of_3_mobile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L542",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_5_performance_baseline_capture_lighthouse_cli_psi_median_of_3_mobile",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_17",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L543",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_5_performance_baseline_capture_lighthouse_cli_psi_median_of_3_mobile",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_18",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L561",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_5_performance_baseline_capture_lighthouse_cli_psi_median_of_3_mobile",
+      "target": "01_test_scaffolding_performance_baseline_01_research_codeblock_19",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L573",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_state_of_the_art",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L585",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_assumptions_log",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L602",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_open_questions_resolved",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L617",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_environment_availability",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L642",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_validation_architecture",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L661",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_validation_architecture",
+      "target": "01_test_scaffolding_performance_baseline_01_research_test_framework",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L665",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_validation_architecture",
+      "target": "01_test_scaffolding_performance_baseline_01_research_phase_requirements_test_map",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L673",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_validation_architecture",
+      "target": "01_test_scaffolding_performance_baseline_01_research_sampling_rate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L685",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_validation_architecture",
+      "target": "01_test_scaffolding_performance_baseline_01_research_wave_0_gaps",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L692",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_security_domain",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L701",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_security_domain",
+      "target": "01_test_scaffolding_performance_baseline_01_research_applicable_asvs_categories",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L705",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_security_domain",
+      "target": "01_test_scaffolding_performance_baseline_01_research_known_threat_patterns_for_this_stack",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L715",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_sources",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L725",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_sources",
+      "target": "01_test_scaffolding_performance_baseline_01_research_primary_high_confidence",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L727",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_sources",
+      "target": "01_test_scaffolding_performance_baseline_01_research_secondary_medium_confidence",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L736",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_sources",
+      "target": "01_test_scaffolding_performance_baseline_01_research_tertiary_low_confidence_needs_validation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L741",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_research_phase_1_test_scaffolding_performance_baseline_research",
+      "target": "01_test_scaffolding_performance_baseline_01_research_metadata",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md",
+      "source_location": "L746",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

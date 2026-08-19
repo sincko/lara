@@ -1,0 +1,255 @@
+{
+  "nodes": [
+    {
+      "id": "home_simos_progs_lara_planning_research_features_md",
+      "label": "FEATURES.md",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "research_features_feature_research",
+      "label": "Feature Research",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "research_features_feature_landscape",
+      "label": "Feature Landscape",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L7"
+    },
+    {
+      "id": "research_features_table_stakes_users_expect_these",
+      "label": "Table Stakes (Users Expect These)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "research_features_differentiators_competitive_advantage",
+      "label": "Differentiators (Competitive Advantage)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L23"
+    },
+    {
+      "id": "research_features_anti_features_commonly_requested_often_problematic",
+      "label": "Anti-Features (Commonly Requested, Often Problematic)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L35"
+    },
+    {
+      "id": "research_features_feature_dependencies",
+      "label": "Feature Dependencies",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "research_features_codeblock_1",
+      "label": "code:block1 ([Performance baseline (Lighthouse/PSI)])",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L51"
+    },
+    {
+      "id": "research_features_dependency_notes",
+      "label": "Dependency Notes",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L85"
+    },
+    {
+      "id": "research_features_mvp_definition",
+      "label": "MVP Definition",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L94"
+    },
+    {
+      "id": "research_features_launch_with_this_milestone",
+      "label": "Launch With (this milestone)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L96"
+    },
+    {
+      "id": "research_features_add_after_validation_v1_x",
+      "label": "Add After Validation (v1.x)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L108"
+    },
+    {
+      "id": "research_features_future_consideration_v2",
+      "label": "Future Consideration (v2+)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L115"
+    },
+    {
+      "id": "research_features_feature_prioritization_matrix",
+      "label": "Feature Prioritization Matrix",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L122"
+    },
+    {
+      "id": "research_features_competitor_feature_analysis",
+      "label": "Competitor Feature Analysis",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L144"
+    },
+    {
+      "id": "research_features_sources",
+      "label": "Sources",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L158"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_simos_progs_lara_planning_research_features_md",
+      "target": "research_features_feature_research",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "research_features_feature_research",
+      "target": "research_features_feature_landscape",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "research_features_feature_landscape",
+      "target": "research_features_table_stakes_users_expect_these",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "research_features_feature_landscape",
+      "target": "research_features_differentiators_competitive_advantage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "research_features_feature_landscape",
+      "target": "research_features_anti_features_commonly_requested_often_problematic",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "research_features_feature_research",
+      "target": "research_features_feature_dependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "research_features_feature_dependencies",
+      "target": "research_features_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "research_features_feature_dependencies",
+      "target": "research_features_dependency_notes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "research_features_feature_research",
+      "target": "research_features_mvp_definition",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "research_features_mvp_definition",
+      "target": "research_features_launch_with_this_milestone",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "research_features_mvp_definition",
+      "target": "research_features_add_after_validation_v1_x",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "research_features_mvp_definition",
+      "target": "research_features_future_consideration_v2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "research_features_feature_research",
+      "target": "research_features_feature_prioritization_matrix",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "research_features_feature_research",
+      "target": "research_features_competitor_feature_analysis",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "research_features_feature_research",
+      "target": "research_features_sources",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/FEATURES.md",
+      "source_location": "L158",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

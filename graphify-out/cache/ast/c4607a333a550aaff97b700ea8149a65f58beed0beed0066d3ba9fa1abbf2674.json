@@ -1,0 +1,239 @@
+{
+  "nodes": [
+    {
+      "id": "home_simos_progs_lara_planning_codebase_conventions_md",
+      "label": "CONVENTIONS.md",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "codebase_conventions_coding_conventions",
+      "label": "Coding Conventions",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "codebase_conventions_overview",
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "codebase_conventions_naming_patterns",
+      "label": "Naming Patterns",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "codebase_conventions_code_style",
+      "label": "Code Style",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L36"
+    },
+    {
+      "id": "codebase_conventions_import_organization",
+      "label": "Import Organization",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L58"
+    },
+    {
+      "id": "codebase_conventions_error_handling",
+      "label": "Error Handling",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L70"
+    },
+    {
+      "id": "codebase_conventions_logging",
+      "label": "Logging",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L79"
+    },
+    {
+      "id": "codebase_conventions_comments",
+      "label": "Comments",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L87"
+    },
+    {
+      "id": "codebase_conventions_function_design",
+      "label": "Function Design",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L99"
+    },
+    {
+      "id": "codebase_conventions_module_design",
+      "label": "Module Design",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L113"
+    },
+    {
+      "id": "codebase_conventions_graphql_conventions",
+      "label": "GraphQL Conventions",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L123"
+    },
+    {
+      "id": "codebase_conventions_scss_conventions",
+      "label": "SCSS Conventions",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L131"
+    },
+    {
+      "id": "codebase_conventions_content_conventions",
+      "label": "Content Conventions",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L139"
+    },
+    {
+      "id": "codebase_conventions_anti_patterns_observed_do_not_replicate",
+      "label": "Anti-Patterns Observed (do not replicate)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L145"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_simos_progs_lara_planning_codebase_conventions_md",
+      "target": "codebase_conventions_coding_conventions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_overview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_naming_patterns",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_code_style",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_import_organization",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_error_handling",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_logging",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_comments",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_function_design",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_module_design",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_graphql_conventions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_scss_conventions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_content_conventions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_conventions_coding_conventions",
+      "target": "codebase_conventions_anti_patterns_observed_do_not_replicate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md",
+      "source_location": "L145",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

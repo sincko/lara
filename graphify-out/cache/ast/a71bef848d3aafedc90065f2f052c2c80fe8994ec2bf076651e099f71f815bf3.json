@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "id": "home_simos_progs_lara_planning_config_json",
+      "label": "config.json",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/.planning/config.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "planning_config_workflow",
+      "label": "workflow",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/.planning/config.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "planning_config_workflow_auto_chain_active",
+      "label": "_auto_chain_active",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/.planning/config.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "planning_config_graphify",
+      "label": "graphify",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/.planning/config.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "planning_config_graphify_enabled",
+      "label": "enabled",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/.planning/config.json",
+      "source_location": "L6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_simos_progs_lara_planning_config_json",
+      "target": "planning_config_workflow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/config.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "planning_config_workflow",
+      "target": "planning_config_workflow_auto_chain_active",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/config.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "home_simos_progs_lara_planning_config_json",
+      "target": "planning_config_graphify",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/config.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "planning_config_graphify",
+      "target": "planning_config_graphify_enabled",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/config.json",
+      "source_location": "L6",
+      "weight": 1.0
+    }
+  ]
+}

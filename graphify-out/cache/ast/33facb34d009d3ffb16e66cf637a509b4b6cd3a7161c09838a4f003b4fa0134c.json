@@ -1,0 +1,14 @@
+{
+  "nodes": [
+    {
+      "id": "home_simos_progs_lara_src_content_pages_contatti_md",
+      "label": "contatti.md",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/src/content/pages/contatti.md",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

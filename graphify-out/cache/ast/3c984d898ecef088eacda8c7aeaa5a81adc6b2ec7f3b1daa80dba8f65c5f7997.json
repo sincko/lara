@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "home_simos_progs_lara_planning_codebase_integrations_md",
+      "label": "INTEGRATIONS.md",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "codebase_integrations_external_integrations",
+      "label": "External Integrations",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "codebase_integrations_apis_external_services",
+      "label": "APIs & External Services",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "codebase_integrations_data_storage",
+      "label": "Data Storage",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md",
+      "source_location": "L31"
+    },
+    {
+      "id": "codebase_integrations_authentication_identity",
+      "label": "Authentication & Identity",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md",
+      "source_location": "L42"
+    },
+    {
+      "id": "codebase_integrations_monitoring_observability",
+      "label": "Monitoring & Observability",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md",
+      "source_location": "L50"
+    },
+    {
+      "id": "codebase_integrations_ci_cd_deployment",
+      "label": "CI/CD & Deployment",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md",
+      "source_location": "L58"
+    },
+    {
+      "id": "codebase_integrations_environment_configuration",
+      "label": "Environment Configuration",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md",
+      "source_location": "L68"
+    },
+    {
+      "id": "codebase_integrations_webhooks_callbacks",
+      "label": "Webhooks & Callbacks",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md",
+      "source_location": "L79"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_simos_progs_lara_planning_codebase_integrations_md",
+      "target": "codebase_integrations_external_integrations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_integrations_external_integrations",
+      "target": "codebase_integrations_apis_external_services",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_integrations_external_integrations",
+      "target": "codebase_integrations_data_storage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_integrations_external_integrations",
+      "target": "codebase_integrations_authentication_identity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_integrations_external_integrations",
+      "target": "codebase_integrations_monitoring_observability",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_integrations_external_integrations",
+      "target": "codebase_integrations_ci_cd_deployment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_integrations_external_integrations",
+      "target": "codebase_integrations_environment_configuration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "codebase_integrations_external_integrations",
+      "target": "codebase_integrations_webhooks_callbacks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md",
+      "source_location": "L79",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

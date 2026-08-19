@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "home_simos_progs_lara_planning_phases_01_test_scaffolding_performance_baseline_01_discussion_log_md",
+      "label": "01-DISCUSSION-LOG.md",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-DISCUSSION-LOG.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_discussion_log_phase_1_test_scaffolding_performance_baseline_discussion_log",
+      "label": "Phase 1: Test Scaffolding + Performance Baseline - Discussion Log",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-DISCUSSION-LOG.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_discussion_log_test_runner_setup",
+      "label": "Test Runner & Setup",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-DISCUSSION-LOG.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_discussion_log_test_scope",
+      "label": "Test Scope",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-DISCUSSION-LOG.md",
+      "source_location": "L22"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_discussion_log_baseline_tooling",
+      "label": "Baseline Tooling",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-DISCUSSION-LOG.md",
+      "source_location": "L32"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_discussion_log_test_organization",
+      "label": "Test Organization",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-DISCUSSION-LOG.md",
+      "source_location": "L42"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_discussion_log_the_agent_s_discretion",
+      "label": "the agent's Discretion",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-DISCUSSION-LOG.md",
+      "source_location": "L54"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_discussion_log_deferred_ideas",
+      "label": "Deferred Ideas",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-DISCUSSION-LOG.md",
+      "source_location": "L60"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_simos_progs_lara_planning_phases_01_test_scaffolding_performance_baseline_01_discussion_log_md",
+      "target": "01_test_scaffolding_performance_baseline_01_discussion_log_phase_1_test_scaffolding_performance_baseline_discussion_log",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-DISCUSSION-LOG.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_discussion_log_phase_1_test_scaffolding_performance_baseline_discussion_log",
+      "target": "01_test_scaffolding_performance_baseline_01_discussion_log_test_runner_setup",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-DISCUSSION-LOG.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_discussion_log_phase_1_test_scaffolding_performance_baseline_discussion_log",
+      "target": "01_test_scaffolding_performance_baseline_01_discussion_log_test_scope",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-DISCUSSION-LOG.md",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_discussion_log_phase_1_test_scaffolding_performance_baseline_discussion_log",
+      "target": "01_test_scaffolding_performance_baseline_01_discussion_log_baseline_tooling",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-DISCUSSION-LOG.md",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_discussion_log_phase_1_test_scaffolding_performance_baseline_discussion_log",
+      "target": "01_test_scaffolding_performance_baseline_01_discussion_log_test_organization",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-DISCUSSION-LOG.md",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_discussion_log_phase_1_test_scaffolding_performance_baseline_discussion_log",
+      "target": "01_test_scaffolding_performance_baseline_01_discussion_log_the_agent_s_discretion",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-DISCUSSION-LOG.md",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_discussion_log_phase_1_test_scaffolding_performance_baseline_discussion_log",
+      "target": "01_test_scaffolding_performance_baseline_01_discussion_log_deferred_ideas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-DISCUSSION-LOG.md",
+      "source_location": "L60",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

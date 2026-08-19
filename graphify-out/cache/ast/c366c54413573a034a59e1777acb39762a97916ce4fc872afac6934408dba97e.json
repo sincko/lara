@@ -1,0 +1,4403 @@
+{
+  "nodes": [
+    {
+      "id": "home_simos_progs_lara_vscode_settings_json",
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "vscode_settings_prettier_usetabs",
+      "label": "prettier.useTabs",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "vscode_settings_editor_tabsize",
+      "label": "editor.tabSize",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "vscode_settings_html_format_wraplinelength",
+      "label": "html.format.wrapLineLength",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "vscode_settings_editor_wordwrap",
+      "label": "editor.wordWrap",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "vscode_settings_cspell_words",
+      "label": "cSpell.words",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_simos_progs_lara_vscode_settings_json",
+      "target": "vscode_settings_prettier_usetabs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "home_simos_progs_lara_vscode_settings_json",
+      "target": "vscode_settings_editor_tabsize",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "home_simos_progs_lara_vscode_settings_json",
+      "target": "vscode_settings_html_format_wraplinelength",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "home_simos_progs_lara_vscode_settings_json",
+      "target": "vscode_settings_editor_wordwrap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "home_simos_progs_lara_vscode_settings_json",
+      "target": "vscode_settings_cspell_words",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_abbracciati",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_accettazione",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_acquisire",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_addobbare",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_affascina",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_agli",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_alberi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_alcune",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_alla",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_allegria",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_altre",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_altri",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_amiamo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_amico",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_amministratori",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_ammirare",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_amore",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_analizzare",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_anche",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_animale",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_anni",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_anonimizzati",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_appendere",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_appoggiate",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_appoggiato",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_apprezzare",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_apprezzo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_ardatan",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_arity",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_arte",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_aspettando",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_aspetto",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_asynckit",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_attaccata",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_attenzioni",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_attesa",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_attraverso",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_auguri",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_autunno",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_autunno",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_avermi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_azzurri",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_azzurro",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_bacchetta",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_bambina",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_bambine",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_bellezza",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_bellissimo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_benvenuta",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_bianconiglio",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_bianconiglio",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_biglietto",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_biglietto",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_biondi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_blit",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_blocca",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_blocchi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_bmfont",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_brezza",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_browserslist",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_bufferutil",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_buone",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_calduccio",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_calore",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_cambio",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_capelli",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_cari",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_carino",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_carta",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_cercher\u00f2",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_cerchiamo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_chiamo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_chiara",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_chioma",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_chiusi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_clsx",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_coccole",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_codemirror",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_coinvolgenti",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_colla",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_collinetta",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_colorare",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_colorate",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_colorati",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_colori",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_comode",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_compat",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_compilando",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_consentito",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_consultando",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_contattami",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_contattarmi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_contattato",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_controlla",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_corejs",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_cose",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_cos\u00ec",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_cos\u00ec",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_cosmiconfig",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_crea",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_creando",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_creato",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_creazione",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_creo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_csstype",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_cuore",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_cuori",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_cura",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_d_arte",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_d_infanzia",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_dammi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_danno",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_dataloader",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_dati",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_decorazione",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_decorazioni",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_degli",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_delicata",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_delicatezza",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_delicati",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_delicato",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_dell_indirizzo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_delle",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_dentro",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_devono",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_dinsieme",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_direttiva",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_disabilitazione",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_disegni",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_disegno",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_distesa",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_divertenti",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_donarsi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_dotall",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_elegante",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_emailjs",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_endemolshinegroup",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_esempio",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_espree",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_esprimere",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_essere",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_esseri",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_esterni",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_estesa",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_estetico",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_estrosist\u00e0",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_esutils",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_europea",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_europea",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_evocativa",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_exif",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_extglob",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_faccio",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_farfalla",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_farfalla",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_farfalle",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_fatina",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_fatte",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_fatti",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_fatto",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_felpetta",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_festa",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_festeggiare",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_fiocco",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_fiore",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_fiore",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_floreale",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_foglie",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_fornito",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_forse",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_fretta",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_funzioni",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_garante",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_gatsbyjs",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_generalmente",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_gensync",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_geolocation",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_gialle",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_gifwrap",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_gigante",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_gioia",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_giovane",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_giugno",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_globby",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_gode",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_gradiate",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_grazie",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_guarda",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_guardare",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_hapi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_hoek",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_humanwhocodes",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_iarna",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_iframe",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_impedire",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_impegno",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_impone",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_impostato",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_indaffaratissimo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_indirizzo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_indispensabili",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_informa",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_informativa",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_informazioni",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_inglese",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_innocua",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_installato",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_jimp",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_jsesc",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_l_affetto",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_l_amore",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_l_anonimizzazione",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_l_orologio",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_l_utilizzo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_laryart",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_lavoro",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_leggiadria",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_legno",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_lifecycles",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_longilinea",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_magari",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_maggio",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_magie",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_magnifici",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_maniera",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_mano",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_marino",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_materiali",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_matita",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_matite",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_matrimonio",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_matromo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_meros",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_messa",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_messaggio",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_miei",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_miglior",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_migliori",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_minimatch",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_mkdirp",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_molti",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_moltissimo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_montanari",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_mostrare",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_mostrarli",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_motivi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_muro",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_natura",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_navigare",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_navigazione",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_nella",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_nera",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_nessun",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_nostra",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_nostro",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_occasioni",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_occhi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_oggetti",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_oggi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_omggif",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_opencollective",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_originale",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_originali",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_ormai",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_ospitato",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_outlink",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_pagine",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_parametro",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_parco",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_parete",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_particolarmente",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_passione",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_perch\u00e9",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_personaggio",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_personale",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_personalizzati",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_pezzi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_phin",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_piace",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_piccola",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_piccole",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_pigiama",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_pixelmatch",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_pngjs",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_politica",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_porre",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_possano",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_possibile",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_possono",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_preferisco",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_preferita",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_principessa",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_principessa",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_prismjs",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_proseguimento",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_provv",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_provvedimento",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_puoi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_qualcosa",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_quelle",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_quello",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_querystring",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_questa",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_questo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_quindi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_raccoglie",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_raccogliere",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_raccolgo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_raccolti",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_ragazza",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_ragazza",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_ragazze",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_rappresenta",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_rappresentano",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_rappresentazione",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_realizzare",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_realizzazione",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_realizzazioni",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_recepito",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_regali",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_regalo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_regexpu",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_registra",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_ricevere",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_ricevuto",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_ricordi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_rifiutarli",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_riflettono",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_rifugio",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_riposa",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_risponder\u00f2",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_risponderti",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_ritorna",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_salutarci",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_scafffale",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_scarpette",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_scelgo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_scopri",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_scopri",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_scorgono",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_scritta",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_scrivermi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_sebbene",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_secondo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_selezione",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_sensazione",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_sensi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_serie",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_servizi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_servono",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_sfuma",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_sgargianti",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_sicurezza",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_simboleggiare",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_simbolo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_simooooone",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_simpatia",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_sito",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_situato",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_soggetti",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_soggetto",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_sognando",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_sognano",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_sognante",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_sono",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_sorriso",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_sorseggia",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_sotto",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_sottopentola",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_spero",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_spesso",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_stackrole",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_stackrole",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_stanno",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_stante",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_stato",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_stesse",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_stimola",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_stimolano",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_stylis",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_subordinare",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_sugli",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_suoi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_systemjs",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_tecnica",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_tecniche",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_terze",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_testimoniare",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_timm",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_tinycolor",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_tipo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_tirati",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_tonalit\u00e0",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_topo",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_tracciamento",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_tranquilla",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_tranquillamente",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_tratteggiato",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_trilly",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_trilly",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_tuoi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_tutto",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_typeof",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_ulteriori",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_ultimi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_un_amica",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_unici",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_unico",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_unione",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_unitless",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_unixify",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_usato",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_utenti",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_utif",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_utili",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_utilizza",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_utilizzato",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_vari",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_venuta",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_vestite",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_vestito",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_visitate",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_visitatori",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_vivaci",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_voglio",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_volare",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_volete",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_voltando",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_vuoi",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_whatsapp",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_settings_cspell_words",
+      "target": "ref_yargs",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.vscode/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    }
+  ]
+}

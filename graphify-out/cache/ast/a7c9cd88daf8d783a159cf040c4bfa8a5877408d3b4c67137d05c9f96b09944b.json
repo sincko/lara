@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "home_simos_progs_lara_planning_windows_md",
+      "label": "WINDOWS.md",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/WINDOWS.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "planning_windows_broken_windows_ledger",
+      "label": "Broken Windows Ledger",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/WINDOWS.md",
+      "source_location": "L10"
+    },
+    {
+      "id": "planning_windows_codeblock_1",
+      "label": "code:`json ([)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/WINDOWS.md",
+      "source_location": "L20"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_simos_progs_lara_planning_windows_md",
+      "target": "planning_windows_broken_windows_ledger",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/WINDOWS.md",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "planning_windows_broken_windows_ledger",
+      "target": "planning_windows_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/WINDOWS.md",
+      "source_location": "L20",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

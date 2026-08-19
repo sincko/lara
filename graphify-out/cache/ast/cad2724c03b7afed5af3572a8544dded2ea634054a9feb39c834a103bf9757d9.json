@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "home_simos_progs_lara_planning_baseline_psi_post_minnie_3_json",
+      "label": "post-minnie-3.json",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/psi/post-minnie-3.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "psi_post_minnie_3_source",
+      "label": "source",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/psi/post-minnie-3.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "psi_post_minnie_3_psi_quota",
+      "label": "psi_quota",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/psi/post-minnie-3.json",
+      "source_location": "L3"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_simos_progs_lara_planning_baseline_psi_post_minnie_3_json",
+      "target": "psi_post_minnie_3_source",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/psi/post-minnie-3.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "home_simos_progs_lara_planning_baseline_psi_post_minnie_3_json",
+      "target": "psi_post_minnie_3_psi_quota",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/psi/post-minnie-3.json",
+      "source_location": "L3",
+      "weight": 1.0
+    }
+  ]
+}

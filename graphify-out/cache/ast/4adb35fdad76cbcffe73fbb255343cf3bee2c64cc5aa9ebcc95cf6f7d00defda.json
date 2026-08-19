@@ -1,0 +1,141 @@
+{
+  "nodes": [
+    {
+      "id": "home_simos_progs_lara_src_util_site_json",
+      "label": "site.json",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/src/util/site.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "util_site_meta",
+      "label": "meta",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/src/util/site.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "util_site_meta_title",
+      "label": "title",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/src/util/site.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "util_site_meta_titletemplate",
+      "label": "titleTemplate",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/src/util/site.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "util_site_meta_description",
+      "label": "description",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/src/util/site.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "util_site_meta_siteurl",
+      "label": "siteUrl",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/src/util/site.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "util_site_meta_image",
+      "label": "image",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/src/util/site.json",
+      "source_location": "L7"
+    },
+    {
+      "id": "util_site_meta_twitterusername",
+      "label": "twitterUsername",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/src/util/site.json",
+      "source_location": "L8"
+    },
+    {
+      "id": "util_site_ga",
+      "label": "ga",
+      "file_type": "code",
+      "source_file": "/home/simos/progs/lara/src/util/site.json",
+      "source_location": "L10"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_simos_progs_lara_src_util_site_json",
+      "target": "util_site_meta",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/src/util/site.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "util_site_meta",
+      "target": "util_site_meta_title",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/src/util/site.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "util_site_meta",
+      "target": "util_site_meta_titletemplate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/src/util/site.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "util_site_meta",
+      "target": "util_site_meta_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/src/util/site.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "util_site_meta",
+      "target": "util_site_meta_siteurl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/src/util/site.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "util_site_meta",
+      "target": "util_site_meta_image",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/src/util/site.json",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "util_site_meta",
+      "target": "util_site_meta_twitterusername",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/src/util/site.json",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "home_simos_progs_lara_src_util_site_json",
+      "target": "util_site_ga",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/src/util/site.json",
+      "source_location": "L10",
+      "weight": 1.0
+    }
+  ]
+}

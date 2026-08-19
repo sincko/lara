@@ -1,0 +1,407 @@
+{
+  "/home/simos/progs/lara/package.json": {
+    "size": 2552,
+    "mtime_ns": 1787125921031371217,
+    "hash": "3d5b48f28d8e115e235b8508ab56eec0ebbd43cfcdecc65e5acc73c9646c7072"
+  },
+  "/home/simos/progs/lara/.vscode/settings.json": {
+    "size": 6848,
+    "mtime_ns": 1768589634163906505,
+    "hash": "c366c54413573a034a59e1777acb39762a97916ce4fc872afac6934408dba97e"
+  },
+  "/home/simos/progs/lara/src/util/site.json": {
+    "size": 359,
+    "mtime_ns": 1768589634166632492,
+    "hash": "4adb35fdad76cbcffe73fbb255343cf3bee2c64cc5aa9ebcc95cf6f7d00defda"
+  },
+  "/home/simos/progs/lara/static/manifest.json": {
+    "size": 720,
+    "mtime_ns": 1768589634188850383,
+    "hash": "673ce09e665643f5a6e886082226b9852e95e4938aec3b93b72103374ab7b845"
+  },
+  "/home/simos/progs/lara/.planning/config.json": {
+    "size": 96,
+    "mtime_ns": 1787133253943958975,
+    "hash": "a71bef848d3aafedc90065f2f052c2c80fe8994ec2bf076651e099f71f815bf3"
+  },
+  "/home/simos/progs/lara/.planning/baseline/lighthouse/home-1.json": {
+    "size": 662645,
+    "mtime_ns": 1787123677044019327,
+    "hash": "b97e759d5eda1a78cff0548150fe58abe00c743a91a5101df8983ee511250aba"
+  },
+  "/home/simos/progs/lara/.planning/baseline/lighthouse/home-2.json": {
+    "size": 662796,
+    "mtime_ns": 1787123838637721335,
+    "hash": "2436ad143bb4ab9517949411abeca89cd6ce4b70053c1b638f120cd19e9a14f4"
+  },
+  "/home/simos/progs/lara/.planning/baseline/lighthouse/home-3.json": {
+    "size": 663209,
+    "mtime_ns": 1787124000406413485,
+    "hash": "68cf0782451ced18e0afc1f9001c24f1d8644bf4e92c4e54ae9375ab25c6cb44"
+  },
+  "/home/simos/progs/lara/.planning/baseline/lighthouse/blog-1.json": {
+    "size": 614607,
+    "mtime_ns": 1787124346296883035,
+    "hash": "6094c0edc4225efb19379f2b3e5adc10aaa3effe0c3356edf5447d9d5f0bbbce"
+  },
+  "/home/simos/progs/lara/.planning/baseline/lighthouse/blog-2.json": {
+    "size": 616323,
+    "mtime_ns": 1787124507986759047,
+    "hash": "e3cc1fc184a9418510dc94baabf6a3ea6ddccd3cd19c6a7ba379fc243aa85002"
+  },
+  "/home/simos/progs/lara/.planning/baseline/lighthouse/blog-3.json": {
+    "size": 616078,
+    "mtime_ns": 1787124669593456527,
+    "hash": "e655614835d451debd8a646dfe79c5656ec7ca88bf003eda182ff951d436b5fa"
+  },
+  "/home/simos/progs/lara/.planning/baseline/lighthouse/post-minnie-1.json": {
+    "size": 582439,
+    "mtime_ns": 1787125014272646387,
+    "hash": "b23b0bd824b184af97cb8f23adda13c8ae33810b70a59ff6f4507b40b981c100"
+  },
+  "/home/simos/progs/lara/.planning/baseline/lighthouse/post-minnie-2.json": {
+    "size": 583821,
+    "mtime_ns": 1787125175613861416,
+    "hash": "0c91069c015ffe4b61fa2d4ad7b3bfccc8732fee23ffd3a31472b22e400a0d7e"
+  },
+  "/home/simos/progs/lara/.planning/baseline/lighthouse/post-minnie-3.json": {
+    "size": 583951,
+    "mtime_ns": 1787125336996565112,
+    "hash": "b96429c777eacb05efa03c36518531d7dd42972e17fd06ea50911cb0ef466731"
+  },
+  "/home/simos/progs/lara/.planning/baseline/psi/home-1.json": {
+    "size": 59,
+    "mtime_ns": 1787123680475907023,
+    "hash": "37530c9be551295f1c0196e1abe568aa96fb33514505979610330ea9505a69bf"
+  },
+  "/home/simos/progs/lara/.planning/baseline/psi/home-2.json": {
+    "size": 59,
+    "mtime_ns": 1787123842044609554,
+    "hash": "7f97135e467e943efc8f16e64ce58a60423aa8488c6d54c7b9a5ba3a1c21a22e"
+  },
+  "/home/simos/progs/lara/.planning/baseline/psi/home-3.json": {
+    "size": 59,
+    "mtime_ns": 1787124003824301342,
+    "hash": "47e44c1cb656e6cceaad8afd2f8e599447171e16629ae2cec79a6535042d808f"
+  },
+  "/home/simos/progs/lara/.planning/baseline/psi/blog-1.json": {
+    "size": 59,
+    "mtime_ns": 1787124349655954091,
+    "hash": "1e2902a829c74090da5440f66818389f870abd2c9efdc02429a636a72f2c36d6"
+  },
+  "/home/simos/progs/lara/.planning/baseline/psi/blog-2.json": {
+    "size": 59,
+    "mtime_ns": 1787124511374647887,
+    "hash": "46da82ec92fc7a5950968db108bed42284a2370c59f02797a437e197a224c810"
+  },
+  "/home/simos/progs/lara/.planning/baseline/psi/blog-3.json": {
+    "size": 59,
+    "mtime_ns": 1787124672956346186,
+    "hash": "1a3ab0230c660632e6f03fee007f42cb219f4892c01fb771c93c4331da156ce4"
+  },
+  "/home/simos/progs/lara/.planning/baseline/psi/post-minnie-1.json": {
+    "size": 59,
+    "mtime_ns": 1787125017715039232,
+    "hash": "1e03eb0aa36fefc200863f843a5755e42eac0e469d04c06a318f7bcb50293cf1"
+  },
+  "/home/simos/progs/lara/.planning/baseline/psi/post-minnie-2.json": {
+    "size": 59,
+    "mtime_ns": 1787125179054748583,
+    "hash": "1bb123d0c934dc5dfe3c5060e33ff9c015e587a332962dd2bad6ea735f80a534"
+  },
+  "/home/simos/progs/lara/.planning/baseline/psi/post-minnie-3.json": {
+    "size": 59,
+    "mtime_ns": 1787125340439451966,
+    "hash": "cad2724c03b7afed5af3572a8544dded2ea634054a9feb39c834a103bf9757d9"
+  },
+  "/home/simos/progs/lara/README.md": {
+    "size": 8369,
+    "mtime_ns": 1768589634163906505,
+    "hash": "b8dfa7c2e6842523367a938c61a9bcad5234d43dbb37b39af74be8c7c644c7af"
+  },
+  "/home/simos/progs/lara/src/content/pages/contatti.md": {
+    "size": 399,
+    "mtime_ns": 1768589634165807614,
+    "hash": "33facb34d009d3ffb16e66cf637a509b4b6cd3a7161c09838a4f003b4fa0134c"
+  },
+  "/home/simos/progs/lara/src/content/pages/index.md": {
+    "size": 554,
+    "mtime_ns": 1768589634165859429,
+    "hash": "6d46ad1a2fe82ca2d02ea9d62416a6ce6b8b64778a47c84a07c5b9853098848c"
+  },
+  "/home/simos/progs/lara/src/content/pages/laryart.md": {
+    "size": 699,
+    "mtime_ns": 1768589634165859429,
+    "hash": "7cdfbf1cadcaefcfe870a6a19cdcb44530ff2747dca01f7d7f2ebc00c9fb4071"
+  },
+  "/home/simos/progs/lara/src/content/pages/privacy.md": {
+    "size": 5952,
+    "mtime_ns": 1768589634165859429,
+    "hash": "85de73d9556075578faff5ccf7a1eb25de1e8ee9ec8e1b6cadb637a48d09c853"
+  },
+  "/home/simos/progs/lara/src/content/posts/2020-07-10-farfalla-blu.md": {
+    "size": 754,
+    "mtime_ns": 1768589634165859429,
+    "hash": "66b372f73c349affb4bab63ec09ae5917d6dcc31ddab77e7829b7904437e45c7"
+  },
+  "/home/simos/progs/lara/src/content/posts/2020-09-25-autunno.md": {
+    "size": 459,
+    "mtime_ns": 1768589634166016338,
+    "hash": "d971f9d29798904a8e800285d5e961552d441bf31489dc4a2135d016c770f806"
+  },
+  "/home/simos/progs/lara/src/content/posts/2020-10-07-biglietto-di-auguri-con-motivo-floreale-e-farfalle-decoupage.md": {
+    "size": 507,
+    "mtime_ns": 1768589634166016338,
+    "hash": "317716133706f9d6d7ae177693b8f4eaef2f91edc4d087a2e191abf23775f1f8"
+  },
+  "/home/simos/progs/lara/src/content/posts/2020-10-15-dreams-decorazione-shabby.md": {
+    "size": 471,
+    "mtime_ns": 1768589634166016338,
+    "hash": "33418b0f8724916fa892a0b7320c421f95f07ce2d329c57e3f6095bf395ab287"
+  },
+  "/home/simos/progs/lara/src/content/posts/2021-02-24-cheers-up.md": {
+    "size": 451,
+    "mtime_ns": 1768589634166016338,
+    "hash": "5f110d7791e58606dbeb4bd2d83deb4387d8bdab7bbc79a74ec4e097b3c50ed4"
+  },
+  "/home/simos/progs/lara/src/content/posts/2021-06-01-ape-tranquilla.md": {
+    "size": 483,
+    "mtime_ns": 1768589634166016338,
+    "hash": "8bd9248a0887db52b9577792063a03e51fc733ca7bb4711cd2b193f5ab9b4bfc"
+  },
+  "/home/simos/progs/lara/src/content/posts/2021-06-01-farfalla-delicata.md": {
+    "size": 552,
+    "mtime_ns": 1768589634166016338,
+    "hash": "b6203f29a6163cf9bb581732199fd29672a605b3d52aaa5e4bd1c260a5b58413"
+  },
+  "/home/simos/progs/lara/src/content/posts/2021-10-05-trilly.md": {
+    "size": 483,
+    "mtime_ns": 1768589634166016338,
+    "hash": "f9c7e00dd9c8a397e5154a775a644ca7d01e1ff4ebdd579894b45eec05796499"
+  },
+  "/home/simos/progs/lara/src/content/posts/2021-10-16-principessa.md": {
+    "size": 539,
+    "mtime_ns": 1768589634166016338,
+    "hash": "257431b70c6e9667c1b19dbf91d54134fef185e96ea3f1cabc171d54c700cad7"
+  },
+  "/home/simos/progs/lara/src/content/posts/2021-10-20-ragazza-nella-tazza.md": {
+    "size": 580,
+    "mtime_ns": 1768589634166016338,
+    "hash": "a15791b8581f2651d33b9619dbbdaaa48b5ceb443f5d3bf14fe6c8e553d0887a"
+  },
+  "/home/simos/progs/lara/src/content/posts/2021-10-21-fiore-tratteggiato.md": {
+    "size": 315,
+    "mtime_ns": 1768589634166016338,
+    "hash": "baf8bf0806c93cd751c25da248c21ada8f0561949aa877262c21a19c8b16dee3"
+  },
+  "/home/simos/progs/lara/src/content/posts/2021-11-07-bianconiglio.md": {
+    "size": 337,
+    "mtime_ns": 1768589634166016338,
+    "hash": "f7c290b7aff9aabf5fa7958c5c3cead71ee3de1844326e60e6915f12fd3a15d1"
+  },
+  "/home/simos/progs/lara/src/content/posts/2024-08-15-farfalline.md": {
+    "size": 1997,
+    "mtime_ns": 1768589634166016338,
+    "hash": "86b9640b132e857ba5949210bceee7860dc269113a8eff80897949db3e23239b"
+  },
+  "/home/simos/progs/lara/src/content/posts/2024-08-15-minnie.md": {
+    "size": 1521,
+    "mtime_ns": 1768589634166016338,
+    "hash": "fd6d4c636a6e0fc8d71130d9811d2a3c52f3b80b4ef7adeef48a27b9be273255"
+  },
+  "/home/simos/progs/lara/src/content/posts/2024-08-15-paperino.md": {
+    "size": 2394,
+    "mtime_ns": 1768589634166016338,
+    "hash": "a8243ab9ed7b98fdab9c107970832c40d0f3e32912f2b5efb7c3414735cbec8e"
+  },
+  "/home/simos/progs/lara/src/content/posts/2024-08-15-pluto-1.md": {
+    "size": 2193,
+    "mtime_ns": 1768589634166016338,
+    "hash": "10caaa40a96f1cd79a4ce1edce5ea81bdadc2d68b7c05b3c4a6f09c184d15140"
+  },
+  "/home/simos/progs/lara/src/content/posts/2024-08-15-pluto-2.md": {
+    "size": 2290,
+    "mtime_ns": 1768589634166016338,
+    "hash": "59e1a4398b4d0f4993f0a67f70dd032b9b8f1152d1ccd29f6ef223ce10ffce86"
+  },
+  "/home/simos/progs/lara/src/content/posts/2024-08-15-topolino.md": {
+    "size": 2236,
+    "mtime_ns": 1768589634166016338,
+    "hash": "c8b8916201ac9758b890a96b370cf514b8500b3475d745edba056e76e8a2d3eb"
+  },
+  "/home/simos/progs/lara/src/content/posts/2024-08-15-trilli-fatina-peter-pan.md": {
+    "size": 2296,
+    "mtime_ns": 1768589634166016338,
+    "hash": "bdee460b9e8efb4b7e3eeb720ecfa2fcee0439fd3607b92908c76cf54a5db241"
+  },
+  "/home/simos/progs/lara/.planning/PROJECT.md": {
+    "size": 5032,
+    "mtime_ns": 1787127255855543599,
+    "hash": "b902fef5db8c8cfa5862af2fbe8cad980ac251db1a933a151c1ae5af91a40415"
+  },
+  "/home/simos/progs/lara/.planning/WINDOWS.md": {
+    "size": 1514,
+    "mtime_ns": 1787122934568263814,
+    "hash": "a7c9cd88daf8d783a159cf040c4bfa8a5877408d3b4c67137d05c9f96b09944b"
+  },
+  "/home/simos/progs/lara/.planning/STATE.md": {
+    "size": 4541,
+    "mtime_ns": 1787132855723369672,
+    "hash": "52a252f0a92a6519efbff44c2614225130780c52757128916858a6d92c5781b4"
+  },
+  "/home/simos/progs/lara/.planning/ROADMAP.md": {
+    "size": 8840,
+    "mtime_ns": 1787127190452659047,
+    "hash": "0f04a824b5d6366d07013604844db7d022ca1e28ce68663ce5a4ce0f46b8de7e"
+  },
+  "/home/simos/progs/lara/.planning/REQUIREMENTS.md": {
+    "size": 5652,
+    "mtime_ns": 1787125539798440000,
+    "hash": "5cc993bb45ee261a630dda742e13085ff146789760c444bcd327a44adce3e96d"
+  },
+  "/home/simos/progs/lara/.planning/codebase/ARCHITECTURE.md": {
+    "size": 17284,
+    "mtime_ns": 1787076657943252300,
+    "hash": "3d74bae6c366f0130caf151d51991ecb263fdf300a825fed287a24c5d31a2d7b"
+  },
+  "/home/simos/progs/lara/.planning/codebase/STRUCTURE.md": {
+    "size": 9034,
+    "mtime_ns": 1787076677693507850,
+    "hash": "7d300ecb863ad7c4671264bbc7bbb7fc6e9ce0dfa127efa4d2a86cd2b98c5cac"
+  },
+  "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md": {
+    "size": 9826,
+    "mtime_ns": 1787076746951844723,
+    "hash": "c4607a333a550aaff97b700ea8149a65f58beed0beed0066d3ba9fa1abbf2674"
+  },
+  "/home/simos/progs/lara/.planning/codebase/TESTING.md": {
+    "size": 4509,
+    "mtime_ns": 1787076764674162317,
+    "hash": "f24d9108061d1a26235763090dd7a9cfa18b5a5d1174de08f5fd71ccd880796d"
+  },
+  "/home/simos/progs/lara/.planning/codebase/STACK.md": {
+    "size": 6254,
+    "mtime_ns": 1787076791608125210,
+    "hash": "a6016a2d25ad69695fbacadb5f015fc1b5a09885a192ffcc4481eb5f57937aec"
+  },
+  "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md": {
+    "size": 4826,
+    "mtime_ns": 1787076809633431138,
+    "hash": "3c984d898ecef088eacda8c7aeaa5a81adc6b2ec7f3b1daa80dba8f65c5f7997"
+  },
+  "/home/simos/progs/lara/.planning/codebase/CONCERNS.md": {
+    "size": 19917,
+    "mtime_ns": 1787076925409973090,
+    "hash": "4371a458620ce77f048f218b19e308fe29afdc61336088afe4e3501f4339876f"
+  },
+  "/home/simos/progs/lara/.planning/research/FEATURES.md": {
+    "size": 17181,
+    "mtime_ns": 1787078068994535255,
+    "hash": "c22203da2ee1b6b3af6cd6b7d061010948ea26bd5a41b1d470036b8c5a9d0f83"
+  },
+  "/home/simos/progs/lara/.planning/research/ARCHITECTURE.md": {
+    "size": 25250,
+    "mtime_ns": 1787078150978779729,
+    "hash": "e284ff5ce01895981a98e9f17b72b168c3893e8ab599fdad04bfab0e0dc4fb99"
+  },
+  "/home/simos/progs/lara/.planning/research/PITFALLS.md": {
+    "size": 38681,
+    "mtime_ns": 1787078533000577123,
+    "hash": "c6d474457934b1d22399f0d039c4d29510cc67735f4a7d06ba7fe750f896dc5c"
+  },
+  "/home/simos/progs/lara/.planning/research/STACK.md": {
+    "size": 24024,
+    "mtime_ns": 1787078663873126017,
+    "hash": "401de61183ba8338b0432d6a745782321b79dfab942ca2e097cdd5c5c84d448f"
+  },
+  "/home/simos/progs/lara/.planning/research/SUMMARY.md": {
+    "size": 21949,
+    "mtime_ns": 1787078785680548243,
+    "hash": "ad2def9335a43ec42aaf8d79f519611a02bc418592178a5b06bba2b39b58c60f"
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md": {
+    "size": 5564,
+    "mtime_ns": 1787083384579492707,
+    "hash": "dd6133e3f4e09b1adf46fdabd7663d7598592962715f8f23c1bd7aa463a1ff78"
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-DISCUSSION-LOG.md": {
+    "size": 2627,
+    "mtime_ns": 1787083395672076298,
+    "hash": "3c5fc0beaee0a20c9840a3f6d54b70c93048aa155dbd524d63af73578ac2d48a"
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md": {
+    "size": 65333,
+    "mtime_ns": 1787087217713772175,
+    "hash": "cfc2dc8b15625d7d37ce1da04da7ce8a00ffe121e7966b293972ebb0f902d6d3"
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-VALIDATION.md": {
+    "size": 3525,
+    "mtime_ns": 1787086220605280757,
+    "hash": "f28256478923ca832f04a2bb9db515c4c7cdae1c8c81c9499151d1e2d76362a1"
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-01-PLAN.md": {
+    "size": 16819,
+    "mtime_ns": 1787088642262195742,
+    "hash": "4b59b193bc588365d3c343a96181697d5fd3a4889be62a046367d6496a36884a"
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-02-PLAN.md": {
+    "size": 14743,
+    "mtime_ns": 1787088654114757114,
+    "hash": "0390f566b09af45c6ca5448c986bd2c3b0bf84e2c1eabe3879837422971a2872"
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-03-PLAN.md": {
+    "size": 12708,
+    "mtime_ns": 1787088663157422469,
+    "hash": "3ed6aa36429d1f9381686c5fe0e316ccdbb6c4bb6778923dbcf97e4444586919"
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-04-PLAN.md": {
+    "size": 11065,
+    "mtime_ns": 1787088612020314911,
+    "hash": "1f663b0fd96641b762f4bb05edb569d82f70f7d0b7a408231958e5efca544377"
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-01-SUMMARY.md": {
+    "size": 11201,
+    "mtime_ns": 1787121637218742487,
+    "hash": "f9578e58d3d3dc80280addcc0f2ea688b7cc6990b629d025226c025c4c478c27"
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-03-SUMMARY.md": {
+    "size": 10997,
+    "mtime_ns": 1787122979933784269,
+    "hash": "4a0430a1f75e8552413db0aca9cec4da52ea48dcafac7e2087b74e1c0d066676"
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-02-SUMMARY.md": {
+    "size": 12553,
+    "mtime_ns": 1787123277553075175,
+    "hash": "03d05d80d39d6902ddb67c9dc783f370c5559e85cda9bf964a7f40a8f0b42d17"
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-04-SUMMARY.md": {
+    "size": 9769,
+    "mtime_ns": 1787125511446831938,
+    "hash": "a1de2ec187c71534290ace99decc58b5f7fbce8f327c4dae42d5eea4c1e1b864"
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-VERIFICATION.md": {
+    "size": 19555,
+    "mtime_ns": 1787127076828409979,
+    "hash": "b1fbfd8dc2c7bdf7d20dec607e7ce5e3478aa1afcaa5ab8953d38790efdc4cfb"
+  },
+  "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-CONTEXT.md": {
+    "size": 6462,
+    "mtime_ns": 1787132839390372303,
+    "hash": "7a2de90aa610e8c421cd9e211eae92c960507970c35e4456d61711319e0c6695"
+  },
+  "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md": {
+    "size": 3054,
+    "mtime_ns": 1787132849496700700,
+    "hash": "a0fb042ebf1875b26a9b2c47a2c20aa07c2811da9a0627cbf35454ce6e8e79ee"
+  },
+  "/home/simos/progs/lara/.planning/baseline/README.md": {
+    "size": 4915,
+    "mtime_ns": 1787125463389411308,
+    "hash": "9208f5cd2dcd9e716fe93223f19288b06ef16224e4f59fd82d8f237a2a008a86"
+  },
+  "/home/simos/progs/lara/.planning/baseline/BASELINE.md": {
+    "size": 4404,
+    "mtime_ns": 1787125474831696273,
+    "hash": "5b053c42d3b24376aa21ec16892bfa5dc7cf15de5bf0a03a533d89d2ffae7c40"
+  }
+}

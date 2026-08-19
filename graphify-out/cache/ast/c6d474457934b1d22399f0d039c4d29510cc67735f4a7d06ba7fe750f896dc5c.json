@@ -1,0 +1,383 @@
+{
+  "nodes": [
+    {
+      "id": "home_simos_progs_lara_planning_research_pitfalls_md",
+      "label": "PITFALLS.md",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "research_pitfalls_pitfalls_research",
+      "label": "Pitfalls Research",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "research_pitfalls_critical_pitfalls",
+      "label": "Critical Pitfalls",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L7"
+    },
+    {
+      "id": "research_pitfalls_pitfall_1_chasing_a_gatsby_6_that_doesn_t_exist_or_installing_pre_release_canary_tags",
+      "label": "Pitfall 1: Chasing a \"Gatsby 6\" that doesn't exist (or installing pre-release canary tags)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "research_pitfalls_pitfall_2_upgrading_gatsby_core_alone_while_gatsby_plugins_stay_on_5_15",
+      "label": "Pitfall 2: Upgrading `gatsby` core alone while `gatsby-*` plugins stay on 5.15",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L30"
+    },
+    {
+      "id": "research_pitfalls_pitfall_3_works_locally_fails_on_netlify_stale_cache_build_cache_after_upgrade",
+      "label": "Pitfall 3: \"Works locally, fails on Netlify\" \u2014 stale `.cache`/build cache after upgrade",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L51"
+    },
+    {
+      "id": "research_pitfalls_pitfall_4_node_version_ambiguity_netlify_toml_node_version_10_vs_nvmrc_20_vs_local_node_24",
+      "label": "Pitfall 4: Node-version ambiguity \u2014 `netlify.toml` NODE_VERSION=10 vs `.nvmrc` 20 vs local Node 24",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L74"
+    },
+    {
+      "id": "research_pitfalls_pitfall_5_keeping_node_sass_through_the_upgrade_the_recurring_netlify_build_breaker",
+      "label": "Pitfall 5: Keeping `node-sass` through the upgrade \u2014 the recurring Netlify build breaker",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L98"
+    },
+    {
+      "id": "research_pitfalls_pitfall_6_bumping_react_to_19_and_silently_breaking_the_cms_admin_admin",
+      "label": "Pitfall 6: Bumping React to 19 and silently breaking the CMS admin (`/admin`)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L121"
+    },
+    {
+      "id": "research_pitfalls_pitfall_7_half_done_package_manager_consolidation_the_double_lockfile_disease",
+      "label": "Pitfall 7: Half-done package-manager consolidation \u2014 the double-lockfile disease",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L146"
+    },
+    {
+      "id": "research_pitfalls_pitfall_8_removing_mui_v4_and_regressing_the_contact_form_or_leaving_a_landmine_behind",
+      "label": "Pitfall 8: Removing MUI v4 and regressing the contact form (or leaving a landmine behind)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L169"
+    },
+    {
+      "id": "research_pitfalls_pitfall_9_gatsby_image_gatsby_plugin_image_migration_that_breaks_the_og_image_fix_and_layout_semantics",
+      "label": "Pitfall 9: gatsby-image \u2192 gatsby-plugin-image migration that breaks the og:image fix and layout semantics",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L195"
+    },
+    {
+      "id": "research_pitfalls_pitfall_10_moving_the_emailjs_key_to_an_env_var_and_shipping_a_silently_broken_form",
+      "label": "Pitfall 10: Moving the emailjs key to an env var and shipping a silently-broken form",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L224"
+    },
+    {
+      "id": "research_pitfalls_pitfall_11_big_bang_upgrade_with_zero_tests_and_no_regression_net",
+      "label": "Pitfall 11: Big-bang upgrade with zero tests and no regression net",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L251"
+    },
+    {
+      "id": "research_pitfalls_pitfall_12_removing_unused_dependencies_and_breaking_the_build_or_the_audit",
+      "label": "Pitfall 12: Removing \"unused\" dependencies and breaking the build (or the audit)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L275"
+    },
+    {
+      "id": "research_pitfalls_technical_debt_patterns",
+      "label": "Technical Debt Patterns",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L299"
+    },
+    {
+      "id": "research_pitfalls_integration_gotchas",
+      "label": "Integration Gotchas",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L313"
+    },
+    {
+      "id": "research_pitfalls_performance_traps",
+      "label": "Performance Traps",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L328"
+    },
+    {
+      "id": "research_pitfalls_security_mistakes",
+      "label": "Security Mistakes",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L341"
+    },
+    {
+      "id": "research_pitfalls_ux_pitfalls",
+      "label": "UX Pitfalls",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L352"
+    },
+    {
+      "id": "research_pitfalls_looks_done_but_isn_t_checklist",
+      "label": "\"Looks Done But Isn't\" Checklist",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L364"
+    },
+    {
+      "id": "research_pitfalls_recovery_strategies",
+      "label": "Recovery Strategies",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L377"
+    },
+    {
+      "id": "research_pitfalls_pitfall_to_phase_mapping",
+      "label": "Pitfall-to-Phase Mapping",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L390"
+    },
+    {
+      "id": "research_pitfalls_sources",
+      "label": "Sources",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L409"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_simos_progs_lara_planning_research_pitfalls_md",
+      "target": "research_pitfalls_pitfalls_research",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_pitfalls_research",
+      "target": "research_pitfalls_critical_pitfalls",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_critical_pitfalls",
+      "target": "research_pitfalls_pitfall_1_chasing_a_gatsby_6_that_doesn_t_exist_or_installing_pre_release_canary_tags",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_critical_pitfalls",
+      "target": "research_pitfalls_pitfall_2_upgrading_gatsby_core_alone_while_gatsby_plugins_stay_on_5_15",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_critical_pitfalls",
+      "target": "research_pitfalls_pitfall_3_works_locally_fails_on_netlify_stale_cache_build_cache_after_upgrade",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_critical_pitfalls",
+      "target": "research_pitfalls_pitfall_4_node_version_ambiguity_netlify_toml_node_version_10_vs_nvmrc_20_vs_local_node_24",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_critical_pitfalls",
+      "target": "research_pitfalls_pitfall_5_keeping_node_sass_through_the_upgrade_the_recurring_netlify_build_breaker",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_critical_pitfalls",
+      "target": "research_pitfalls_pitfall_6_bumping_react_to_19_and_silently_breaking_the_cms_admin_admin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_critical_pitfalls",
+      "target": "research_pitfalls_pitfall_7_half_done_package_manager_consolidation_the_double_lockfile_disease",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L146",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_critical_pitfalls",
+      "target": "research_pitfalls_pitfall_8_removing_mui_v4_and_regressing_the_contact_form_or_leaving_a_landmine_behind",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_critical_pitfalls",
+      "target": "research_pitfalls_pitfall_9_gatsby_image_gatsby_plugin_image_migration_that_breaks_the_og_image_fix_and_layout_semantics",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L195",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_critical_pitfalls",
+      "target": "research_pitfalls_pitfall_10_moving_the_emailjs_key_to_an_env_var_and_shipping_a_silently_broken_form",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L224",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_critical_pitfalls",
+      "target": "research_pitfalls_pitfall_11_big_bang_upgrade_with_zero_tests_and_no_regression_net",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L251",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_critical_pitfalls",
+      "target": "research_pitfalls_pitfall_12_removing_unused_dependencies_and_breaking_the_build_or_the_audit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L275",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_pitfalls_research",
+      "target": "research_pitfalls_technical_debt_patterns",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L299",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_pitfalls_research",
+      "target": "research_pitfalls_integration_gotchas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L313",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_pitfalls_research",
+      "target": "research_pitfalls_performance_traps",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L328",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_pitfalls_research",
+      "target": "research_pitfalls_security_mistakes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L341",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_pitfalls_research",
+      "target": "research_pitfalls_ux_pitfalls",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L352",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_pitfalls_research",
+      "target": "research_pitfalls_looks_done_but_isn_t_checklist",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L364",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_pitfalls_research",
+      "target": "research_pitfalls_recovery_strategies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L377",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_pitfalls_research",
+      "target": "research_pitfalls_pitfall_to_phase_mapping",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L390",
+      "weight": 1.0
+    },
+    {
+      "source": "research_pitfalls_pitfalls_research",
+      "target": "research_pitfalls_sources",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/PITFALLS.md",
+      "source_location": "L409",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

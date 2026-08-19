@@ -1,0 +1,1027 @@
+{
+  "/home/simos/progs/lara/gatsby-browser.js": {
+    "mtime": 1768589634.1639066,
+    "ast_hash": "e37c30bc58feaf00869e28f9e8bc7265",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/gatsby-config.js": {
+    "mtime": 1768590635.7028065,
+    "ast_hash": "29b5dee924b736dbfe9cd89949039dda",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/gatsby-node.js": {
+    "mtime": 1768589634.1639066,
+    "ast_hash": "2103879e45acf282ac5ff6e611398bc9",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/jest.config.js": {
+    "mtime": 1787120477.6850626,
+    "ast_hash": "4bc9106ee43db1c9350c5e420689fca0",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/jest-preprocess.js": {
+    "mtime": 1787120477.6853797,
+    "ast_hash": "603a9bf039a3c154b7fd2171b7e46a47",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/loadershim.js": {
+    "mtime": 1787120477.6857862,
+    "ast_hash": "c5a115ef831ff693f333d5eef26d4d6d",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/jest.setup.js": {
+    "mtime": 1787123171.2307422,
+    "ast_hash": "6ebe4c57d613bb89efe6bb67a89ab4f0",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/gatsby-node.test.js": {
+    "mtime": 1787123219.9719543,
+    "ast_hash": "c5b99c3c26fe8b436d58b113ae61598d",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/package.json": {
+    "mtime": 1787125921.031371,
+    "ast_hash": "bf221464d0c6c3f35c27b4b1c997bf89",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.vscode/settings.json": {
+    "mtime": 1768589634.1639066,
+    "ast_hash": "b200ec55c1997538e54d95b645c442ee",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/components/blog-list-home.js": {
+    "mtime": 1768589634.1653044,
+    "ast_hash": "c15cba809de38bc44a6569b20084184e",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/components/footer-links.js": {
+    "mtime": 1768589634.1654446,
+    "ast_hash": "e44bf79aaed5fdfd64e461b0ac2dae6a",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/components/footer.js": {
+    "mtime": 1768589634.1654446,
+    "ast_hash": "decc8d177447ba84331a8800fe32e40c",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/components/form-pulito.js": {
+    "mtime": 1768589634.1654446,
+    "ast_hash": "51057534934437d69b8c6d0dd648defb",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/components/formik.js": {
+    "mtime": 1768589634.1654446,
+    "ast_hash": "bfcfe3e0383a99ed8694697df1134a75",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/components/header.js": {
+    "mtime": 1768589634.1654446,
+    "ast_hash": "674ad8c65375dbc04ee581ec545ec26c",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/components/layout.js": {
+    "mtime": 1768589634.1654446,
+    "ast_hash": "7228976f5c5ea832f4444b765a0c7d2f",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/components/logo.js": {
+    "mtime": 1768589634.1654446,
+    "ast_hash": "dbad0fc57d6fe9f843a1ab1cc7597394",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/components/navigation.js": {
+    "mtime": 1768589634.1654446,
+    "ast_hash": "ca5888482b9b5952ed0ec2a006bbd72b",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/components/old-form.js": {
+    "mtime": 1768589634.1654446,
+    "ast_hash": "85ba21344dd93d5b84aaaaa405cb216d",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/components/post-card.js": {
+    "mtime": 1768589634.1654446,
+    "ast_hash": "2cd703b5051555c3c3538557029a7fc0",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/components/seo.js": {
+    "mtime": 1768589634.1654446,
+    "ast_hash": "283a40ac96ab805a42fb513cf7b8f913",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/components/top-contacts.js": {
+    "mtime": 1768589634.1654446,
+    "ast_hash": "fb2eaa55dda88581c88d572774911f5e",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/components/formik.test.js": {
+    "mtime": 1787121596.321674,
+    "ast_hash": "0415adebbca87647e75d63cb5a40de93",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/components/navigation.test.js": {
+    "mtime": 1787123141.4345162,
+    "ast_hash": "b3221f12593dd651c1a2f428b3234d90",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/pages/404.js": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "99d21b21566a2f2d6a18e93b56724461",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/pages/thanks.js": {
+    "mtime": 1768589634.166542,
+    "ast_hash": "2a24a0ec1f564b16ed97e5f136fa49f8",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/templates/blog-list.js": {
+    "mtime": 1768589634.166542,
+    "ast_hash": "989e9a00d516fe6267dc3aecc3ff3689",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/templates/blog-post.js": {
+    "mtime": 1768589634.1666324,
+    "ast_hash": "e67445b46ac2f23be32cbeb089c3db1c",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/templates/contatti.js": {
+    "mtime": 1768589634.1666324,
+    "ast_hash": "d15031230bb7fa78f5b05922c106ddf1",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/templates/index-page.js": {
+    "mtime": 1768589634.1666324,
+    "ast_hash": "3d093d16ef73f97a0ffa8ca3253ddd65",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/templates/laryart.js": {
+    "mtime": 1768589634.1666324,
+    "ast_hash": "dc3b8a87f5515f1a5f449bd931a8f23a",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/templates/privacy.js": {
+    "mtime": 1768589634.1666324,
+    "ast_hash": "c67ac28b396b6b5d2f78ec3110b81a83",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/templates/blog-list.test.js": {
+    "mtime": 1787123219.95862,
+    "ast_hash": "1765f44de169070ab75196bc11bdf4db",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/util/site.json": {
+    "mtime": 1768589634.1666324,
+    "ast_hash": "7bf5af3e10bab4ff1473ecaa99d9940b",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/manifest.json": {
+    "mtime": 1768589634.1888504,
+    "ast_hash": "b58fcfa7628c9205cb11a1b2c3e8f99a",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/config.json": {
+    "mtime": 1787133253.943959,
+    "ast_hash": "a0aae41907ac5bd3479cca749845c540",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/capture-baseline.js": {
+    "mtime": 1787122668.8959308,
+    "ast_hash": "8166e322011729fa9cd599e5263e10cb",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/median.js": {
+    "mtime": 1787125435.3853316,
+    "ast_hash": "d4df065ffa6fc141dd1f796c3c6268e9",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/lighthouse/home-1.json": {
+    "mtime": 1787123677.0440192,
+    "ast_hash": "a8f12ee86269dcce20fdf853ab60c38e",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/lighthouse/home-2.json": {
+    "mtime": 1787123838.6377213,
+    "ast_hash": "9c7eb8f28aa3664c345fc1c8aff3ec13",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/lighthouse/home-3.json": {
+    "mtime": 1787124000.4064136,
+    "ast_hash": "9854bbc21c076d6996d5db97777db767",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/lighthouse/blog-1.json": {
+    "mtime": 1787124346.296883,
+    "ast_hash": "d04d85cad0d15dd38c20432146944013",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/lighthouse/blog-2.json": {
+    "mtime": 1787124507.986759,
+    "ast_hash": "21ecae2f8ef46ec327b7efe0720afe3b",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/lighthouse/blog-3.json": {
+    "mtime": 1787124669.5934565,
+    "ast_hash": "dd84ccd40b956ab473d13e37fecc60ed",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/lighthouse/post-minnie-1.json": {
+    "mtime": 1787125014.2726464,
+    "ast_hash": "31fb74f4ce3af4f67fc249f75c185049",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/lighthouse/post-minnie-2.json": {
+    "mtime": 1787125175.6138613,
+    "ast_hash": "4d8ffb589a3f18ba5fddf38802e97a06",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/lighthouse/post-minnie-3.json": {
+    "mtime": 1787125336.996565,
+    "ast_hash": "38661f453e0b53d13c8ddf5806ffad64",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/psi/home-1.json": {
+    "mtime": 1787123680.475907,
+    "ast_hash": "8b27055be8cae0c7be41dfe3403727d0",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/psi/home-2.json": {
+    "mtime": 1787123842.0446095,
+    "ast_hash": "8b27055be8cae0c7be41dfe3403727d0",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/psi/home-3.json": {
+    "mtime": 1787124003.8243012,
+    "ast_hash": "8b27055be8cae0c7be41dfe3403727d0",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/psi/blog-1.json": {
+    "mtime": 1787124349.6559541,
+    "ast_hash": "8b27055be8cae0c7be41dfe3403727d0",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/psi/blog-2.json": {
+    "mtime": 1787124511.3746479,
+    "ast_hash": "8b27055be8cae0c7be41dfe3403727d0",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/psi/blog-3.json": {
+    "mtime": 1787124672.9563463,
+    "ast_hash": "8b27055be8cae0c7be41dfe3403727d0",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/psi/post-minnie-1.json": {
+    "mtime": 1787125017.7150393,
+    "ast_hash": "8b27055be8cae0c7be41dfe3403727d0",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/psi/post-minnie-2.json": {
+    "mtime": 1787125179.0547485,
+    "ast_hash": "8b27055be8cae0c7be41dfe3403727d0",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/psi/post-minnie-3.json": {
+    "mtime": 1787125340.439452,
+    "ast_hash": "8b27055be8cae0c7be41dfe3403727d0",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/__mocks__/file-mock.js": {
+    "mtime": 1787120479.9994264,
+    "ast_hash": "e84ca3b0784e4ad2b5b8a7bcc2984419",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/__mocks__/gatsby.js": {
+    "mtime": 1787120479.9994264,
+    "ast_hash": "8d6a08dc960abba930b582635f039b2c",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/README.md": {
+    "mtime": 1768589634.1639066,
+    "ast_hash": "4c522d3f7818f063691b68549b7bbd6e",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/pages/contatti.md": {
+    "mtime": 1768589634.1658077,
+    "ast_hash": "7f93d01fb566c68e8658ba872e19d8b6",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/pages/index.md": {
+    "mtime": 1768589634.1658595,
+    "ast_hash": "484ccab76d6329540b809c20fe2e9bee",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/pages/laryart.md": {
+    "mtime": 1768589634.1658595,
+    "ast_hash": "2a2a749f5d8fe1ec0fd385d4e238a1f8",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/pages/privacy.md": {
+    "mtime": 1768589634.1658595,
+    "ast_hash": "63493730b5059a0da50ab425692a6798",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2020-07-10-farfalla-blu.md": {
+    "mtime": 1768589634.1658595,
+    "ast_hash": "750aeb6c3d247b91d2040fa377735ed4",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2020-09-25-autunno.md": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "127a511cf10168b5d7190539a7dcc256",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2020-10-07-biglietto-di-auguri-con-motivo-floreale-e-farfalle-decoupage.md": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "2a9489644da72ed4d7f734007ddf45bc",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2020-10-15-dreams-decorazione-shabby.md": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "81fd0071daa46b7bd94ff5e424aeffaa",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2021-02-24-cheers-up.md": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "b5e6cb2a4170a60bc1fb90e40924eaa1",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2021-06-01-ape-tranquilla.md": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "37a2f1aadd6e45d91f0e0ebcf51ba9bf",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2021-06-01-farfalla-delicata.md": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "9a5f4c6a1659fd4d2bffb049a002ed28",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2021-10-05-trilly.md": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "3fc645af6c5755b794d6902c3c4017d8",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2021-10-16-principessa.md": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "093fd2f5f910e6be4dc0f33de5a2be64",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2021-10-20-ragazza-nella-tazza.md": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "bebf452db683a932cd60dc8c466cb70b",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2021-10-21-fiore-tratteggiato.md": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "cd3256e8ef9948ab9e063bf2dd617e32",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2021-11-07-bianconiglio.md": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "555f2f91b5dc825eb42a9171de98a8b5",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2024-08-15-farfalline.md": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "97206f5dd3442537bdf33f64ddb2d1ec",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2024-08-15-minnie.md": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "fe15138f71d3afc6701a7134ba203d0e",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2024-08-15-paperino.md": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "32315ba0f99143c5b962c9d02bc277e5",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2024-08-15-pluto-1.md": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "3a0c934c290ef10b3b2ca1a7ab54fbfa",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2024-08-15-pluto-2.md": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "af9b90ac2b1f58555aad5cc5d4f84fb8",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2024-08-15-topolino.md": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "76c1745b7c5a02fc433354af27b00e32",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/content/posts/2024-08-15-trilli-fatina-peter-pan.md": {
+    "mtime": 1768589634.1660163,
+    "ast_hash": "41c5e0ed56317d8e8d43caa93b1e05ac",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/admin/config.yml": {
+    "mtime": 1768589634.1668186,
+    "ast_hash": "348d2064df6e2490e94627a9c8fea1a4",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/PROJECT.md": {
+    "mtime": 1787127255.8555436,
+    "ast_hash": "e42635f45d92f9a7f93732af8cfd11c3",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/WINDOWS.md": {
+    "mtime": 1787122934.5682638,
+    "ast_hash": "aea0cc2046d542d552db84b1566a46f1",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/STATE.md": {
+    "mtime": 1787132855.7233696,
+    "ast_hash": "4ca6e8e733d7fbb6c355e06cee606112",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/ROADMAP.md": {
+    "mtime": 1787127190.4526591,
+    "ast_hash": "8cf33d2a420708d0b38b287819a40eda",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/REQUIREMENTS.md": {
+    "mtime": 1787125539.79844,
+    "ast_hash": "c6477d8e96ef284de4ea45ceab4b64d8",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/codebase/ARCHITECTURE.md": {
+    "mtime": 1787076657.9432523,
+    "ast_hash": "91c63d9be3eaaec69c7e083e39016c1e",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/codebase/STRUCTURE.md": {
+    "mtime": 1787076677.693508,
+    "ast_hash": "78c66d048205e84749895617c8a58dda",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/codebase/CONVENTIONS.md": {
+    "mtime": 1787076746.9518447,
+    "ast_hash": "1767518ba97bbba1084e504b6d1a1f30",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/codebase/TESTING.md": {
+    "mtime": 1787076764.6741624,
+    "ast_hash": "ae15b71fad3cedba8e9ac371cb924f93",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/codebase/STACK.md": {
+    "mtime": 1787076791.6081252,
+    "ast_hash": "d6cc0239b0d080dce10269807f7e0af2",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/codebase/INTEGRATIONS.md": {
+    "mtime": 1787076809.6334312,
+    "ast_hash": "fcfe1b84ca6d31b3bb9c410491e4967f",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/codebase/CONCERNS.md": {
+    "mtime": 1787076925.4099731,
+    "ast_hash": "306898bff503b537098306659e43de4d",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/research/FEATURES.md": {
+    "mtime": 1787078068.9945352,
+    "ast_hash": "782580e8d075382698344556a28b7fa7",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/research/ARCHITECTURE.md": {
+    "mtime": 1787078150.9787798,
+    "ast_hash": "aa22ff9c577d841dfcd2236cbbbc62d7",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/research/PITFALLS.md": {
+    "mtime": 1787078533.0005772,
+    "ast_hash": "2226da141e855a19f9a8b8d18344d953",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/research/STACK.md": {
+    "mtime": 1787078663.873126,
+    "ast_hash": "68781ec0096f6304c61cff6e43fdcd45",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/research/SUMMARY.md": {
+    "mtime": 1787078785.6805482,
+    "ast_hash": "ce02583a3dc331dd065936d3345c4c1d",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md": {
+    "mtime": 1787083384.5794928,
+    "ast_hash": "963ac74d7b85381ed85a88ae60850fda",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-DISCUSSION-LOG.md": {
+    "mtime": 1787083395.6720762,
+    "ast_hash": "2d06521761fc567e4c40b6b75af27646",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-RESEARCH.md": {
+    "mtime": 1787087217.713772,
+    "ast_hash": "f1c5f5d3325cd4ef6e95f38d69f0d4a5",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-VALIDATION.md": {
+    "mtime": 1787086220.6052809,
+    "ast_hash": "9f850e8671c5f247cd1959e64437a420",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-01-PLAN.md": {
+    "mtime": 1787088642.2621958,
+    "ast_hash": "a75fbb43730065edc8db3a01b0a4dc9b",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-02-PLAN.md": {
+    "mtime": 1787088654.114757,
+    "ast_hash": "cd6521204dfb2e9923d4d024de954ec4",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-03-PLAN.md": {
+    "mtime": 1787088663.1574225,
+    "ast_hash": "ec62f04e7363632e0c97f512ddd11232",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-04-PLAN.md": {
+    "mtime": 1787088612.020315,
+    "ast_hash": "c60a204bf37bc2f5e2f8b8c9f1ac8487",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-01-SUMMARY.md": {
+    "mtime": 1787121637.2187424,
+    "ast_hash": "aa1b4aa44efee4e15d78cef22781a4d6",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-03-SUMMARY.md": {
+    "mtime": 1787122979.9337842,
+    "ast_hash": "d5eaba233c4c30292de0ffbe9e7f83a8",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-02-SUMMARY.md": {
+    "mtime": 1787123277.553075,
+    "ast_hash": "fca6d5c4bf8c7f00ebe6b6a6cedc62dd",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-04-SUMMARY.md": {
+    "mtime": 1787125511.446832,
+    "ast_hash": "1752108959e6797ede92f715a6fa9ef1",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-VERIFICATION.md": {
+    "mtime": 1787127076.82841,
+    "ast_hash": "26e53db7e4c2122a3c694b6bbd4dd4fa",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-CONTEXT.md": {
+    "mtime": 1787132839.3903723,
+    "ast_hash": "7ebce23a644bfeebac9201b329acda14",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/phases/02-foundation-cleanup/02-DISCUSSION-LOG.md": {
+    "mtime": 1787132849.4967008,
+    "ast_hash": "306ad9a30b058c7e76158aa47a26eef4",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/README.md": {
+    "mtime": 1787125463.3894112,
+    "ast_hash": "16bbb460f0b85b8e0d50a160ffd91833",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/.planning/baseline/BASELINE.md": {
+    "mtime": 1787125474.8316963,
+    "ast_hash": "1e943dd54a6b647312777ec22b80b8a0",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/assets/img/logo-bianco-old.png": {
+    "mtime": 1768589634.1646187,
+    "ast_hash": "5dbb9a27daa453551a6a79f0a38c546f",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/assets/img/logo-bianco2.png": {
+    "mtime": 1768589634.164894,
+    "ast_hash": "da8ae4eb0b116ae92a5c42d52d3899af",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/assets/img/logo-rosa-old.png": {
+    "mtime": 1768589634.164894,
+    "ast_hash": "7759cd7d39db1c2dab82910c242cb17f",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/src/assets/img/logo-rosa.png": {
+    "mtime": 1768589634.164894,
+    "ast_hash": "15de0c686dd022910e750304bd3c1d87",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/android-icon-144x144.png": {
+    "mtime": 1768589634.1668186,
+    "ast_hash": "7e57715510fc0c32333534342f044713",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/android-icon-192x192.png": {
+    "mtime": 1768589634.1668186,
+    "ast_hash": "9284b465185fdfa5c6eca4a36393f82a",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/android-icon-36x36.png": {
+    "mtime": 1768589634.1668186,
+    "ast_hash": "84355439da46b2a3f9961d397f251959",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/android-icon-48x48.png": {
+    "mtime": 1768589634.1668186,
+    "ast_hash": "12b533d1af29d03b1e636a8c651017bd",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/android-icon-72x72.png": {
+    "mtime": 1768589634.1668186,
+    "ast_hash": "3c336a5ba75f0634f1972d256fa262bd",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/android-icon-96x96.png": {
+    "mtime": 1768589634.1668186,
+    "ast_hash": "39d7275536ec66751fe0c316e3da104b",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/apple-icon-114x114.png": {
+    "mtime": 1768589634.1668186,
+    "ast_hash": "feab15fc2d29626a8f2b0f480b193bc8",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/apple-icon-120x120.png": {
+    "mtime": 1768589634.1668186,
+    "ast_hash": "c846622e4d5f5b35394b5ac2db51dff6",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/apple-icon-144x144.png": {
+    "mtime": 1768589634.1668513,
+    "ast_hash": "7e57715510fc0c32333534342f044713",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/apple-icon-152x152.png": {
+    "mtime": 1768589634.1668513,
+    "ast_hash": "a2091bbefaa00bc2a5f7d56dbf9cf253",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/apple-icon-180x180.png": {
+    "mtime": 1768589634.1668513,
+    "ast_hash": "23266567e6b41b1bfc7f22a7e7afc490",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/apple-icon-57x57.png": {
+    "mtime": 1768589634.1668513,
+    "ast_hash": "ea3254536567da8b0291d70bb6e14612",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/apple-icon-60x60.png": {
+    "mtime": 1768589634.1668513,
+    "ast_hash": "2cae788d07e5898afb708d0253c8c129",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/apple-icon-72x72.png": {
+    "mtime": 1768589634.1668513,
+    "ast_hash": "3c336a5ba75f0634f1972d256fa262bd",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/apple-icon-76x76.png": {
+    "mtime": 1768589634.1668513,
+    "ast_hash": "cce0cb94194f3a0e03d2fc864a70c866",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/apple-icon-precomposed.png": {
+    "mtime": 1768589634.1668513,
+    "ast_hash": "79310a022cb695e6c2ce4a3885b9d7e2",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/apple-icon.png": {
+    "mtime": 1768589634.1668513,
+    "ast_hash": "79310a022cb695e6c2ce4a3885b9d7e2",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/favicon-16x16.png": {
+    "mtime": 1768589634.1888504,
+    "ast_hash": "3168ee549bcc81d4717617debc9c4b1f",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/favicon-32x32.png": {
+    "mtime": 1768589634.1888504,
+    "ast_hash": "45efa44308bc5d29ca4822e0e7c3242a",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/favicon-96x96.png": {
+    "mtime": 1768589634.1888504,
+    "ast_hash": "39d7275536ec66751fe0c316e3da104b",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/ms-icon-144x144.png": {
+    "mtime": 1768589634.1888504,
+    "ast_hash": "7e57715510fc0c32333534342f044713",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/ms-icon-150x150.png": {
+    "mtime": 1768589634.1888504,
+    "ast_hash": "5027e52451dcc6e4ec16a29cfaeb49e5",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/ms-icon-310x310.png": {
+    "mtime": 1768589634.1888504,
+    "ast_hash": "74e483d09afd1964d651dfb5f0f8d3ec",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/ms-icon-70x70.png": {
+    "mtime": 1768589634.1888504,
+    "ast_hash": "ed8712f1fc6e7e2ff33eb3d9e122c6c5",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/117107155_184877189923606_6658064415794651868_o.jpg": {
+    "mtime": 1768589634.1668513,
+    "ast_hash": "7f09edbc84df920ecf1a89932b34a4be",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/117177854_185186733225985_2988322128519957750_o.jpg": {
+    "mtime": 1768589634.1678512,
+    "ast_hash": "38e6a0b17f79adcba6052abbc3bbcc86",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/117232301_185467096531282_6240539029613690386_o.jpg": {
+    "mtime": 1768589634.1678512,
+    "ast_hash": "8969b4ef4493e8a2efccacf0a7fe5ce3",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/117291931_184665049944820_7330669199835145081_o.jpg": {
+    "mtime": 1768589634.1688511,
+    "ast_hash": "a3e040cdc7c7055c2f9fc04a4352487d",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/117362306_185104466567545_1420038913797485205_o.jpg": {
+    "mtime": 1768589634.1688511,
+    "ast_hash": "750bb9f1ac84613c283220b69d6ae6eb",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/117595019_185799496498042_6365930728950099261_o.jpg": {
+    "mtime": 1768589634.169851,
+    "ast_hash": "93ca4de79b19975975925837ecec0e2c",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/117612233_185872213157437_3190297141438055372_o.jpg": {
+    "mtime": 1768589634.169851,
+    "ast_hash": "e67699c01c406e13e78af3936099f93b",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/117705120_185525629858762_1723915722840563333_o.jpg": {
+    "mtime": 1768589634.1708512,
+    "ast_hash": "31c05e2b65cd2bdacee7b420329dee44",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/117904519_187274646350527_8294108948518089042_o.jpg": {
+    "mtime": 1768589634.1708512,
+    "ast_hash": "3ded719b47180a6ebeddf1d1f3ae5fae",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/118027586_188623179549007_2147019735638099899_o.jpg": {
+    "mtime": 1768589634.1708512,
+    "ast_hash": "d7f913ab5418f570664a142b87d7e5bc",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/118159694_189184742826184_1522779921319927737_o.jpg": {
+    "mtime": 1768589634.1718512,
+    "ast_hash": "2348eecf6b1393f51726a329bb5574d4",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/118250447_188982302846428_194999181570035224_o.jpg": {
+    "mtime": 1768589634.172851,
+    "ast_hash": "9b5c2b2f315e89443fc9bb6566519796",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/118468979_190914709319854_4895475731490927220_o.jpg": {
+    "mtime": 1768589634.172851,
+    "ast_hash": "4ea790477c6df769e3d400a1d23bad97",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/118567456_191698939241431_9061150908446432638_o.jpg": {
+    "mtime": 1768589634.173851,
+    "ast_hash": "9575354e927268ff9661d5ed42c19fd0",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/118636299_191853339225991_1097290154283927813_o.jpg": {
+    "mtime": 1768589634.173851,
+    "ast_hash": "f953c4c366947aa1a4bb70718d345af1",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/118651287_192725759138749_6910618097853237521_o.jpg": {
+    "mtime": 1768589634.174851,
+    "ast_hash": "5d2a385aeca7dcaf376015c69ee1de9b",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/118694056_193048112439847_1123507469020653113_o.jpg": {
+    "mtime": 1768589634.174851,
+    "ast_hash": "9350c7e9bcaca76bd2dbaaa60a64a89a",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/118769555_193986372346021_1566789384110943859_o.jpg": {
+    "mtime": 1768589634.174851,
+    "ast_hash": "95d113e5a391d3850b83f03eea360b7b",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/119088526_195955478815777_3620251198687126904_o.jpg": {
+    "mtime": 1768589634.1758509,
+    "ast_hash": "dbb6f4567768b3f4168d0d5ba4223ded",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/119108508_195719978839327_4915825060242674032_o.jpg": {
+    "mtime": 1768589634.1758509,
+    "ast_hash": "abd2a09ffc587a14336e9c1010d2b863",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/119179717_196616005416391_2131218312216785602_o.jpg": {
+    "mtime": 1768589634.1758509,
+    "ast_hash": "b4c2329109b749293cb790b7027aa126",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/119703872_198412521903406_657929684699755623_o.jpg": {
+    "mtime": 1768589634.1758509,
+    "ast_hash": "5a8f16f7313824fbaad00c08bfb2cdcf",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/119721396_198382335239758_5471359683765097344_o.jpg": {
+    "mtime": 1768589634.1758509,
+    "ast_hash": "b2c818a026cb857dc1702b61e97f874a",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/119949059_199674031777255_7519410097085473427_o.jpg": {
+    "mtime": 1768589634.1768508,
+    "ast_hash": "2019a611db4d440aa8551b4f415464fd",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/119975151_199701678441157_2588419316525362390_o.jpg": {
+    "mtime": 1768589634.1768508,
+    "ast_hash": "04093f0cefc747c2cd3fc8c9067a29ad",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/120189361_200697881674870_5823763106653631667_o.jpg": {
+    "mtime": 1768589634.1768508,
+    "ast_hash": "7a7b740d89bf9a6df33586d5e933966f",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/121612779_207053211039337_788722849717789532_o.jpg": {
+    "mtime": 1768589634.1778507,
+    "ast_hash": "b4adc73e553e1a0792856b01cb6dbf41",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/145230084_1814686922021099_3638453182825535880_n.jpg": {
+    "mtime": 1768589634.1778507,
+    "ast_hash": "1af8d8fa90c2c60549a4caa1820f312f",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/20200907_233102.jpg": {
+    "mtime": 1768589634.1778507,
+    "ast_hash": "119eeb37f6a93b4bb6fb3ba744a0082c",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/20200918_195728.jpg": {
+    "mtime": 1768589634.178851,
+    "ast_hash": "1e5b7144272dd2c1bdd18ced17b5e478",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/IMG_20200906_223238_974.jpg": {
+    "mtime": 1768589634.178851,
+    "ast_hash": "0d3aef43d523d742136c2bd43d1e41b6",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/bianconiglio.jpg": {
+    "mtime": 1768589634.1798508,
+    "ast_hash": "27355351f726efa06a7b80f6ab7fb879",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/farfalle.jpeg": {
+    "mtime": 1768589634.1798508,
+    "ast_hash": "1e062e11bd7cfed114bad6791bb86aff",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/farfalle.jpg": {
+    "mtime": 1768589634.1808507,
+    "ast_hash": "c1300deea2c93edf590728d903acc62b",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/fiore.jpg": {
+    "mtime": 1768589634.1808507,
+    "ast_hash": "216851a4287c548f3333912c6abfc917",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/heart.png": {
+    "mtime": 1768589634.1808507,
+    "ast_hash": "bd4dcef907b46f2f3bbe246cb496e36a",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/home-1.jpg": {
+    "mtime": 1768589634.1818507,
+    "ast_hash": "7434744280daa73e90c4010c24f845ae",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/home-2.jpg": {
+    "mtime": 1768589634.1818507,
+    "ast_hash": "585d621fb95c2b28f0100b504b950bd6",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/img_20200814_201009_839.jpg": {
+    "mtime": 1768589634.1818507,
+    "ast_hash": "29964eb0954502082a107ae9d0064790",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/minnie.jpeg": {
+    "mtime": 1768589634.1828506,
+    "ast_hash": "45396c7621bf73f34608dc016307c041",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/minnie.jpg": {
+    "mtime": 1768589634.1838505,
+    "ast_hash": "00e293e6a659560b0af056359b8b6adc",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/paperino.jpeg": {
+    "mtime": 1768589634.1838505,
+    "ast_hash": "f727517dcc2dd7b69976c62f06600721",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/paperino.jpg": {
+    "mtime": 1768589634.1848505,
+    "ast_hash": "2f5ebd9998fa39058461b6ffe19a9e3f",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/pluto-1.jpeg": {
+    "mtime": 1768589634.1848505,
+    "ast_hash": "9004deab4d5d69c462e209d52387b102",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/pluto-1.jpg": {
+    "mtime": 1768589634.1848505,
+    "ast_hash": "0cfa249b1a5470ee4e2cf26ec3a070af",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/pluto-2.jpeg": {
+    "mtime": 1768589634.1858506,
+    "ast_hash": "05bc3154cc53ec91730a314bff7260b0",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/pluto-2.jpg": {
+    "mtime": 1768589634.1858506,
+    "ast_hash": "cea77598d1f9849a8201458a19e3f2a7",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/principessa.jpg": {
+    "mtime": 1768589634.1858506,
+    "ast_hash": "da35abcae86c71ca45e64a65805f1cd2",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/ragazza-tazza.jpg": {
+    "mtime": 1768589634.1858506,
+    "ast_hash": "1147f7c6f2b09e0d33eaf9b1a06403d3",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/stackrole-spin-circle.png": {
+    "mtime": 1768589634.1858506,
+    "ast_hash": "bf91e482154905924625da2fde708f73",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/stackrole.png": {
+    "mtime": 1768589634.1858506,
+    "ast_hash": "6fdd19f947a4bc7c934842fa14b6d36d",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/tecnica-shabby.jpg": {
+    "mtime": 1768589634.1868505,
+    "ast_hash": "336957ade054dba98e6cc9955b7cc339",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/topolino.jpeg": {
+    "mtime": 1768589634.1868505,
+    "ast_hash": "e38e72293ad9c4d95b87e605f858a86c",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/topolino.jpg": {
+    "mtime": 1768589634.1868505,
+    "ast_hash": "fce73a93ca07579d677e95a028070240",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/trilli-2.jpeg": {
+    "mtime": 1768589634.1878505,
+    "ast_hash": "31dd200b5855661b2ab79de4628d1fc1",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/trilli-2.jpg": {
+    "mtime": 1768589634.1878505,
+    "ast_hash": "a8c90a4208118f91b09299cd0eed5a9f",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/trilli.jpeg": {
+    "mtime": 1768589634.1878505,
+    "ast_hash": "31dd200b5855661b2ab79de4628d1fc1",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/trilli.jpg": {
+    "mtime": 1768589634.1878505,
+    "ast_hash": "d9f33bfc5d241bb26f8e0b8235ba56a3",
+    "semantic_hash": ""
+  },
+  "/home/simos/progs/lara/static/assets/trilly.jpg": {
+    "mtime": 1768589634.1888504,
+    "ast_hash": "c86edb6dab88eb9c9ecae252860ce8dd",
+    "semantic_hash": ""
+  }
+}

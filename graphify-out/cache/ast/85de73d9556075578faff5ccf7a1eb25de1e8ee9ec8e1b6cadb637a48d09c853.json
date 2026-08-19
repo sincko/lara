@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "home_simos_progs_lara_src_content_pages_privacy_md",
+      "label": "privacy.md",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/src/content/pages/privacy.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_privacy_privacy_cookie_e_gdpr",
+      "label": "Privacy, Cookie e GDPR",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/src/content/pages/privacy.md",
+      "source_location": "L7"
+    },
+    {
+      "id": "pages_privacy_ulteriori_informazioni_informativa_estesa_ai_sensi_del_provv_n_229_2014",
+      "label": "Ulteriori informazioni Informativa estesa ai sensi del provv. n.229/2014",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/src/content/pages/privacy.md",
+      "source_location": "L11"
+    },
+    {
+      "id": "pages_privacy_altri_dati_che_raccoglie_matomo_sono_in_inglese",
+      "label": "Altri dati che raccoglie Matomo sono (in inglese):",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/src/content/pages/privacy.md",
+      "source_location": "L23"
+    },
+    {
+      "id": "pages_privacy_opt_out",
+      "label": "Opt out",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/src/content/pages/privacy.md",
+      "source_location": "L47"
+    },
+    {
+      "id": "pages_privacy_blocca_i_cookie_di_terze_parti",
+      "label": "Blocca i cookie di terze parti",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/src/content/pages/privacy.md",
+      "source_location": "L50"
+    },
+    {
+      "id": "pages_privacy_attiva_la_modalit\u00e0_di_navigazione_anonima",
+      "label": "Attiva la modalit\u00e0 di \"navigazione anonima\"",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/src/content/pages/privacy.md",
+      "source_location": "L113"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_simos_progs_lara_src_content_pages_privacy_md",
+      "target": "pages_privacy_privacy_cookie_e_gdpr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/src/content/pages/privacy.md",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_privacy_privacy_cookie_e_gdpr",
+      "target": "pages_privacy_ulteriori_informazioni_informativa_estesa_ai_sensi_del_provv_n_229_2014",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/src/content/pages/privacy.md",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_privacy_privacy_cookie_e_gdpr",
+      "target": "pages_privacy_altri_dati_che_raccoglie_matomo_sono_in_inglese",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/src/content/pages/privacy.md",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_privacy_altri_dati_che_raccoglie_matomo_sono_in_inglese",
+      "target": "pages_privacy_opt_out",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/src/content/pages/privacy.md",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_privacy_opt_out",
+      "target": "pages_privacy_blocca_i_cookie_di_terze_parti",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/src/content/pages/privacy.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_privacy_opt_out",
+      "target": "pages_privacy_attiva_la_modalit\u00e0_di_navigazione_anonima",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/src/content/pages/privacy.md",
+      "source_location": "L113",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

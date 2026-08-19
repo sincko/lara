@@ -1,0 +1,303 @@
+{
+  "nodes": [
+    {
+      "id": "home_simos_progs_lara_planning_phases_01_test_scaffolding_performance_baseline_01_context_md",
+      "label": "01-CONTEXT.md",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_context_phase_1_test_scaffolding_performance_baseline_context",
+      "label": "Phase 1: Test Scaffolding + Performance Baseline - Context",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_context_phase_boundary",
+      "label": "Phase Boundary",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L7"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_context_implementation_decisions",
+      "label": "Implementation Decisions",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_context_test_runner_setup",
+      "label": "Test Runner & Setup",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_context_test_scope_fndt_05",
+      "label": "Test Scope (FNDT-05)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L21"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_context_performance_baseline_fndt_06",
+      "label": "Performance Baseline (FNDT-06)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L31"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_context_test_organization",
+      "label": "Test Organization",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L35"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_context_the_agent_s_discretion",
+      "label": "the agent's Discretion",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L38"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_context_canonical_references",
+      "label": "Canonical References",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L44"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_context_phase_requirements",
+      "label": "Phase & Requirements",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L48"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_context_codebase_maps",
+      "label": "Codebase Maps",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L52"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_context_research",
+      "label": "Research",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L57"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_context_existing_code_insights",
+      "label": "Existing Code Insights",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L64"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_context_reusable_assets",
+      "label": "Reusable Assets",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L66"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_context_established_patterns",
+      "label": "Established Patterns",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L71"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_context_integration_points",
+      "label": "Integration Points",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L76"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_context_specific_ideas",
+      "label": "Specific Ideas",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L84"
+    },
+    {
+      "id": "01_test_scaffolding_performance_baseline_01_context_deferred_ideas",
+      "label": "Deferred Ideas",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L91"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_simos_progs_lara_planning_phases_01_test_scaffolding_performance_baseline_01_context_md",
+      "target": "01_test_scaffolding_performance_baseline_01_context_phase_1_test_scaffolding_performance_baseline_context",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_context_phase_1_test_scaffolding_performance_baseline_context",
+      "target": "01_test_scaffolding_performance_baseline_01_context_phase_boundary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_context_phase_1_test_scaffolding_performance_baseline_context",
+      "target": "01_test_scaffolding_performance_baseline_01_context_implementation_decisions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_context_implementation_decisions",
+      "target": "01_test_scaffolding_performance_baseline_01_context_test_runner_setup",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_context_implementation_decisions",
+      "target": "01_test_scaffolding_performance_baseline_01_context_test_scope_fndt_05",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_context_implementation_decisions",
+      "target": "01_test_scaffolding_performance_baseline_01_context_performance_baseline_fndt_06",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_context_implementation_decisions",
+      "target": "01_test_scaffolding_performance_baseline_01_context_test_organization",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_context_implementation_decisions",
+      "target": "01_test_scaffolding_performance_baseline_01_context_the_agent_s_discretion",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_context_phase_1_test_scaffolding_performance_baseline_context",
+      "target": "01_test_scaffolding_performance_baseline_01_context_canonical_references",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_context_canonical_references",
+      "target": "01_test_scaffolding_performance_baseline_01_context_phase_requirements",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_context_canonical_references",
+      "target": "01_test_scaffolding_performance_baseline_01_context_codebase_maps",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_context_canonical_references",
+      "target": "01_test_scaffolding_performance_baseline_01_context_research",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_context_phase_1_test_scaffolding_performance_baseline_context",
+      "target": "01_test_scaffolding_performance_baseline_01_context_existing_code_insights",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_context_existing_code_insights",
+      "target": "01_test_scaffolding_performance_baseline_01_context_reusable_assets",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_context_existing_code_insights",
+      "target": "01_test_scaffolding_performance_baseline_01_context_established_patterns",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_context_existing_code_insights",
+      "target": "01_test_scaffolding_performance_baseline_01_context_integration_points",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_context_phase_1_test_scaffolding_performance_baseline_context",
+      "target": "01_test_scaffolding_performance_baseline_01_context_specific_ideas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "01_test_scaffolding_performance_baseline_01_context_phase_1_test_scaffolding_performance_baseline_context",
+      "target": "01_test_scaffolding_performance_baseline_01_context_deferred_ideas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/phases/01-test-scaffolding-performance-baseline/01-CONTEXT.md",
+      "source_location": "L91",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

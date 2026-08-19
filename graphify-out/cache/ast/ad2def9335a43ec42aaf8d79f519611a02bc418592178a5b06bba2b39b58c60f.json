@@ -1,0 +1,383 @@
+{
+  "nodes": [
+    {
+      "id": "home_simos_progs_lara_planning_research_summary_md",
+      "label": "SUMMARY.md",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "research_summary_project_research_summary",
+      "label": "Project Research Summary",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "research_summary_executive_summary",
+      "label": "Executive Summary",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L8"
+    },
+    {
+      "id": "research_summary_key_findings",
+      "label": "Key Findings",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "research_summary_recommended_stack",
+      "label": "Recommended Stack",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L18"
+    },
+    {
+      "id": "research_summary_expected_features",
+      "label": "Expected Features",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L35"
+    },
+    {
+      "id": "research_summary_architecture_approach",
+      "label": "Architecture Approach",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L58"
+    },
+    {
+      "id": "research_summary_critical_pitfalls",
+      "label": "Critical Pitfalls",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L69"
+    },
+    {
+      "id": "research_summary_implications_for_roadmap",
+      "label": "Implications for Roadmap",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L82"
+    },
+    {
+      "id": "research_summary_phase_0_test_scaffolding_performance_baseline",
+      "label": "Phase 0: Test Scaffolding + Performance Baseline",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L86"
+    },
+    {
+      "id": "research_summary_phase_1_foundation_cleanup_config_reconciliation_dead_code_deps",
+      "label": "Phase 1: Foundation Cleanup (config reconciliation + dead code/deps)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L92"
+    },
+    {
+      "id": "research_summary_phase_2_core_dependency_upgrade_gatsby_5_16_1_dart_sass_cms_analytics_swap",
+      "label": "Phase 2: Core Dependency Upgrade (Gatsby 5.16.1 + dart-sass + CMS/analytics swap)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L98"
+    },
+    {
+      "id": "research_summary_phase_3_mui_removal_form_reliability_parallel_with_phase_4",
+      "label": "Phase 3: MUI Removal + Form Reliability (parallel with Phase 4)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L104"
+    },
+    {
+      "id": "research_summary_phase_4_image_pipeline_migration_seo_fixes_parallel_with_phase_3",
+      "label": "Phase 4: Image Pipeline Migration + SEO Fixes (parallel with Phase 3)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L110"
+    },
+    {
+      "id": "research_summary_phase_5_performance_optimization_asset_cleanup_final_verification",
+      "label": "Phase 5: Performance Optimization + Asset Cleanup + Final Verification",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L116"
+    },
+    {
+      "id": "research_summary_phase_6_defer_to_v2_react_19_decap_latest_head_api",
+      "label": "Phase 6 (defer to v2): React 19 + Decap Latest + Head API",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L122"
+    },
+    {
+      "id": "research_summary_phase_ordering_rationale",
+      "label": "Phase Ordering Rationale",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L127"
+    },
+    {
+      "id": "research_summary_research_flags",
+      "label": "Research Flags",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L135"
+    },
+    {
+      "id": "research_summary_confidence_assessment",
+      "label": "Confidence Assessment",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L147"
+    },
+    {
+      "id": "research_summary_gaps_to_address",
+      "label": "Gaps to Address",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L158"
+    },
+    {
+      "id": "research_summary_sources",
+      "label": "Sources",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L169"
+    },
+    {
+      "id": "research_summary_primary_high_confidence",
+      "label": "Primary (HIGH confidence)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L171"
+    },
+    {
+      "id": "research_summary_secondary_medium_confidence",
+      "label": "Secondary (MEDIUM confidence)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L180"
+    },
+    {
+      "id": "research_summary_tertiary_low_confidence",
+      "label": "Tertiary (LOW confidence)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L185"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_simos_progs_lara_planning_research_summary_md",
+      "target": "research_summary_project_research_summary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_project_research_summary",
+      "target": "research_summary_executive_summary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_project_research_summary",
+      "target": "research_summary_key_findings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_key_findings",
+      "target": "research_summary_recommended_stack",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_key_findings",
+      "target": "research_summary_expected_features",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_key_findings",
+      "target": "research_summary_architecture_approach",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_key_findings",
+      "target": "research_summary_critical_pitfalls",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_project_research_summary",
+      "target": "research_summary_implications_for_roadmap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_implications_for_roadmap",
+      "target": "research_summary_phase_0_test_scaffolding_performance_baseline",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_implications_for_roadmap",
+      "target": "research_summary_phase_1_foundation_cleanup_config_reconciliation_dead_code_deps",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_implications_for_roadmap",
+      "target": "research_summary_phase_2_core_dependency_upgrade_gatsby_5_16_1_dart_sass_cms_analytics_swap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_implications_for_roadmap",
+      "target": "research_summary_phase_3_mui_removal_form_reliability_parallel_with_phase_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_implications_for_roadmap",
+      "target": "research_summary_phase_4_image_pipeline_migration_seo_fixes_parallel_with_phase_3",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_implications_for_roadmap",
+      "target": "research_summary_phase_5_performance_optimization_asset_cleanup_final_verification",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_implications_for_roadmap",
+      "target": "research_summary_phase_6_defer_to_v2_react_19_decap_latest_head_api",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_implications_for_roadmap",
+      "target": "research_summary_phase_ordering_rationale",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_implications_for_roadmap",
+      "target": "research_summary_research_flags",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_project_research_summary",
+      "target": "research_summary_confidence_assessment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_confidence_assessment",
+      "target": "research_summary_gaps_to_address",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L158",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_project_research_summary",
+      "target": "research_summary_sources",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_sources",
+      "target": "research_summary_primary_high_confidence",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L171",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_sources",
+      "target": "research_summary_secondary_medium_confidence",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L180",
+      "weight": 1.0
+    },
+    {
+      "source": "research_summary_sources",
+      "target": "research_summary_tertiary_low_confidence",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/research/SUMMARY.md",
+      "source_location": "L185",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

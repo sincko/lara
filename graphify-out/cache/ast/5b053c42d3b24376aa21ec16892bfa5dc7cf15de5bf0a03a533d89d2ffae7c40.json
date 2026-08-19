@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "home_simos_progs_lara_planning_baseline_baseline_md",
+      "label": "BASELINE.md",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/BASELINE.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "baseline_baseline_performance_baseline_laryart_it_core_web_vitals",
+      "label": "Performance Baseline \u2014 laryart.it Core Web Vitals",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/BASELINE.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "baseline_baseline_baseline",
+      "label": "Baseline",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/BASELINE.md",
+      "source_location": "L8"
+    },
+    {
+      "id": "baseline_baseline_method",
+      "label": "Method",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/BASELINE.md",
+      "source_location": "L38"
+    },
+    {
+      "id": "baseline_baseline_capture_metadata",
+      "label": "Capture metadata",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/BASELINE.md",
+      "source_location": "L51"
+    },
+    {
+      "id": "baseline_baseline_url_set",
+      "label": "URL set",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/BASELINE.md",
+      "source_location": "L62"
+    },
+    {
+      "id": "baseline_baseline_re_run_phase_6_identical_recipe",
+      "label": "Re-run (Phase 6 identical recipe)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/BASELINE.md",
+      "source_location": "L73"
+    },
+    {
+      "id": "baseline_baseline_codeblock_1",
+      "label": "code:bash (node .planning/baseline/capture-baseline.js     # re-capture)",
+      "file_type": "document",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/BASELINE.md",
+      "source_location": "L75"
+    }
+  ],
+  "edges": [
+    {
+      "source": "home_simos_progs_lara_planning_baseline_baseline_md",
+      "target": "baseline_baseline_performance_baseline_laryart_it_core_web_vitals",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/BASELINE.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "baseline_baseline_performance_baseline_laryart_it_core_web_vitals",
+      "target": "baseline_baseline_baseline",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/BASELINE.md",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "baseline_baseline_performance_baseline_laryart_it_core_web_vitals",
+      "target": "baseline_baseline_method",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/BASELINE.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "baseline_baseline_performance_baseline_laryart_it_core_web_vitals",
+      "target": "baseline_baseline_capture_metadata",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/BASELINE.md",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "baseline_baseline_performance_baseline_laryart_it_core_web_vitals",
+      "target": "baseline_baseline_url_set",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/BASELINE.md",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "baseline_baseline_performance_baseline_laryart_it_core_web_vitals",
+      "target": "baseline_baseline_re_run_phase_6_identical_recipe",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/BASELINE.md",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "baseline_baseline_re_run_phase_6_identical_recipe",
+      "target": "baseline_baseline_codeblock_1",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/simos/progs/lara/.planning/baseline/BASELINE.md",
+      "source_location": "L75",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
