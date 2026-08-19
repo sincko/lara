@@ -429,22 +429,19 @@ Source: executed in this session.
 | A4 | Removing `acorn`'s direct devDep entry leaves the gatsby-required transitive acorn hoisted/available | Package table | Very low — `yarn why acorn` shows gatsby#webpack etc. depend on it; nested copy persists. Build verification covers any surprise. |
 | A5 | The README rewrite scope (Italian, accurate) has no user-provided content list beyond CONTEXT.md D-12 | Common Pitfalls | Medium — exact structure/wording is the agent's discretion; the site.json meta fields and content folders (verified: src/content/pages/{index,laryart,privacy,contatti}.md, 19 posts) give the factual basis. |
 
-## Open Questions
+## Open Questions (RESOLVED)
 
-1. **Is there a Node-version pin set in the Netlify UI for this site?**
+1. **Is there a Node-version pin set in the Netlify UI for this site?** — RESOLVED: post-deploy log check is the verification path; VALIDATION.md Manual-Only Verifications table includes "Netlify post-deploy Node version resolution" (after first deploy, check the build log line "Using Node.js version: v20.x"; if it diverges, set the UI pin to 20).
    - What we know: official docs give precedence "UI setting < env var < .nvmrc" — actually the docs state a `NODE_VERSION` env var, `.node-version`, or `.nvmrc` file overrides the UI setting; with the env var deleted, `.nvmrc` is the only remaining source.
    - What's unclear: whether the site's Netlify UI has a Node version selected that could diverge from 20 after the env var deletion.
-   - Recommendation: after the first deploy of Commit 2, check the deploy log line "Using Node.js version: v20.x" (Pitfall 4 warning sign). If it shows something else, set the UI pin to 20. Include this as a verification step in the plan.
 
-2. **Should the optional `package-lock.json` guard be added to the test script?**
+2. **Should the optional `package-lock.json` guard be added to the test script?** — RESOLVED: test script left untouched per discretion (Phase 1 contract — `jest --watch=false`); guard not added as a task; if desired later, add as a separate `check:lockfile` script or CI step.
    - What we know: Pitfall 7 recommends a guard; D-01..D-12 don't mandate one.
    - What's unclear: whether the user wants the test script extended (it's currently exactly `jest --watch=false`).
-   - Recommendation: leave the test script untouched (Phase 1 contract); if desired, add the guard as a separate `check:lockfile` script or CI step — flag for the planner as a discretion option, not a task.
 
-3. **netlify-cms-lib-widgets: remove or keep the direct devDep entry?**
+3. **netlify-cms-lib-widgets: remove or keep the direct devDep entry?** — RESOLVED: removed in Plan 02-02 task 3 (devDep group); transitive survival verified via post-removal `yarn why netlify-cms-lib-widgets 2>&1 | grep -q netlify-cms-app`.
    - What we know: removable per D-09 verification (netlify-cms-app keeps it transitive); NOT in the FNDT-04 requirement list.
    - What's unclear: whether removing it adds value beyond manifest cleanliness (it does — one fewer direct entry, no resolution change).
-   - Recommendation: remove it in the devDep group (3b); if the user prefers strict requirement-scope, it can stay harmlessly. Planner should note it as an optional line.
 
 ## Sources
 
