@@ -76,8 +76,8 @@ describe("FNDT-05: jest scaffold integrity", () => {
 })
 
 describe("FNDT-05: regression suites guard their own contracts", () => {
-  it("formik.test.js mocks emailjs-com before importing FormikContact and never leaks the key", () => {
-    const mockIndex = formikTest.indexOf('jest.mock("emailjs-com"')
+  it("formik.test.js mocks @emailjs/browser before importing FormikContact and never leaks the key", () => {
+    const mockIndex = formikTest.indexOf('jest.mock("@emailjs/browser"')
     const importIndex = formikTest.indexOf("import FormikContact")
     expect(mockIndex).toBeGreaterThan(-1)
     expect(importIndex).toBeGreaterThan(-1)
@@ -87,7 +87,7 @@ describe("FNDT-05: regression suites guard their own contracts", () => {
 
   it("formik.test.js keeps a passing (non-skipped) validation test", () => {
     expect(formikTest).toMatch(/it\("surfaces yup validation errors/)
-    expect(formikTest).toContain('toHaveClass("Mui-error")')
+    expect(formikTest).toContain('toHaveClass("error")')
   })
 
   it("blog-list.test.js declares all 5 mocks before the BlogIndex import", () => {

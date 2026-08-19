@@ -1,10 +1,11 @@
 import React from "react"
 import { Formik, Form, Field, useField } from "formik"
 import * as yup from "yup"
-import emailjs from "emailjs-com"
+import emailjs from "@emailjs/browser"
 
-//https://dashboard.emailjs.com/admin
-emailjs.init("user_06xz85hi92oABMZqCIUu7")
+if (process.env.GATSBY_EMAILJS_PUBLIC_KEY) {
+  emailjs.init({ publicKey: process.env.GATSBY_EMAILJS_PUBLIC_KEY })
+}
 
 const TextFieldConError = ({ placeholder, helperText, ...props }) => {
   const [field, meta] = useField(props)
@@ -38,7 +39,11 @@ const FormikContact = () => {
       }}
       onSubmit={(values, actions) => {
         emailjs
-          .sendForm("service_q3997uk", "template_m6tzcmm", "#contact_form")
+          .sendForm(
+            process.env.GATSBY_EMAILJS_SERVICE_ID,
+            process.env.GATSBY_EMAILJS_TEMPLATE_ID,
+            "#contact_form",
+          )
           .then(result => {
             console.log(result.text, result.status)
           })
