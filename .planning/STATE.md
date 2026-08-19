@@ -6,13 +6,13 @@ current_phase: 02
 current_phase_name: foundation-cleanup
 status: executing
 stopped_at: Phase 3 context gathered
-last_updated: "2026-08-19T13:19:25.146Z"
+last_updated: "2026-08-19T15:14:27.985Z"
 last_activity: 2026-08-19
 last_activity_desc: "Completed quick task 260819-l2v: Fix deprecated GraphQL sort syntax warnings in Gatsby build logs (sort: {order, fields: [frontmatter___date]} -> sort: {frontmatter: {date: DESC}}) in blog-list-home.js, blog-list.js, and the createPages query"
 progress:
   total_phases: 3
   completed_phases: 2
-  total_plans: 8
+  total_plans: 14
   completed_plans: 8
 ---
 
@@ -29,7 +29,7 @@ See: .planning/PROJECT.md (updated 2026-08-18)
 
 Phase: 02 (foundation-cleanup) — EXECUTING
 Plan: 1 of 4
-Status: Executing Phase 02
+Status: Ready to execute
 Last activity: 2026-08-19 — Completed quick task 260819-l2v: Fix deprecated GraphQL sort syntax warnings in Gatsby build logs (sort: {order, fields: [frontmatter___date]} -> sort: {frontmatter: {date: DESC}}) in blog-list-home.js, blog-list.js, and the createPages query
 
 Progress: [██████████] 100%
