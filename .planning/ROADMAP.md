@@ -151,9 +151,12 @@ Plans:
 
 - [ ] 05-02-PLAN.md — Remaining surfaces: index hero (DOMINANT_COLOR + eager), post-card + both list queries (width/height + center crop), then remove gatsby-image from package.json — IMAG-01, IMAG-02
 
-**Wave 3** *(blocked on 05-02; 05-03 and 05-04 share blog-list.js / build output)*
+**Wave 3** *(blocked on 05-02)*
 
 - [ ] 05-03-PLAN.md — SEO: lang="it" + hreflang removal + Seo string guard, Italian blog-list meta/pagination labels with test co-change, 404/thanks titles, privacy page markdown rebuild — IMAG-03, SEOS-01, SEOS-02, SEOS-03
+
+**Wave 4** *(blocked on 05-03)*
+
 - [ ] 05-04-PLAN.md — Phase-gate verification: full install/build/jest loop + rendered-source grep suite + held-out visual parity check (blocking human gate) + conditional absolute-fill banner CSS — all requirements
 ```
 
