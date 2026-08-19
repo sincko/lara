@@ -63,7 +63,7 @@ Plans:
   4. Every listed unused dependency is removed, each removal verified via `yarn why`; `yarn install` succeeds with no dangling references
   5. The site.json `ga` placeholder is gone and the README describes laryart.it accurately — no starter boilerplate remains
 
-**Plans**: 1/3 plans executed
+**Plans**: 2/3 plans executed
 
 ```
 Plans:
@@ -73,7 +73,7 @@ Plans:
 
 **Wave 2** *(blocked on Wave 1 / 02-01 completion; 02-02 and 02-03 run in parallel — zero file overlap)*
 
-- [ ] 02-02-PLAN.md — Node config (delete NODE_VERSION) + dead components (old-form.js, form-pulito.js) + dependency sweep (4 runtime + 5 devDep removals, prismjs/@testing-library/dom kept) — FNDT-02, FNDT-03, FNDT-04
+- [x] 02-02-PLAN.md — Node config (delete NODE_VERSION) + dead components (old-form.js, form-pulito.js) + dependency sweep (4 runtime + 5 devDep removals, prismjs/@testing-library/dom kept) — FNDT-02, FNDT-03, FNDT-04
 - [ ] 02-03-PLAN.md — Starter remnants: remove site.json ga placeholder, rewrite README in Italian for laryart.it — SEOS-04
 
 ```
@@ -148,7 +148,7 @@ Phases execute in numeric order; Phases 4 and 5 touch disjoint file sets and may
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Test Scaffolding + Performance Baseline | 4/4 | ✓ Complete | 2026-08-19 |
-| 2. Foundation Cleanup | 1/3 | In Progress|  |
+| 2. Foundation Cleanup | 2/3 | In Progress|  |
 | 3. Core Upgrade | TBD | Not started | - |
 | 4. MUI Removal + Form Reliability | TBD | Not started | - |
 | 5. Image Pipeline + SEO Fixes | TBD | Not started | - |
