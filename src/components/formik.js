@@ -38,7 +38,8 @@ const FormikContact = () => {
         messaggio: "",
       }}
       onSubmit={(values, actions) => {
-        emailjs
+        actions.setStatus({ sendError: false })
+        return emailjs
           .sendForm(
             process.env.GATSBY_EMAILJS_SERVICE_ID,
             process.env.GATSBY_EMAILJS_TEMPLATE_ID,
@@ -46,14 +47,14 @@ const FormikContact = () => {
           )
           .then(result => {
             console.log(result.text, result.status)
+            actions.resetForm()
+            document.location.assign("/thanks")
           })
           .catch(error => {
             console.log(error.text)
-            return
+            actions.setStatus({ sendError: true })
+            actions.setSubmitting(false)
           })
-        actions.resetForm()
-        actions.setSubmitting(false)
-        document.location.assign("/thanks")
       }}
       validationSchema={validationSchema}
     >
@@ -112,10 +113,19 @@ const FormikContact = () => {
             />
           </div>
           <div className="item text-align-right">
-            <button type="submit" className="submit">
+            <button
+              type="submit"
+              className="submit"
+              disabled={props.isSubmitting}
+            >
               Invia
             </button>
           </div>
+          {props.status && props.status.sendError && (
+            <p className="send-error" role="alert">
+              Si è verificato un errore nell'invio del messaggio. Riprova.
+            </p>
+          )}
         </Form>
       )}
     </Formik>
