@@ -139,7 +139,24 @@ Plans:
   4. Every page exposes a real Italian meta description — no hardcoded English starter text in the rendered source
   5. The privacy page renders as valid, clean content — no malformed HTML or broken fragments
 
-**Plans**: TBD
+**Plans**: 4 plans
+
+```
+Plans:
+**Wave 1**
+
+- [ ] 05-01-PLAN.md — Tracer: install gatsby-plugin-image@3.16.0 (research-corrected from D-01's non-existent 5.16.0), register in gatsby-config, remove tracedSVG; migrate blog-post surface end-to-end incl. getSrc og:image — IMAG-01, IMAG-02, IMAG-03
+
+**Wave 2** *(blocked on 05-01)*
+
+- [ ] 05-02-PLAN.md — Remaining surfaces: index hero (DOMINANT_COLOR + eager), post-card + both list queries (width/height + center crop), then remove gatsby-image from package.json — IMAG-01, IMAG-02
+
+**Wave 3** *(blocked on 05-02; 05-03 and 05-04 share blog-list.js / build output)*
+
+- [ ] 05-03-PLAN.md — SEO: lang="it" + hreflang removal + Seo string guard, Italian blog-list meta/pagination labels with test co-change, 404/thanks titles, privacy page markdown rebuild — IMAG-03, SEOS-01, SEOS-02, SEOS-03
+- [ ] 05-04-PLAN.md — Phase-gate verification: full install/build/jest loop + rendered-source grep suite + held-out visual parity check (blocking human gate) + conditional absolute-fill banner CSS — all requirements
+```
+
 **UI hint**: yes
 
 ### Phase 6: Performance + Asset Cleanup + Final Verification
