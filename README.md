@@ -13,7 +13,7 @@ Sito personale di Lara, che realizza decoupage originali e oggetti d'arte fatti 
 - [Gatsby](https://www.gatsbyjs.com/) 5.15 — generatore di siti statici
 - [React](https://react.dev/) 18
 - [Netlify CMS](https://www.netlifycms.org/) — gestione dei contenuti su `/admin/`
-- node-sass — compilazione SCSS
+- [Sass](https://sass-lang.com/) (dart-sass) — compilazione SCSS
 - Formik + yup — modulo di contatto
 - [Matomo](https://matomo.org/) — statistiche di visita
 - Node.js 20 (`.nvmrc`) e yarn 1.22.22 (`packageManager` in `package.json`)
