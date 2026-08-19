@@ -14,20 +14,20 @@ This phase upgrades the core stack in lockstep: Gatsby 5.15.0 → 5.16.1 (latest
 ## Implementation Decisions
 
 ### Gatsby Lockstep Upgrade (UPGR-01)
-- **D-01:** Gatsby core and ALL gatsby-* plugins upgrade to the exact 5.16.x matrix in ONE commit — no partial bumps. The 5.16.1 matrix is: gatsby 5.16.1, gatsby-plugin-manifest 5.16.1, gatsby-plugin-offline 6.16.1, gatsby-plugin-react-helmet 6.16.1, gatsby-plugin-sass 6.16.1, gatsby-plugin-sharp 5.16.1, gatsby-plugin-sitemap 6.16.1, gatsby-remark-images 7.16.1, gatsby-remark-prismjs 7.16.1, gatsby-remark-responsive-iframe 6.16.1, gatsby-source-filesystem 5.16.1, gatsby-transformer-remark 6.16.1, gatsby-transformer-sharp 5.16.1. **Reversibility:** reversible — git revert restores the 5.15.0 matrix
+- **D-01:** Gatsby core and ALL gatsby-* plugins upgrade to the exact 5.16.x matrix in ONE commit — no partial bumps. **Registry-verified matrix (research correction):** `gatsby@5.16.1` exists, but no gatsby-* plugin ships a `.16.1` patch — all plugins top out at `.16.0`. The correct lockstep matrix is: gatsby 5.16.1, gatsby-plugin-manifest 5.16.0, gatsby-plugin-offline 6.16.0, gatsby-plugin-react-helmet 6.16.0, gatsby-plugin-sass 6.16.0, gatsby-plugin-sharp 5.16.0, gatsby-plugin-sitemap 6.16.0, gatsby-remark-images 7.16.0, gatsby-remark-prismjs 7.16.0, gatsby-remark-responsive-iframe 6.16.0, gatsby-source-filesystem 5.16.0, gatsby-transformer-remark 6.16.0, gatsby-transformer-sharp 5.16.0. **Reversibility:** reversible — git revert restores the 5.15.0 matrix
 - **D-02:** `gatsby-image` (legacy, ^3.11.0) stays untouched in this phase — the gatsby-plugin-image migration is Phase 5 (IMAG-01). The legacy `Img`/`fluid` usage must keep working after the core bump.
 - **D-03:** The upgrade commit must be verified with `gatsby clean && yarn build && yarn test` green under Node 20 before anything else in the phase proceeds.
 
 ### dart-sass Replacement (UPGR-02)
 - **D-04:** Replace `node-sass` ^9.0.0 with `sass` ^1.30.0 (dart-sass) — the peer dependency gatsby-plugin-sass 6.16.1 expects. No gatsby-config.js change needed (gatsby-plugin-sass auto-detects the implementation). **Reversibility:** reversible
 - **D-05:** After the swap, the Phase 2 node-sass hygiene guards become dead weight: remove `scripts/clean-node-sass-vendor.js` and the `postinstall` script entry from package.json. Keep `scripts/check-node-version.js` + `preinstall`/`prebuild`/`predevelop` + `engines` + `.yarnrc` engine-strict (Node enforcement stays). **Reversibility:** reversible
-- **D-06:** Verify the SCSS compiles identically — the repo uses only local `@import`s, but `_theme-variables.scss` has a nested `@import url(...)` (Google Fonts) inside `:root` that dart-sass may warn about. If dart-sass errors on it, hoist the `@import` to the top of `style.scss` (minimal fix, no font strategy change — self-hosting is Phase 6 PERF-01). **Reversibility:** reversible
+- **D-06:** **Font hoist is MANDATORY (research-verified, not conditional).** dart-sass does NOT error on the nested `@import url(...)` (Google Fonts) inside `:root` in `_theme-variables.scss` — it passes it through in place, producing invalid CSS where browsers silently drop the font import (node-sass hoisted it; dart-sass does not). The build stays green either way, so this is a silent-regression trap. The plan MUST hoist the `@import` to the top of `style.scss` as part of the dart-sass swap. No font strategy change — self-hosting is Phase 6 PERF-01. **Reversibility:** reversible
 - **D-07:** **Node 24 bump (owner decision, supersedes Phase 2 D-05).** After dart-sass replaces node-sass, the native-binding constraint is gone — bump Node from 20 to 24 (LTS): update `.nvmrc` to `24`, `engines.node` to `"24.x"`, and verify `nvm use 24 && yarn install && yarn build && yarn test` green. This aligns the enforced version with the owner's local dev environment (nvm default `lts/*` = Node 24). **Reversibility:** reversible — revert `.nvmrc`/`engines` and re-run the loop under Node 20
 - **D-07b:** The Node 24 bump is a separate commit from the dart-sass swap, and it must come AFTER the full 5.16.1 + dart-sass matrix is verified green under Node 20 — never in the same commit as the dependency changes.
 
 ### Decap CMS Swap (UPGR-03)
 - **D-08:** Replace `netlify-cms-app` ^2.15.72 + `gatsby-plugin-netlify-cms` 6.22.0 with `decap-cms-app` 3.6.4 + `gatsby-plugin-decap-cms` 4.0.4. `static/admin/config.yml` is compatible as-is (Decap is the maintained fork). **Reversibility:** reversible
-- **D-09:** `gatsby-plugin-netlify-cms-paths` ^1.3.0 is a netlify-cms-specific path-rewrite plugin — verify whether it works with the Decap plugin; if it breaks or is redundant, remove it and its `resolve` entry in gatsby-config.js (the media_folder/public_folder mapping in config.yml already handles asset paths). **Reversibility:** reversible
+- **D-09:** `gatsby-plugin-netlify-cms-paths` ^1.3.0 — **KEEP (research-verified):** it is CMS-agnostic (no netlify-cms imports) and actively processes the inline image in `laryart.md` (verified in built output). It works with the Decap plugin. Revisit in Phase 5 (image pipeline). **Reversibility:** reversible
 - **D-10:** The CMS config still declares `branch: master` while the repo's default branch is `main` — fix the branch reference in `static/admin/config.yml` so CMS saves land on the right branch. **Reversibility:** reversible
 - **D-11:** Local CMS editing: `local_backend: true` requires `npx netlify-cms-proxy-server` — with Decap the equivalent is `npx decap-server`. Update the README dev instructions accordingly.
 
@@ -45,7 +45,7 @@ This phase upgrades the core stack in lockstep: Gatsby 5.15.0 → 5.16.1 (latest
 - Exact ordering of the upgrade commits (lockstep bump first, then each tooling swap as its own verified commit; Node 24 bump last per D-07b)
 - Whether the Decap swap and sitemap removal share a commit or stay separate
 - Exact `_paq` snippet structure (standard Matomo tracking code, vendored)
-- Whether to keep or remove `gatsby-plugin-netlify-cms-paths` (D-09 gives the decision rule: remove if broken/redundant with Decap)
+- sass version pin style (caret vs exact — follow D-04 as written)
 
 </decisions>
 
@@ -69,8 +69,9 @@ This phase upgrades the core stack in lockstep: Gatsby 5.15.0 → 5.16.1 (latest
 - `.planning/codebase/CONVENTIONS.md` — Code style for any files touched
 
 ### Research
+- `.planning/phases/03-core-upgrade/03-RESEARCH.md` — Registry-verified version matrix (plugins top out at .16.0), dart-sass nested-@import silent regression (D-06 mandatory hoist), Node 24 support evidence, Decap compatibility, netlify-cms-paths KEEP verdict
 - `.planning/research/SUMMARY.md` — Pitfall 11 (big-bang upgrade with zero tests — jest net now exists), upgrade sequencing guidance
-- `.planning/research/STACK.md` — Node 22 recommendation (still deferred per D-07)
+- `.planning/research/STACK.md` — Node version recommendation (superseded by D-07: Node 24)
 
 </canonical_refs>
 
