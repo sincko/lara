@@ -56,17 +56,12 @@
     "@testing-library/dom": "^10.0.0",
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "16.3.2",
-    "acorn": "^8.8.0",
     "babel-jest": "29.7.0",
     "babel-preset-gatsby": "3.16.0",
     "identity-obj-proxy": "3.0.0",
     "jest": "29.7.0",
     "jest-environment-jsdom": "29.7.0",
-    "netlify-cms-lib-widgets": "^1.8.1",
-    "prettier": "^3.8.0",
-    "react-refresh": "0.18.0",
-    "redux": "^5.0.1",
-    "typescript": "^5.9.3"
+    "prettier": "^3.8.0"
   },
   "packageManager": "yarn@1.22.22"
 }
