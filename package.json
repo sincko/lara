@@ -12,6 +12,9 @@
     "url": "https://github.com/stackrole/gatsby-starter-foundation/issues"
   },
   "scripts": {
+    "preinstall": "node scripts/check-node-version.js",
+    "prebuild": "node scripts/check-node-version.js",
+    "predevelop": "node scripts/check-node-version.js",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -63,5 +66,8 @@
     "jest-environment-jsdom": "29.7.0",
     "prettier": "^3.8.0"
   },
-  "packageManager": "yarn@1.22.22"
+  "packageManager": "yarn@1.22.22",
+  "engines": {
+    "node": "20.x"
+  }
 }
