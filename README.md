@@ -10,12 +10,12 @@ Sito personale di Lara, che realizza decoupage originali e oggetti d'arte fatti 
 
 ## Stack tecnologico
 
-- [Gatsby](https://www.gatsbyjs.com/) 5.15 — generatore di siti statici
+- [Gatsby](https://www.gatsbyjs.com/) 5.16 — generatore di siti statici
 - [React](https://react.dev/) 18
 - [Decap CMS](https://decapcms.org/) — gestione dei contenuti su `/admin/` (fork mantenuto di Netlify CMS)
 - [Sass](https://sass-lang.com/) (dart-sass) — compilazione SCSS
 - Formik + yup — modulo di contatto
-- [Matomo](https://matomo.org/) — statistiche di visita
+- [Google Analytics 4](https://analytics.google.com/) — statistiche di visita
 - Node.js 24 (`.nvmrc`) e yarn 1.22.22 (`packageManager` in `package.json`)
 
 ## Sviluppo locale

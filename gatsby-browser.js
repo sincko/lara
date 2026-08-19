@@ -1,44 +1,45 @@
-const MATOMO_URL = "https://matomo.duckdns.org"
-const MATOMO_SITE_ID = "4"
+const GA_MEASUREMENT_ID = "G-JFNK4HVQCC"
 
 // Module scope runs once per page load — guard for SSR/build (no window in Node)
 if (typeof window !== "undefined") {
-  window._paq = window._paq || []
-  window._paq.push(["disableCookies"]) // cookie-less tracking (D-12)
-  window._paq.push(["setTrackerUrl", `${MATOMO_URL}/matomo.php`])
-  window._paq.push(["setSiteId", MATOMO_SITE_ID])
-  window._paq.push(["enableHeartBeatTimer"])
+  window.dataLayer = window.dataLayer || []
+  window.gtag = function gtag() {
+    window.dataLayer.push(arguments)
+  }
+  window.gtag("js", new Date())
+  window.gtag("config", GA_MEASUREMENT_ID, { anonymize_ip: true })
 
   const d = document
   const g = d.createElement("script")
   const s = d.getElementsByTagName("script")[0]
   g.type = "text/javascript"
   g.async = true
-  g.defer = true
-  g.src = `${MATOMO_URL}/matomo.js`
+  g.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`
   s.parentNode.insertBefore(g, s)
 }
 
 export const onRouteUpdate = ({ location, prevLocation }) => {
-  if (typeof window === "undefined" || !window._paq) return
+  if (typeof window === "undefined" || !window.gtag) return
   const url = location.pathname + location.search + location.hash
   const prevUrl = prevLocation
     ? prevLocation.pathname + prevLocation.search + prevLocation.hash
     : null
   // document.title workaround (react-helmet updates title after route change)
   setTimeout(() => {
-    if (prevUrl) window._paq.push(["setReferrerUrl", prevUrl])
-    window._paq.push(["setCustomUrl", url])
-    window._paq.push(["setDocumentTitle", document.title])
-    window._paq.push(["trackPageView"])
-    window._paq.push(["enableLinkTracking"])
+    if (prevUrl) {
+      window.gtag("config", GA_MEASUREMENT_ID, { page_referrer: prevUrl })
+    }
+    window.gtag("config", GA_MEASUREMENT_ID, {
+      page_path: url,
+      page_title: document.title,
+    })
   }, 32)
 }
 
 export const onServiceWorkerUpdateReady = () => {
   const answer = window.confirm(
     `This application has been updated. ` +
-      `Reload to display the latest version?`,
+      `Reload to display the latest version?`
   )
 
   if (answer === true) {

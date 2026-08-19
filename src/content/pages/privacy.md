@@ -6,21 +6,21 @@ title: Privacy Policy
 
 # Privacy, Cookie e GDPR
 
-Il software Matomo è installato sui miei server e nessun dato è fornito a servizi di tracciamento esterni.
+Questo sito utilizza Google Analytics 4 (GA4) per raccogliere statistiche di visita anonime. I dati sono trattati da Google LLC (servizio di tracciamento esterno) secondo la sua informativa sulla privacy.
 
 ## Ulteriori informazioni Informativa estesa ai sensi del provv. n.229/2014
 
-Garante Privacy e ss. mm. ii, in G.U. 3 giugno 2014. (provvedimento 229 dell’8 maggio 2014)
+Garante Privacy e ss. mm. ii, in G.U. 3 giugno 2014. (provvedimento 229 dell'8 maggio 2014)
 
 Il Garante della Privacy ha recepito una direttiva europea che impone agli amministratori delle pagine web di mostrare ai visitatori un banner che li informa di quale sia lo politica dei cookie del sito che stanno consultando e di subordinare la sua accettazione al proseguimento della navigazione.
 
-Matomo è stato impostato su laryart.it ed è ospitato su un mio server situato nell'Unione Europea e non utilizza cookie di terze parti.
+Google Analytics è stato impostato su laryart.it con l'anonimizzazione degli indirizzi IP (anonymize_ip) e non utilizza cookie di terze parti.
 
-I dati che raccolgo su tale server servono per raccogliere informazioni sugli utenti come, ad esempio, quelle relative al tipo di browser utilizzato, le pagine web visitate e altre informazioni utili ad analizzare i post.
+I dati raccolti servono per raccogliere informazioni sugli utenti come, ad esempio, quelle relative al tipo di browser utilizzato, le pagine web visitate e altre informazioni utili ad analizzare i post.
 
-Matromo è stato impostato con il parametro per l'anonimizzazione degli IP quindi quello che registra è un indirizzo ip nella forma 192.xxx.xxx.xxx con gli ultimi tre blocchi dell'indirizzo ip anonimizzati.
+Google Analytics è stato impostato con il parametro per l'anonimizzazione degli IP quindi quello che registra è un indirizzo ip nella forma 192.xxx.xxx.xxx con gli ultimi tre blocchi dell'indirizzo ip anonimizzati.
 
-## Altri dati che raccoglie Matomo sono (in inglese): 
+## Altri dati che raccoglie Google Analytics sono (in inglese): 
 
 Date and time of the request Title of the page being viewed (Page Title)
 
@@ -127,13 +127,13 @@ Elimina direttamente i cookie Ci sono apposite funzioni per farlo in tutti i bro
 
 Volendo, alcuni browser offrono dei sistemi automatizzati per la cancellazione periodica dei cookie.
 
-Maggiori informazioni sulla privacy che garantisce Matomo all'indirizzo
+Maggiori informazioni sulla privacy che garantisce Google all'indirizzo
         <a
-          href="https://matomo.org/privacy/"
+          href="https://policies.google.com/privacy"
           target="_blank"
           rel="noopener noreferrer"
         >
-          https://matomo.org/privacy/
+          https://policies.google.com/privacy
         </a>
 
 Altre informazioni sui cookie
