@@ -5,15 +5,15 @@ milestone_name: Updates, Debugging and Refinements
 current_phase: 5
 current_phase_name: Image Pipeline + SEO Fixes
 status: executing
-stopped_at: Completed 05-04-PLAN.md
-last_updated: "2026-08-20T09:41:57.926Z"
+stopped_at: Completed 05-05-PLAN.md
+last_updated: "2026-08-20T15:02:47.559Z"
 last_activity: 2026-08-20
 last_activity_desc: Phase 5 execution started
 progress:
   total_phases: 5
   completed_phases: 5
-  total_plans: 22
-  completed_plans: 22
+  total_plans: 23
+  completed_plans: 23
 ---
 
 # Project State
@@ -28,7 +28,7 @@ See: .planning/PROJECT.md (updated 2026-08-18)
 ## Current Position
 
 Phase: 5 (Image Pipeline + SEO Fixes) — EXECUTING
-Plan: 2 of 4
+Plan: 3 of 4
 Status: Ready to execute
 Last activity: 2026-08-20 — Phase 5 execution started
 
@@ -69,6 +69,7 @@ _Updated after each plan completion_
 | Phase 02 P02                                          | 5min     | 3 tasks | 5 files  |
 | Phase 02 P03                                          | 4min     | 2 tasks | 2 files  |
 | Phase 05-image-pipeline-seo-fixes P04 | 65 min | 3 tasks | 3 files |
+| Phase 05-image-pipeline-seo-fixes P05 | 9 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -86,6 +87,8 @@ Recent decisions affecting current work:
 - [Phase 01-test-scaffolding-performance-baseline]: Chrome headless flags (--headless=new --no-sandbox --disable-dev-shm-usage) required in this environment — Lighthouse fails NO_FCP without them — Chrome headless flags (--headless=new --no-sandbox --disable-dev-shm-usage) required in this environment — Lighthouse fails NO_FCP without them
 - [Phase 01-test-scaffolding-performance-baseline]: LH 13.4.1 navigation runs exclude interaction-to-next-paint (timespan-only audit) — INP n/a for static pages; Phase 6 comparison must account for it — LH 13.4.1 navigation runs exclude interaction-to-next-paint (timespan-only audit) — INP n/a for static pages; Phase 6 comparison must account for it
 - [Phase 01-test-scaffolding-performance-baseline]: PSI source: psi-fallback accepted (pre-resolved by orchestrator; PSI_API_KEY absent) — PSI v5 quota 429 on all 9 runs, retry/backoff exhausted, lighthouse-fallback markers recorded per run; baseline completeness unaffected — median.js: lighthouse-fallback markers are provenance-only and never count toward runs_used — psi rows print n/a with a WARN instead of empty cells implying PSI data
+- [Phase 05-image-pipeline-seo-fixes]: G-05-1a (privacy external links target=_blank) accepted as unresolved by explicit user decision at the blocking-human package checkpoint: plugin gatsby-remark-external-links declined, privacy links left as-is, UAT gap marked rejected — User: don't insert the plugin and leave that links as they are now
+- [Phase 05-image-pipeline-seo-fixes]: Task 4 verify gate ! grep -q display:grid is blind-green-impossible site-wide (pre-existing .grids utility always emits display:grid); gate intent verified scoped to .pagination rules (0 matches) — gate correction only removes a false negative
 
 ### Pending Todos
 
@@ -114,6 +117,6 @@ Items acknowledged and carried forward from previous milestone close:
 
 ## Session Continuity
 
-Last session: 2026-08-20T09:41:57.917Z
-Stopped at: Completed 05-04-PLAN.md
+Last session: 2026-08-20T15:02:47.367Z
+Stopped at: Completed 05-05-PLAN.md
 Resume file: None

@@ -40,8 +40,8 @@ blocked: 0
 
 - gap_id: G-05-1a
   truth: "All 8 external privacy links open in a new tab (target=_blank)"
-  status: failed
-  reason: "User reported: https://policies.google.com/privacy, https://www.cookiechoices.org/, http://www.garanteprivacy.it/cookie don't open in target=_blank"
+  status: rejected
+  reason: "User declined fix at package checkpoint — links left as-is (no plugin install)"
   severity: major
   test: 1
   root_cause: "REVISED (2026-08-20): remark-gfm autolink: bare URL text between raw <a> tags is auto-wrapped in a nested <a href> WITHOUT target/_blank — the 3 links whose link text is a bare URL (policies.google.com, cookiechoices.org, garanteprivacy.it) render as <a target=_blank><a href=url>url</a></a>, and browsers honor the inner anchor (no target). The 5 named-text links (Firefox, Chrome, IE, Safari, Opera) are unaffected. NOTE: the initially-proposed span-wrap fix does NOT break the autolink — AST test on remark-parse@9.0.0 + remark-gfm@1.0.0 (gatsby-transformer-remark 6.16.0 deps) shows children html(a), html(span), link(autolink), html(/span), html(/a); the nested target-less anchor persists. The working form is markdown-style [URL](URL), which emits ONE link node with no nesting."

@@ -139,7 +139,7 @@ Plans:
   4. Every page exposes a real Italian meta description — no hardcoded English starter text in the rendered source
   5. The privacy page renders as valid, clean content — no malformed HTML or broken fragments
 
-**Plans**: 4/5 plans executed
+**Plans**: 5/5 plans executed
 
 ```
 Plans:
@@ -161,7 +161,7 @@ Plans:
 
 **Wave 5** *(gap closure — UAT: nested autolink anchors on 3 privacy links, card-image descender gap)*
 
-- [ ] 05-05-PLAN.md — Gap closure (revised): gatsby-remark-external-links@0.0.4 + convert all 8 privacy external links to markdown links (kills remark-gfm nested autolink, restores target=_blank; privacy.md pure markdown) + display:block on .post-card .featured-image (kills inline-block descender gap) — G-05-1a, G-05-1b; SEOS-03, IMAG-01
+- [x] 05-05-PLAN.md — Gap closure (revised): gatsby-remark-external-links@0.0.4 + convert all 8 privacy external links to markdown links (kills remark-gfm nested autolink, restores target=_blank; privacy.md pure markdown) + display:block on .post-card .featured-image (kills inline-block descender gap) — G-05-1a, G-05-1b; SEOS-03, IMAG-01
 
 ```
 
@@ -193,5 +193,5 @@ Phases execute in numeric order; Phases 4 and 5 touch disjoint file sets and may
 | 2. Foundation Cleanup | 3/3 | Complete   | 2026-08-19 |
 | 3. Core Upgrade | 6/6 | Complete    | 2026-08-19 |
 | 4. MUI Removal + Form Reliability | 4/4 | Complete    | 2026-08-19 |
-| 5. Image Pipeline + SEO Fixes | 4/4 | In Progress|  |
+| 5. Image Pipeline + SEO Fixes | 5/5 | In Progress|  |
 | 6. Performance + Asset Cleanup + Final Verification | TBD | Not started | - |
