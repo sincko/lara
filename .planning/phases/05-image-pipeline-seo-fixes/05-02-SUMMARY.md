@@ -171,3 +171,10 @@ None - no external service configuration required.
 ---
 *Phase: 05-image-pipeline-seo-fixes*
 *Completed: 2026-08-20*
+
+## Self-Check: PASSED
+
+- SUMMARY.md exists at `.planning/phases/05-image-pipeline-seo-fixes/05-02-SUMMARY.md`
+- All commits present: `864f5ad` (Task 1), `44682ea` (Task 2), `d79a221` (Task 3), `89a9aab` (docs)
+- All four migrated source files exist: index-page.js, post-card.js, blog-list.js, blog-list-home.js
+- Final verification re-run: `yarn install && yarn build && yarn test` exit 0 (10 suites / 85 tests); zero `gatsby-image` in package.json/yarn.lock/src/; zero `gatsby-image-outer-wrapper` in public/
