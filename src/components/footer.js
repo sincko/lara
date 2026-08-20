@@ -6,11 +6,12 @@ const Footer = () => (
   <footer className="site-footer">
     <div className="container">
       <p className="credits">
-        Made with Friendship &amp; Respect for <Link to="/laryart">Lara</Link>
+        Made by &copy; <Link to="https://studiosimos.it">Studio Simos</Link>
       </p>
       <br />
       <div className="footer-links">
-        <FooterCredits /><br />
+        <FooterCredits />
+        <br />
         <Link to="/privacy">Privacy policy</Link>
       </div>
     </div>
