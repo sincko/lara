@@ -180,13 +180,13 @@ Plans:
   4. Final CWV verification on the live site: LCP ≤ 2.5s, CLS ≤ 0.1, INP ≤ 200ms at 75th percentile (median of 3, mobile), all improved vs the Phase 1 baseline
   5. All pages load correctly after asset cleanup — build passes and no page shows broken images or missing content
 
-**Plans**: 4 plans
+**Plans**: 1/4 plans executed
 
 ```
 Plans:
 **Wave 1**
 
-- [ ] 06-01-PLAN.md — PERF-01 tracer: @fontsource/ubuntu + @fontsource/parisienne 5.3.0 exact pins, layout-entry imports (research-verified path; SCSS @use fails the build), style.scss Google-Fonts lines removed, UPGR-02 test co-change, built-output @font-face/swap gates
+- [x] 06-01-PLAN.md — PERF-01 tracer: @fontsource/ubuntu + @fontsource/parisienne 5.3.0 exact pins, layout-entry imports (research-verified path; SCSS @use fails the build), style.scss Google-Fonts lines removed, UPGR-02 test co-change, built-output @font-face/swap gates
 
 **Wave 2** *(blocked on 06-01)*
 
@@ -199,6 +199,7 @@ Plans:
 **Wave 4** *(blocked on 06-03; manual checkpoint — owner deploys before capture)*
 
 - [ ] 06-04-PLAN.md — PERF-04: deploy checkpoint (D-16), identical Phase-1 capture recipe re-run on live site, median-vs-baseline comparison, baseline-tooling.test.js co-change, comparison recorded in BASELINE.md
+
 ```
 
 ## Progress
@@ -213,4 +214,4 @@ Phases execute in numeric order; Phases 4 and 5 touch disjoint file sets and may
 | 3. Core Upgrade | 6/6 | Complete    | 2026-08-19 |
 | 4. MUI Removal + Form Reliability | 4/4 | Complete    | 2026-08-19 |
 | 5. Image Pipeline + SEO Fixes | 5/5 | In Progress|  |
-| 6. Performance + Asset Cleanup + Final Verification | 0/4 | Not started | - |
+| 6. Performance + Asset Cleanup + Final Verification | 1/4 | In Progress|  |

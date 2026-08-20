@@ -2,18 +2,18 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: Updates, Debugging and Refinements
-current_phase: 5
-current_phase_name: Image Pipeline + SEO Fixes
+current_phase: 6
+current_phase_name: Performance + Asset Cleanup + Final Verification
 status: executing
-stopped_at: Phase 6 UI-SPEC approved
-last_updated: "2026-08-20T15:27:33.623Z"
+stopped_at: Completed 06-01-PLAN.md
+last_updated: "2026-08-20T19:10:04.807Z"
 last_activity: 2026-08-20
-last_activity_desc: Phase 5 execution started
+last_activity_desc: Phase 6 execution started
 progress:
   total_phases: 6
   completed_phases: 5
-  total_plans: 23
-  completed_plans: 23
+  total_plans: 27
+  completed_plans: 24
 ---
 
 # Project State
@@ -23,16 +23,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-08-18)
 
 **Core value:** Visitors can browse the artisan's work and blog, and contact the artisan through the contact form — the site must always build and deploy reliably.
-**Current focus:** Phase 5 — Image Pipeline + SEO Fixes
+**Current focus:** Phase 6 — Performance + Asset Cleanup + Final Verification
 
 ## Current Position
 
-Phase: 5 (Image Pipeline + SEO Fixes) — EXECUTING
-Plan: 3 of 4
+Phase: 6 (Performance + Asset Cleanup + Final Verification) — EXECUTING
+Plan: 2 of 4
 Status: Ready to execute
-Last activity: 2026-08-20 — Phase 5 execution started
+Last activity: 2026-08-20 — Phase 6 execution started
 
-Progress: [██████████] 100%
+Progress: [█████████░] 89%
 
 ## Performance Metrics
 
@@ -70,6 +70,7 @@ _Updated after each plan completion_
 | Phase 02 P03                                          | 4min     | 2 tasks | 2 files  |
 | Phase 05-image-pipeline-seo-fixes P04 | 65 min | 3 tasks | 3 files |
 | Phase 05-image-pipeline-seo-fixes P05 | 9 | 2 tasks | 3 files |
+| Phase 06 P01 | 8min | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -89,6 +90,7 @@ Recent decisions affecting current work:
 - [Phase 01-test-scaffolding-performance-baseline]: PSI source: psi-fallback accepted (pre-resolved by orchestrator; PSI_API_KEY absent) — PSI v5 quota 429 on all 9 runs, retry/backoff exhausted, lighthouse-fallback markers recorded per run; baseline completeness unaffected — median.js: lighthouse-fallback markers are provenance-only and never count toward runs_used — psi rows print n/a with a WARN instead of empty cells implying PSI data
 - [Phase 05-image-pipeline-seo-fixes]: G-05-1a (privacy external links target=_blank) accepted as unresolved by explicit user decision at the blocking-human package checkpoint: plugin gatsby-remark-external-links declined, privacy links left as-is, UAT gap marked rejected — User: don't insert the plugin and leave that links as they are now
 - [Phase 05-image-pipeline-seo-fixes]: Task 4 verify gate ! grep -q display:grid is blind-green-impossible site-wide (pre-existing .grids utility always emits display:grid); gate intent verified scoped to .pagination rules (0 matches) — gate correction only removes a false negative
+- [Phase ?]: Self-host fonts via @fontsource exact pins loaded through the layout entry (layout.js imports) — the SCSS @use variant is verified broken in the real Gatsby build (research Pitfall 1); built-output gate proves the chain
 
 ### Pending Todos
 
@@ -117,6 +119,6 @@ Items acknowledged and carried forward from previous milestone close:
 
 ## Session Continuity
 
-Last session: 2026-08-20T15:27:33.615Z
-Stopped at: Phase 6 UI-SPEC approved
-Resume file: .planning/phases/06-performance-asset-cleanup-final-verification/06-UI-SPEC.md
+Last session: 2026-08-20T19:10:04.797Z
+Stopped at: Completed 06-01-PLAN.md
+Resume file: None

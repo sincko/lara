@@ -48,7 +48,7 @@ Requirements for milestone v1.0 (Updates, Debugging and Refinements). Each maps 
 
 ### Performance
 
-- [ ] **PERF-01**: Font loading fixed — self-hosted WOFF2 (@fontsource) or preconnect + display=swap; no nested @import url() in :root
+- [x] **PERF-01**: Font loading fixed — self-hosted WOFF2 (@fontsource) or preconnect + display=swap; no nested @import url() in :root
 - [ ] **PERF-02**: Asset cleanup — dedup .jpg/.jpeg pairs, remove unreferenced files, move .xcf out of static/
 - [ ] **PERF-03**: Legacy PWA manifest dedup (delete static/manifest.json + legacy icons)
 - [ ] **PERF-04**: Final Core Web Vitals verification — LCP ≤ 2.5s, CLS ≤ 0.1, INP ≤ 200ms at 75th percentile, improved vs baseline
@@ -107,7 +107,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SEOS-02 | Phase 5 | Complete |
 | SEOS-03 | Phase 5 | Complete |
 | SEOS-04 | Phase 2 | Complete |
-| PERF-01 | Phase 6 | Pending |
+| PERF-01 | Phase 6 | Complete |
 | PERF-02 | Phase 6 | Pending |
 | PERF-03 | Phase 6 | Pending |
 | PERF-04 | Phase 6 | Pending |
