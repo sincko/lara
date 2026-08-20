@@ -139,7 +139,7 @@ Plans:
   4. Every page exposes a real Italian meta description — no hardcoded English starter text in the rendered source
   5. The privacy page renders as valid, clean content — no malformed HTML or broken fragments
 
-**Plans**: 2/4 plans executed
+**Plans**: 3/4 plans executed
 
 ```
 Plans:
@@ -153,7 +153,7 @@ Plans:
 
 **Wave 3** *(blocked on 05-02)*
 
-- [ ] 05-03-PLAN.md — SEO: lang="it" + hreflang removal + Seo string guard, Italian blog-list meta/pagination labels with test co-change, 404/thanks titles, privacy page markdown rebuild — IMAG-03, SEOS-01, SEOS-02, SEOS-03
+- [x] 05-03-PLAN.md — SEO: lang="it" + hreflang removal + Seo string guard, Italian blog-list meta/pagination labels with test co-change, 404/thanks titles, privacy page markdown rebuild — IMAG-03, SEOS-01, SEOS-02, SEOS-03
 
 **Wave 4** *(blocked on 05-03)*
 
@@ -189,5 +189,5 @@ Phases execute in numeric order; Phases 4 and 5 touch disjoint file sets and may
 | 2. Foundation Cleanup | 3/3 | Complete   | 2026-08-19 |
 | 3. Core Upgrade | 6/6 | Complete    | 2026-08-19 |
 | 4. MUI Removal + Form Reliability | 4/4 | Complete    | 2026-08-19 |
-| 5. Image Pipeline + SEO Fixes | 2/4 | In Progress|  |
+| 5. Image Pipeline + SEO Fixes | 3/4 | In Progress|  |
 | 6. Performance + Asset Cleanup + Final Verification | TBD | Not started | - |
