@@ -329,9 +329,18 @@ article img {
   border-radius: 25px;
 
   .featured-image {
+    display: block;
     min-height: 50vh;
     border-radius: 12px;
     margin: 0 auto;
+    img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% 50%;
+    }
   }
   @media (max-width: 991px) {
     padding: 15px 10px;
