@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { RiArrowRightSLine } from "react-icons/ri"
 
 import Layout from "../components/layout"
@@ -17,9 +17,12 @@ export const pageQuery = graphql`
         tagline
         featuredImage {
           childImageSharp {
-            fluid(quality: 80, srcSetBreakpoints: [960, 1440]) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(
+              layout: CONSTRAINED
+              quality: 80
+              breakpoints: [960, 1440]
+              placeholder: DOMINANT_COLOR
+            )
           }
         }
         cta {
@@ -34,9 +37,7 @@ export const pageQuery = graphql`
 const HomePage = ({ data }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-  const Image = frontmatter.featuredImage
-    ? frontmatter.featuredImage.childImageSharp.fluid
-    : ""
+  const Image = getImage(frontmatter.featuredImage?.childImageSharp)
   return (
     <Layout>
       <Seo />
@@ -57,10 +58,11 @@ const HomePage = ({ data }) => {
         </div>
         <div>
           {Image ? (
-            <Img
-              fluid={Image}
+            <GatsbyImage
+              image={Image}
               alt={frontmatter.title + " - Featured image"}
               className="featured-image"
+              loading="eager"
             />
           ) : (
             ""
