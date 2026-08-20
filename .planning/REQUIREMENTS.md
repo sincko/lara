@@ -35,15 +35,15 @@ Requirements for milestone v1.0 (Updates, Debugging and Refinements). Each maps 
 
 ### Images
 
-- [ ] **IMAG-01**: gatsby-image migrated to gatsby-plugin-image across all templates/components (blog-post, index-page, blog-list, post-card, blog-list-home)
-- [ ] **IMAG-02**: tracedSVG config removed; BLURRED/DOMINANT_COLOR placeholders used
-- [ ] **IMAG-03**: og:image bug fixed via getSrc() — no more [object Object] in meta tags
+- [x] **IMAG-01**: gatsby-image migrated to gatsby-plugin-image across all templates/components (blog-post, index-page, blog-list, post-card, blog-list-home)
+- [x] **IMAG-02**: tracedSVG config removed; BLURRED/DOMINANT_COLOR placeholders used
+- [x] **IMAG-03**: og:image bug fixed via getSrc() — no more [object Object] in meta tags
 
 ### SEO
 
-- [ ] **SEOS-01**: html lang set to "it" (not en-US); redundant hreflang alternates removed
-- [ ] **SEOS-02**: Hardcoded English starter meta replaced with real Italian descriptions
-- [ ] **SEOS-03**: Privacy page HTML cleaned up — valid markdown, no broken fragments
+- [x] **SEOS-01**: html lang set to "it" (not en-US); redundant hreflang alternates removed
+- [x] **SEOS-02**: Hardcoded English starter meta replaced with real Italian descriptions
+- [x] **SEOS-03**: Privacy page HTML cleaned up — valid markdown, no broken fragments
 - [x] **SEOS-04**: Stale site.json ga placeholder removed; README rewritten for laryart.it
 
 ### Performance
@@ -100,12 +100,12 @@ Which phases cover which requirements. Updated during roadmap creation.
 | FORM-02 | Phase 4 | Complete |
 | FORM-03 | Phase 4 | Complete |
 | FORM-04 | Phase 4 | Complete |
-| IMAG-01 | Phase 5 | Pending |
-| IMAG-02 | Phase 5 | Pending |
-| IMAG-03 | Phase 5 | Pending |
-| SEOS-01 | Phase 5 | Pending |
-| SEOS-02 | Phase 5 | Pending |
-| SEOS-03 | Phase 5 | Pending |
+| IMAG-01 | Phase 5 | Complete |
+| IMAG-02 | Phase 5 | Complete |
+| IMAG-03 | Phase 5 | Complete |
+| SEOS-01 | Phase 5 | Complete |
+| SEOS-02 | Phase 5 | Complete |
+| SEOS-03 | Phase 5 | Complete |
 | SEOS-04 | Phase 2 | Complete |
 | PERF-01 | Phase 6 | Pending |
 | PERF-02 | Phase 6 | Pending |
