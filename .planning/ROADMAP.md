@@ -139,7 +139,7 @@ Plans:
   4. Every page exposes a real Italian meta description — no hardcoded English starter text in the rendered source
   5. The privacy page renders as valid, clean content — no malformed HTML or broken fragments
 
-**Plans**: 4/4 plans executed
+**Plans**: 4/5 plans executed
 
 ```
 Plans:
@@ -158,6 +158,10 @@ Plans:
 **Wave 4** *(blocked on 05-03)*
 
 - [x] 05-04-PLAN.md — Phase-gate verification: full install/build/jest loop + rendered-source grep suite + held-out visual parity check (blocking human gate) + conditional absolute-fill banner CSS — all requirements
+
+**Wave 5** *(gap closure — UAT: nested autolink anchors on 3 privacy links, card-image descender gap)*
+
+- [ ] 05-05-PLAN.md — Gap closure: span-wrap 3 bare-URL privacy link texts (kills remark-gfm nested anchor, restores target=_blank) + display:block on .post-card .featured-image (kills inline-block descender gap) — G-05-1a, G-05-1b; SEOS-03, IMAG-01
 
 ```
 
