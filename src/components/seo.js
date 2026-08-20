@@ -17,19 +17,18 @@ const Seo = ({ title, description, image, article }) => {
     twitterUsername,
   } = site.siteMetadata
 
+  const imageUrl = typeof image === "string" && image.length > 0 ? image : null
+
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
-    image: `${siteUrl}${image || defaultImage}`,
+    image: `${siteUrl}${imageUrl || defaultImage}`,
     url: `${siteUrl}${pathname}`,
   }
 
   return (
     <Helmet title={seo.title} titleTemplate={titleTemplate}>
-      <html lang="en-US" />
-      <link rel="alternate" href={seo.url} hrefLang="it-it" />
-      <link rel="alternate" href={seo.url} hrefLang="it" />
-      <link rel="alternate" href={seo.url} hrefLang="x-default" />
+      <html lang="it" />
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
 
