@@ -2,8 +2,7 @@
 import React from "react"
 import { render, within } from "@testing-library/react"
 
-// post-card is mocked entirely below, so neither gatsby-image nor
-// gatsby-plugin-image reaches Jest (gatsby-image was removed in 05-02 D-05)
+// post-card is mocked entirely below, so no image plugin module reaches Jest
 jest.mock("../components/post-card", () => props => (
   <div>{props.data.frontmatter.title}</div>
 ))
@@ -43,10 +42,10 @@ describe("Pagination", () => {
     const { container } = renderBlog({ currentPage: 1, numPages: 3 })
     const pagination = paginationOf(container)
 
-    // isFirst → Previous not rendered
-    expect(pagination.queryByText("Previous")).toBeNull()
+    // isFirst → Precedente not rendered
+    expect(pagination.queryByText("Precedente")).toBeNull()
     // nextPage = "/blog/" + (1 + 1) = "/blog/2"
-    expect(pagination.getByText("Next").closest("a")).toHaveAttribute(
+    expect(pagination.getByText("Successivo").closest("a")).toHaveAttribute(
       "href",
       "/blog/2",
     )
@@ -59,12 +58,12 @@ describe("Pagination", () => {
     const pagination = paginationOf(container)
 
     // prevPage = currentPage - 1 === 1 ? blogSlug ("/blog/") : ...
-    expect(pagination.getByText("Previous").closest("a")).toHaveAttribute(
+    expect(pagination.getByText("Precedente").closest("a")).toHaveAttribute(
       "href",
       "/blog/",
     )
     // nextPage = "/blog/" + (2 + 1) = "/blog/3"
-    expect(pagination.getByText("Next").closest("a")).toHaveAttribute(
+    expect(pagination.getByText("Successivo").closest("a")).toHaveAttribute(
       "href",
       "/blog/3",
     )
@@ -76,12 +75,12 @@ describe("Pagination", () => {
     const pagination = paginationOf(container)
 
     // prevPage = "/blog/" + (3 - 1) = "/blog/2"
-    expect(pagination.getByText("Previous").closest("a")).toHaveAttribute(
+    expect(pagination.getByText("Precedente").closest("a")).toHaveAttribute(
       "href",
       "/blog/2",
     )
-    // isLast → Next link not rendered
-    expect(pagination.queryByText("Next")).toBeNull()
+    // isLast → Successivo link not rendered
+    expect(pagination.queryByText("Successivo")).toBeNull()
     expect(pagination.getByText("3").closest("a")).toHaveClass("is-active")
   })
 })
