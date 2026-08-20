@@ -2,14 +2,8 @@
 import React from "react"
 import { render, within } from "@testing-library/react"
 
-// __esModule flag REQUIRED — babel-jest interop otherwise reads the component off
-// .default and renders nothing, silently
-jest.mock("gatsby-image", () => ({
-  __esModule: true,
-  Img: () => <img alt="" />,
-}))
-
-// post-card imports Img from gatsby-image + Link from gatsby — keep the tree light
+// post-card is mocked entirely below, so neither gatsby-image nor
+// gatsby-plugin-image reaches Jest (gatsby-image was removed in 05-02 D-05)
 jest.mock("../components/post-card", () => props => (
   <div>{props.data.frontmatter.title}</div>
 ))

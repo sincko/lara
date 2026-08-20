@@ -46,8 +46,9 @@ describe("UPGR-01: Gatsby 5.16.x lockstep matrix", () => {
     }
   })
 
-  it("keeps legacy gatsby-image ^3.11.0 and gatsby-plugin-netlify-cms-paths ^1.3.0 untouched", () => {
-    expect(pkg.dependencies["gatsby-image"]).toBe("^3.11.0")
+  it("has zero legacy gatsby-image and keeps gatsby-plugin-netlify-cms-paths ^1.3.0 untouched", () => {
+    // D-05: gatsby-image removed after the phase-5 full migration
+    expect(pkg.dependencies["gatsby-image"]).toBeUndefined()
     expect(pkg.dependencies["gatsby-plugin-netlify-cms-paths"]).toBe("^1.3.0")
   })
 })

@@ -90,10 +90,9 @@ describe("FNDT-05: regression suites guard their own contracts", () => {
     expect(formikTest).toContain('toHaveClass("error")')
   })
 
-  it("blog-list.test.js declares all 5 mocks before the BlogIndex import", () => {
+  it("blog-list.test.js declares all 4 mocks before the BlogIndex import", () => {
     const importIndex = blogListTest.indexOf("import BlogIndex")
     const mocks = [
-      'jest.mock("gatsby-image"',
       'jest.mock("../components/post-card"',
       'jest.mock("@reach/router"',
       'jest.mock("../components/layout"',
