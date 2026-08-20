@@ -1,18 +1,14 @@
 ---
-status: testing
+status: complete
 phase: 05-image-pipeline-seo-fixes
 source: [05-VERIFICATION.md]
 started: 2026-08-20T12:06:44+02:00
-updated: 2026-08-20T12:24:00+02:00
+updated: 2026-08-20T12:28:00+02:00
 ---
 
 ## Current Test
 
-number: 2
-name: Disposition of 3 code-review warnings (05-REVIEW.md)
-expected: |
-  owner decides scope for each: WR-01 stray © in .home-posts (pre-existing); WR-02 broken mobile pagination media query (pre-existing, adjacent to this phase's pagination work); WR-03 English month names in post dates (MMMM DD, YYYY) on a lang=it site
-awaiting: user response
+[testing complete]
 
 ## Tests
 
@@ -29,14 +25,14 @@ severity: major
 
 ### 2. Disposition of 3 code-review warnings (05-REVIEW.md)
 expected: owner decides scope for each: WR-01 stray © in .home-posts (pre-existing); WR-02 broken mobile pagination media query (pre-existing, adjacent to this phase's pagination work); WR-03 English month names in post dates (MMMM DD, YYYY) on a lang=it site
-result: [pending]
+result: pass
 
 ## Summary
 
 total: 2
-passed: 0
+passed: 1
 issues: 1
-pending: 1
+pending: 0
 skipped: 0
 blocked: 0
 
