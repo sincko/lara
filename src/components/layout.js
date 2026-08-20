@@ -5,6 +5,12 @@ import Header from "./header"
 import Logo from "./logo"
 import Navigation from "./navigation"
 
+// PERF-01: self-hosted font (was: Google Fonts CSS import in style.scss)
+import "@fontsource/ubuntu/400.css"
+// PERF-01: self-hosted font (was: Google Fonts CSS import in style.scss)
+import "@fontsource/ubuntu/700.css"
+// PERF-01: self-hosted font (was: Google Fonts CSS import in style.scss)
+import "@fontsource/parisienne/400.css"
 import "../assets/scss/style.scss"
 import Footer from "./footer"
 import TopContacts from "./top-contacts"

@@ -77,19 +77,17 @@ describe("UPGR-02: dart-sass swap", () => {
     )
   })
 
-  it("hoisted the Google Fonts imports to the top of style.scss and removed them from _theme-variables.scss", () => {
-    const lines = styleScss.split("\n")
-    expect(lines[0]).toMatch(
-      /^@import url\("https:\/\/fonts\.googleapis\.com\/css2\?family=Parisienne/,
-    )
-    expect(lines[1]).toMatch(
-      /^@import url\("https:\/\/fonts\.googleapis\.com\/css2\?family=Ubuntu/,
-    )
-    // local imports must come after the font imports
-    const localImportIndex = lines.findIndex(l =>
-      l.includes('@import "theme-variables"'),
-    )
-    expect(localImportIndex).toBeGreaterThan(1)
+  it("self-hosts the fonts via @fontsource with zero @import url() in style.scss", () => {
+    // (a) zero CSS-import lines in style.scss (D-03 — the Google Fonts lines are gone)
+    expect(styleScss).not.toMatch(/@import url\(/)
+    // (b) the three @fontsource CSS imports land in the layout entry (verified build path)
+    const layout = read("src/components/layout.js")
+    expect(layout).toMatch(/@fontsource\/ubuntu\/400\.css/)
+    expect(layout).toMatch(/@fontsource\/ubuntu\/700\.css/)
+    expect(layout).toMatch(/@fontsource\/parisienne\/400\.css/)
+    // (c) exact pins, no caret (lockstep discipline, 03-CONTEXT D-01)
+    expect(pkg.dependencies["@fontsource/ubuntu"]).toBe("5.3.0")
+    expect(pkg.dependencies["@fontsource/parisienne"]).toBe("5.3.0")
     // the partial must have zero @import lines
     expect(themeVars).not.toMatch(/@import/)
   })

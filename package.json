@@ -25,6 +25,8 @@
   },
   "dependencies": {
     "@emailjs/browser": "4.4.1",
+    "@fontsource/parisienne": "5.3.0",
+    "@fontsource/ubuntu": "5.3.0",
     "decap-cms-app": "3.6.4",
     "formik": "^2.2.9",
     "gatsby": "5.16.1",
