@@ -180,7 +180,7 @@ Plans:
   4. Final CWV verification on the live site: LCP ≤ 2.5s, CLS ≤ 0.1, INP ≤ 200ms at 75th percentile (median of 3, mobile), all improved vs the Phase 1 baseline
   5. All pages load correctly after asset cleanup — build passes and no page shows broken images or missing content
 
-**Plans**: 1/4 plans executed
+**Plans**: 2/4 plans executed
 
 ```
 Plans:
@@ -190,7 +190,7 @@ Plans:
 
 **Wave 2** *(blocked on 06-01)*
 
-- [ ] 06-02-PLAN.md — PERF-02: reference-grep deletion script (source of truth), dedup 8 jpg/jpeg pairs (keep content-referenced twin), delete unreferenced set, .xcf → design/, build + rendered-HTML grep proves zero broken images
+- [x] 06-02-PLAN.md — PERF-02: reference-grep deletion script (source of truth), dedup 8 jpg/jpeg pairs (keep content-referenced twin), delete unreferenced set, .xcf → design/, build + rendered-HTML grep proves zero broken images
 
 **Wave 3** *(blocked on 06-02)*
 
@@ -214,4 +214,4 @@ Phases execute in numeric order; Phases 4 and 5 touch disjoint file sets and may
 | 3. Core Upgrade | 6/6 | Complete    | 2026-08-19 |
 | 4. MUI Removal + Form Reliability | 4/4 | Complete    | 2026-08-19 |
 | 5. Image Pipeline + SEO Fixes | 5/5 | In Progress|  |
-| 6. Performance + Asset Cleanup + Final Verification | 1/4 | In Progress|  |
+| 6. Performance + Asset Cleanup + Final Verification | 2/4 | In Progress|  |
