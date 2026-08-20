@@ -31,11 +31,11 @@ Gli utenti possono impedire l'utilizzo di cookie in vari modi:
      
 I cookie di terze parti non sono generalmente indispensabili per navigare, quindi puoi rifiutarli per default, attraverso apposite funzioni del tuo browser.
 
-Ulteriori informazioni sulla disabilitazione dei cookie su [Firefox, in inglese.](https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences)
-Ulteriori informazioni sulla disabilitazione dei cookie su [Chrome, in inglese](https://support.google.com/chrome/answer/95647?hl=en)
-Ulteriori informazioni sulla disabilitazione dei cookie su [Internet Explorer, in inglese](http://windows.microsoft.com/it-it/internet-explorer/delete-manage-cookies#ie=ie-11)
-Ulteriori informazioni sulla disabilitazione dei cookie su [Safari, in inglese](http://support.apple.com/kb/HT1677?viewlocale=it_IT&locale=it_IT)
-Ulteriori informazioni sulla disabilitazione dei cookie su [Opera, in inglese.](http://help.opera.com/Mac/12.10/it/cookies.html)
+Ulteriori informazioni sulla disabilitazione dei cookie su <a href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences" target="_blank" rel="noopener noreferrer">Firefox, in inglese.</a>
+Ulteriori informazioni sulla disabilitazione dei cookie su <a href="https://support.google.com/chrome/answer/95647?hl=en" target="_blank" rel="noopener noreferrer">Chrome, in inglese</a>
+Ulteriori informazioni sulla disabilitazione dei cookie su <a href="http://windows.microsoft.com/it-it/internet-explorer/delete-manage-cookies#ie=ie-11" target="_blank" rel="noopener noreferrer">Internet Explorer, in inglese</a>
+Ulteriori informazioni sulla disabilitazione dei cookie su <a href="http://support.apple.com/kb/HT1677?viewlocale=it_IT&locale=it_IT" target="_blank" rel="noopener noreferrer">Safari, in inglese</a>
+Ulteriori informazioni sulla disabilitazione dei cookie su <a href="http://help.opera.com/Mac/12.10/it/cookies.html" target="_blank" rel="noopener noreferrer">Opera, in inglese.</a>
 
 #### Attiva l'opzione Do Not Track
 L'opzione Do Not Track è presente nella maggior parte dei browser di ultima generazione.
@@ -64,8 +64,8 @@ Elimina direttamente i cookie Ci sono apposite funzioni per farlo in tutti i bro
 
 Volendo, alcuni browser offrono dei sistemi automatizzati per la cancellazione periodica dei cookie.
 
-Maggiori informazioni sulla privacy che garantisce Google all'indirizzo [https://policies.google.com/privacy](https://policies.google.com/privacy)
-Altre informazioni sui cookie [https://www.cookiechoices.org/](https://www.cookiechoices.org/)
-Pagina informativa sui cookie del Garante della Privacy [http://www.garanteprivacy.it/cookie](http://www.garanteprivacy.it/cookie)
+Maggiori informazioni sulla privacy che garantisce Google all'indirizzo <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a>
+Altre informazioni sui cookie <a href="https://www.cookiechoices.org/" target="_blank" rel="noopener noreferrer">https://www.cookiechoices.org/</a>
+Pagina informativa sui cookie del Garante della Privacy <a href="http://www.garanteprivacy.it/cookie" target="_blank" rel="noopener noreferrer">http://www.garanteprivacy.it/cookie</a>
 
 Per maggiori informazioni riguardanti la politica della privacy questo blog potete contattarmi per email al seguente indirizzo: s.foschi@protonmail.com
