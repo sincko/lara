@@ -144,7 +144,7 @@ lighthouse vs lighthouse.
 
 | Property | Value |
 |----------|-------|
-| Capture date | 2026-08-21 (start 23:26Z, end 00:10Z) |
+| Capture date | 2026-08-20 (start 21:26Z, end 22:10Z) |
 | Git commit SHA (at capture time) | `fc653f5` (pre-capture HEAD; artifacts committed in `feat(06-04): …`) |
 | Node | v24.19.0 (nvm default — NOT `.nvmrc` Node 20; Lighthouse 13 requires >=22.19) |
 | Lighthouse | 13.4.1 (npx pin) |
