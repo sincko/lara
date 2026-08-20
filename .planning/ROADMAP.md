@@ -139,7 +139,7 @@ Plans:
   4. Every page exposes a real Italian meta description — no hardcoded English starter text in the rendered source
   5. The privacy page renders as valid, clean content — no malformed HTML or broken fragments
 
-**Plans**: 1/4 plans executed
+**Plans**: 2/4 plans executed
 
 ```
 Plans:
@@ -149,7 +149,7 @@ Plans:
 
 **Wave 2** *(blocked on 05-01)*
 
-- [ ] 05-02-PLAN.md — Remaining surfaces: index hero (DOMINANT_COLOR + eager), post-card + both list queries (width/height + center crop), then remove gatsby-image from package.json — IMAG-01, IMAG-02
+- [x] 05-02-PLAN.md — Remaining surfaces: index hero (DOMINANT_COLOR + eager), post-card + both list queries (width/height + center crop), then remove gatsby-image from package.json — IMAG-01, IMAG-02
 
 **Wave 3** *(blocked on 05-02)*
 
@@ -189,5 +189,5 @@ Phases execute in numeric order; Phases 4 and 5 touch disjoint file sets and may
 | 2. Foundation Cleanup | 3/3 | Complete   | 2026-08-19 |
 | 3. Core Upgrade | 6/6 | Complete    | 2026-08-19 |
 | 4. MUI Removal + Form Reliability | 4/4 | Complete    | 2026-08-19 |
-| 5. Image Pipeline + SEO Fixes | 1/4 | In Progress|  |
+| 5. Image Pipeline + SEO Fixes | 2/4 | In Progress|  |
 | 6. Performance + Asset Cleanup + Final Verification | TBD | Not started | - |
