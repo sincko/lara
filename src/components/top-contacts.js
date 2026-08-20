@@ -3,10 +3,20 @@ import { RiWhatsappLine, RiFacebookBoxLine } from "react-icons/ri"
 const TopContacts = () => {
   return (
     <div className="icons-top">
-      <a href="https://wa.me/393356785620" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://wa.me/393356785620"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Link a WhatsApp"
+      >
         <RiWhatsappLine style={{ fontSize: "24px" }} />
       </a>
-      <a href="https://www.facebook.com/larenlarylara" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://www.facebook.com/larenlarylara"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Link a Facebook"
+      >
         <RiFacebookBoxLine style={{ fontSize: "24px" }} />
       </a>
     </div>

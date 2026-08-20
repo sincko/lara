@@ -23,7 +23,7 @@ const MenuItems = [
 
 const ListLink = props => (
   <li>
-    <Link to={props.to}>{props.children}</Link>
+    <Link title="Menu" to={props.to}>{props.children}</Link>
   </li>
 )
 

@@ -1,14 +1,13 @@
+@use "theme-variables";
+@use "defaults";
+@use "lib/css-grid-utility";
+@use "utility";
+@use "lib/prism-default";
+
 @import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
 
-@import "theme-variables";
-@import "defaults";
-@import "lib/css-grid-utility";
-
-@import "utility";
-
-// Libraries
-@import "lib/prism-default";
+$breakpoint-lg: 992px;
 // .primary-container {
 // 	display: grid;
 // 	grid-template-rows: 60px auto 60px;
