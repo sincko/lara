@@ -3,7 +3,7 @@ status: complete
 phase: 05-image-pipeline-seo-fixes
 source: [05-VERIFICATION.md]
 started: 2026-08-20T12:06:44+02:00
-updated: 2026-08-20T12:28:00+02:00
+updated: 2026-08-20T14:22:08+00:00
 ---
 
 ## Current Test
@@ -44,12 +44,14 @@ blocked: 0
   reason: "User reported: https://policies.google.com/privacy, https://www.cookiechoices.org/, http://www.garanteprivacy.it/cookie don't open in target=_blank"
   severity: major
   test: 1
-  root_cause: "remark-gfm autolink: bare URL text between raw <a> tags is auto-wrapped in a nested <a href> WITHOUT target/_blank — the 3 links whose link text is a bare URL (policies.google.com, cookiechoices.org, garanteprivacy.it) render as <a target=_blank><a href=url>url</a></a>, and browsers honor the inner anchor (no target). The 5 named-text links (Firefox, Chrome, IE, Safari, Opera) are unaffected."
+  root_cause: "REVISED (2026-08-20): remark-gfm autolink: bare URL text between raw <a> tags is auto-wrapped in a nested <a href> WITHOUT target/_blank — the 3 links whose link text is a bare URL (policies.google.com, cookiechoices.org, garanteprivacy.it) render as <a target=_blank><a href=url>url</a></a>, and browsers honor the inner anchor (no target). The 5 named-text links (Firefox, Chrome, IE, Safari, Opera) are unaffected. NOTE: the initially-proposed span-wrap fix does NOT break the autolink — AST test on remark-parse@9.0.0 + remark-gfm@1.0.0 (gatsby-transformer-remark 6.16.0 deps) shows children html(a), html(span), link(autolink), html(/span), html(/a); the nested target-less anchor persists. The working form is markdown-style [URL](URL), which emits ONE link node with no nesting."
   artifacts:
     - path: "src/content/pages/privacy.md"
       issue: "lines 67-69: raw <a> blocks with bare URL as text — GFM autolink nests an inner <a> without target"
   missing:
-    - "Wrap the URL text in a <span> inside the raw <a> tags (e.g. <a href=\"...\" target=\"_blank\" rel=\"noopener noreferrer\"><span>https://...</span></a>) — verified: remark parse then produces a single <a> node with target; the <span> breaks the autolink match"
+    - "Convert ALL 8 external links (lines 34-38 named-text + 67-69 bare-URL) from raw HTML to markdown links [text](url) — removes the raw <a> entirely (SEOS-03 clean-markdown intent) and emits one link node per link (AST-verified, no nesting)"
+    - "Add gatsby-remark-external-links (0.0.4) to gatsby-transformer-remark options.plugins in gatsby-config.js with options target: _blank, rel: noopener noreferrer — the plugin adds target/rel to all external markdown links site-wide"
+    - "Reject span/entity/ZWSP variants — all still autolink or corrupt the href (AST-verified)"
   debug_session: ""
 
 - gap_id: G-05-1b

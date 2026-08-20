@@ -161,7 +161,7 @@ Plans:
 
 **Wave 5** *(gap closure — UAT: nested autolink anchors on 3 privacy links, card-image descender gap)*
 
-- [ ] 05-05-PLAN.md — Gap closure: span-wrap 3 bare-URL privacy link texts (kills remark-gfm nested anchor, restores target=_blank) + display:block on .post-card .featured-image (kills inline-block descender gap) — G-05-1a, G-05-1b; SEOS-03, IMAG-01
+- [ ] 05-05-PLAN.md — Gap closure (revised): gatsby-remark-external-links@0.0.4 + convert all 8 privacy external links to markdown links (kills remark-gfm nested autolink, restores target=_blank; privacy.md pure markdown) + display:block on .post-card .featured-image (kills inline-block descender gap) — G-05-1a, G-05-1b; SEOS-03, IMAG-01
 
 ```
 
