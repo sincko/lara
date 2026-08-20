@@ -196,3 +196,11 @@ None - no external service configuration required.
 ---
 *Phase: 05-image-pipeline-seo-fixes*
 *Completed: 2026-08-20*
+
+## Self-Check: PASSED
+
+- SUMMARY.md exists at `.planning/phases/05-image-pipeline-seo-fixes/05-04-SUMMARY.md`
+- All commits present: `68d7cfe` (banner), `16dfa0d` (pagination), `521a046` (privacy headings), `22032c7` (privacy links), `4e54cb4` (docs)
+- All three modified source files exist: style.scss, privacy.js, privacy.md
+- Zero file deletions across the plan commits
+- Final verification re-run on the committed state: `yarn clean && yarn build` exit 0; `yarn test` 10 suites / 85 tests pass; all rendered-source greps green (outer-wrapper 0, og:image object Object 0, lang=it, rel=alternate 0, Stackrole 0, Blog — Pagina 2, chiocciola 0, site-wide object Object 0, privacy p-tags 20/20 balanced, target=_blank ×10, privacy-content class present, banner display:block + absolute-fill in compiled CSS, pagination pills in compiled CSS)
