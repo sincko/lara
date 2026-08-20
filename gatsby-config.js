@@ -35,6 +35,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    "gatsby-plugin-image",
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -47,7 +48,6 @@ module.exports = {
               maxWidth: 1024,
               showCaptions: true,
               linkImagesToOriginal: false,
-              tracedSVG: true,
               loading: "lazy",
             },
           },
