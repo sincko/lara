@@ -7,7 +7,7 @@ const Logo = (props) => (
       {props.title}
     </Link> */}
     <Link to="/" className="">
-      <img src={logo} className="img-responsive" alt="Logo LaryArt" />
+      <img src={logo} className="img-responsive" alt="Logo LaryArt" width="209" height="59" />
     </Link>
   </div>
 );
