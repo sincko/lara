@@ -1,6 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage, getImage, getSrc } from "gatsby-plugin-image"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
 
 import Layout from "../components/layout"
@@ -9,25 +9,26 @@ import Seo from "../components/seo"
 const Pagination = props => (
   <div className="pagination -post">
     <ul>
-      {props.previous && props.previous.frontmatter.template === "blog-post" && (
-        <li>
-          <Link
-            to={props.previous.frontmatter.slug}
-            rel="prev"
-            className="prev-next"
-          >
-            <p>
-              <span className="icon -left">
-                <RiArrowLeftLine />
-              </span>{" "}
-              {props.previous.frontmatter.title}
-            </p>
-            {/* <span className="page-title">
+      {props.previous &&
+        props.previous.frontmatter.template === "blog-post" && (
+          <li>
+            <Link
+              to={props.previous.frontmatter.slug}
+              rel="prev"
+              className="prev-next"
+            >
+              <p>
+                <span className="icon -left">
+                  <RiArrowLeftLine />
+                </span>{" "}
+                {props.previous.frontmatter.title}
+              </p>
+              {/* <span className="page-title">
               {props.previous.frontmatter.title}
             </span> */}
-          </Link>
-        </li>
-      )}
+            </Link>
+          </li>
+        )}
       {props.next && props.next.frontmatter.template === "blog-post" && (
         <li>
           <Link
@@ -52,9 +53,8 @@ const Pagination = props => (
 const Post = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
-  const Image = frontmatter.featuredImage
-    ? frontmatter.featuredImage.childImageSharp.fluid
-    : ""
+  const Image = getImage(frontmatter.featuredImage?.childImageSharp)
+  const imageSrc = getSrc(frontmatter.featuredImage?.childImageSharp)
   const { previous, next } = pageContext
 
   let props = {
@@ -69,7 +69,7 @@ const Post = ({ data, pageContext }) => {
         description={
           frontmatter.description ? frontmatter.description : excerpt
         }
-        image={Image}
+        image={imageSrc}
         article={true}
       />
       <article className="blog-post">
@@ -79,8 +79,8 @@ const Post = ({ data, pageContext }) => {
             <time>{frontmatter.date}</time>
           </section>
           {Image ? (
-            <Img
-              fluid={Image}
+            <GatsbyImage
+              image={Image}
               objectFit="cover"
               objectPosition="50% 50%"
               alt={frontmatter.title + " - Featured image"}
@@ -128,10 +128,12 @@ export const pageQuery = graphql`
         description
         featuredImage {
           childImageSharp {
-            fluid(quality: 80, srcSetBreakpoints: [350, 700, 1050, 1400]) {
-              ...GatsbyImageSharpFluid
-              ...GatsbyImageSharpFluidLimitPresentationSize
-            }
+            gatsbyImageData(
+              layout: CONSTRAINED
+              quality: 80
+              breakpoints: [350, 700, 1050, 1400]
+              placeholder: BLURRED
+            )
           }
         }
       }
