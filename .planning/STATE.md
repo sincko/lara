@@ -2,13 +2,13 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: Updates, Debugging and Refinements
-current_phase: 05
+current_phase: 5
 current_phase_name: Image Pipeline + SEO Fixes
 status: executing
 stopped_at: Phase 5 UI-SPEC approved
-last_updated: "2026-08-20T07:58:23.724Z"
-last_activity: 2026-08-19
-last_activity_desc: Phase 4 complete, transitioned to Phase 05
+last_updated: "2026-08-20T07:59:07.090Z"
+last_activity: 2026-08-20
+last_activity_desc: Phase 5 execution started
 progress:
   total_phases: 5
   completed_phases: 4
@@ -23,14 +23,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-08-18)
 
 **Core value:** Visitors can browse the artisan's work and blog, and contact the artisan through the contact form — the site must always build and deploy reliably.
-**Current focus:** Phase 4 — mui-removal-form-reliability
+**Current focus:** Phase 5 — Image Pipeline + SEO Fixes
 
 ## Current Position
 
-Phase: 05 — Image Pipeline + SEO Fixes
-Plan: Not started
-Status: Ready to execute
-Last activity: 2026-08-19 — Phase 4 complete, transitioned to Phase 05
+Phase: 5 (Image Pipeline + SEO Fixes) — EXECUTING
+Plan: 1 of 4
+Status: Executing Phase 5
+Last activity: 2026-08-20 — Phase 5 execution started
 
 Progress: [██████████] 100%
 
@@ -45,29 +45,29 @@ Progress: [██████████] 100%
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
-|-------|-------|-------|----------|
-| — | — | — | — |
-| 01 | 4 | - | - |
-| 3 | 6 | - | - |
-| 4 | 4 | - | - |
+| ----- | ----- | ----- | -------- |
+| —     | —     | —     | —        |
+| 01    | 4     | -     | -        |
+| 3     | 6     | -     | -        |
+| 4     | 4     | -     | -        |
 
 **Recent Trend:**
 
 - Last 5 plans: —
 - Trend: —
 
-*Updated after each plan completion*
+_Updated after each plan completion_
 **Per-Plan Metrics:**
 
-| Plan | Duration | Tasks | Files |
-|------|----------|-------|-------|
-| Phase 01-test-scaffolding-performance-baseline P01 | 24min | 2 tasks | 9 files |
-| Phase 01-test-scaffolding-performance-baseline P03 | 42min | 2 tasks | 4 files |
-| Phase 01-test-scaffolding-performance-baseline P01-02 | 9min | 3 tasks | 4 files |
-| Phase 01-test-scaffolding-performance-baseline P04 | 39 | 2 tasks | 21 files |
-| Phase 02-foundation-cleanup P01 | 3min | 1 tasks | 5 files |
-| Phase 02 P02 | 5min | 3 tasks | 5 files |
-| Phase 02 P03 | 4min | 2 tasks | 2 files |
+| Plan                                                  | Duration | Tasks   | Files    |
+| ----------------------------------------------------- | -------- | ------- | -------- |
+| Phase 01-test-scaffolding-performance-baseline P01    | 24min    | 2 tasks | 9 files  |
+| Phase 01-test-scaffolding-performance-baseline P03    | 42min    | 2 tasks | 4 files  |
+| Phase 01-test-scaffolding-performance-baseline P01-02 | 9min     | 3 tasks | 4 files  |
+| Phase 01-test-scaffolding-performance-baseline P04    | 39       | 2 tasks | 21 files |
+| Phase 02-foundation-cleanup P01                       | 3min     | 1 tasks | 5 files  |
+| Phase 02 P02                                          | 5min     | 3 tasks | 5 files  |
+| Phase 02 P03                                          | 4min     | 2 tasks | 2 files  |
 
 ## Accumulated Context
 
@@ -99,8 +99,8 @@ None yet.
 
 ### Quick Tasks Completed
 
-| # | Description | Date | Commit | Directory |
-|---|-------------|------|--------|-----------|
+| #          | Description                                                                                                                                                                                                       | Date       | Commit  | Directory                                                                                                           |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------- | ------------------------------------------------------------------------------------------------------------------- |
 | 260819-l2v | Fix deprecated GraphQL sort syntax warnings in Gatsby build logs (sort: {order, fields: [frontmatter___date]} -> sort: {frontmatter: {date: DESC}}) in blog-list-home.js, blog-list.js, and the createPages query | 2026-08-19 | 600f66c | [260819-l2v-fix-deprecated-graphql-sort-syntax-warni](./quick/260819-l2v-fix-deprecated-graphql-sort-syntax-warni/) |
 
 ## Deferred Items
@@ -108,8 +108,8 @@ None yet.
 Items acknowledged and carried forward from previous milestone close:
 
 | Category | Item | Status | Deferred At |
-|----------|------|--------|-------------|
-| *(none)* | | | |
+| -------- | ---- | ------ | ----------- |
+| _(none)_ |      |        |             |
 
 ## Session Continuity
 

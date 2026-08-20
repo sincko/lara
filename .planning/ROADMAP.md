@@ -139,13 +139,13 @@ Plans:
   4. Every page exposes a real Italian meta description — no hardcoded English starter text in the rendered source
   5. The privacy page renders as valid, clean content — no malformed HTML or broken fragments
 
-**Plans**: 4 plans
+**Plans**: 1/4 plans executed
 
 ```
 Plans:
 **Wave 1**
 
-- [ ] 05-01-PLAN.md — Tracer: install gatsby-plugin-image@3.16.0 (research-corrected from D-01's non-existent 5.16.0), register in gatsby-config, remove tracedSVG; migrate blog-post surface end-to-end incl. getSrc og:image — IMAG-01, IMAG-02, IMAG-03
+- [x] 05-01-PLAN.md — Tracer: install gatsby-plugin-image@3.16.0 (research-corrected from D-01's non-existent 5.16.0), register in gatsby-config, remove tracedSVG; migrate blog-post surface end-to-end incl. getSrc og:image — IMAG-01, IMAG-02, IMAG-03
 
 **Wave 2** *(blocked on 05-01)*
 
@@ -158,6 +158,7 @@ Plans:
 **Wave 4** *(blocked on 05-03)*
 
 - [ ] 05-04-PLAN.md — Phase-gate verification: full install/build/jest loop + rendered-source grep suite + held-out visual parity check (blocking human gate) + conditional absolute-fill banner CSS — all requirements
+
 ```
 
 **UI hint**: yes
@@ -188,5 +189,5 @@ Phases execute in numeric order; Phases 4 and 5 touch disjoint file sets and may
 | 2. Foundation Cleanup | 3/3 | Complete   | 2026-08-19 |
 | 3. Core Upgrade | 6/6 | Complete    | 2026-08-19 |
 | 4. MUI Removal + Form Reliability | 4/4 | Complete    | 2026-08-19 |
-| 5. Image Pipeline + SEO Fixes | TBD | Not started | - |
+| 5. Image Pipeline + SEO Fixes | 1/4 | In Progress|  |
 | 6. Performance + Asset Cleanup + Final Verification | TBD | Not started | - |
