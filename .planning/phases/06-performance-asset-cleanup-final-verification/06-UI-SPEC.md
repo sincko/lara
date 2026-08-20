@@ -1,10 +1,11 @@
 ---
 phase: 6
 slug: performance-asset-cleanup-final-verification
-status: draft
+status: approved
 shadcn_initialized: false
 preset: none
 created: 2026-08-20
+reviewed_at: 2026-08-20
 ---
 
 # Phase 6 — UI Design Contract
