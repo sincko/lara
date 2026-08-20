@@ -180,7 +180,7 @@ Plans:
   4. Final CWV verification on the live site: LCP ≤ 2.5s, CLS ≤ 0.1, INP ≤ 200ms at 75th percentile (median of 3, mobile), all improved vs the Phase 1 baseline
   5. All pages load correctly after asset cleanup — build passes and no page shows broken images or missing content
 
-**Plans**: 2/4 plans executed
+**Plans**: 3/4 plans executed
 
 ```
 Plans:
@@ -194,7 +194,7 @@ Plans:
 
 **Wave 3** *(blocked on 06-02)*
 
-- [ ] 06-03-PLAN.md — PERF-03: delete legacy static/ manifest + 27 legacy icon files, manifest-continuity gate on plugin-generated output (exactly one manifest.webmanifest, /favicon.ico 404 accepted delta)
+- [x] 06-03-PLAN.md — PERF-03: delete legacy static/ manifest + 27 legacy icon files, manifest-continuity gate on plugin-generated output (exactly one manifest.webmanifest, /favicon.ico 404 accepted delta)
 
 **Wave 4** *(blocked on 06-03; manual checkpoint — owner deploys before capture)*
 
@@ -214,4 +214,4 @@ Phases execute in numeric order; Phases 4 and 5 touch disjoint file sets and may
 | 3. Core Upgrade | 6/6 | Complete    | 2026-08-19 |
 | 4. MUI Removal + Form Reliability | 4/4 | Complete    | 2026-08-19 |
 | 5. Image Pipeline + SEO Fixes | 5/5 | In Progress|  |
-| 6. Performance + Asset Cleanup + Final Verification | 2/4 | In Progress|  |
+| 6. Performance + Asset Cleanup + Final Verification | 3/4 | In Progress|  |
