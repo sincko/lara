@@ -566,8 +566,16 @@ article img {
     padding: 10px 20px;
     font-weight: bold;
     line-height: 1;
+    color: #8c1a3f;
+    background-color: #fff;
+    border-radius: 12px;
+    &:hover {
+      color: #fff;
+      background-color: #8c1a3f;
+    }
     &.is-active {
-      color: var(--header-bg);
+      color: #fff;
+      background-color: #8c1a3f;
       pointer-events: none;
     }
   }
@@ -595,6 +603,8 @@ article img {
       font-weight: normal;
       font-size: 16px;
       padding: 0;
+      background: none;
+      border-radius: 0;
     }
     a.prev-next {
       color: #fff;
