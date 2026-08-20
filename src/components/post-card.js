@@ -1,13 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 const PostCard = ({ data }) => (
   <article className="post-card">
     {data.frontmatter.featuredImage ? (
       <Link to={data.frontmatter.slug}>
-        <Img
-          fluid={data.frontmatter.featuredImage.childImageSharp.fluid}
+        <GatsbyImage
+          image={getImage(data.frontmatter.featuredImage.childImageSharp)}
           objectFit="cover"
           objectPosition="50% 50%"
           alt={data.frontmatter.title + " - Featured image"}

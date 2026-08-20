@@ -24,10 +24,14 @@ export const blogListQuery = graphql`
             title
             featuredImage {
               childImageSharp {
-                fluid(maxWidth: 540, maxHeight: 360, quality: 80) {
-                  ...GatsbyImageSharpFluid
-                  ...GatsbyImageSharpFluidLimitPresentationSize
-                }
+                gatsbyImageData(
+                  layout: CONSTRAINED
+                  width: 540
+                  height: 360
+                  quality: 80
+                  transformOptions: { fit: COVER, cropFocus: CENTER }
+                  placeholder: BLURRED
+                )
               }
             }
           }
