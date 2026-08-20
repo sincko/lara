@@ -85,3 +85,68 @@ responses are stored. Full methodology: [README.md](./README.md).
 
 *Baseline storage: `.planning/baseline/` (raw JSONs committed alongside this
 file — git history is the integrity record; threat T-4-02).*
+
+## Final capture (Phase 6)
+
+Re-capture of the live production site **after** the full Phase 6 deploy
+(fonts self-hosting 06-01, asset dedup/deletion 06-02, PWA manifest/icon
+cleanup 06-03) — identical recipe (D-14/D-17): `capture-baseline.js` +
+`median.js` reused as-is, Lighthouse 13.4.1 pin, mobile profile, default
+throttling, same 3-URL set, median of 3. The Phase-1 tables above remain the
+comparison reference.
+
+### Final median table (Phase 6)
+
+Median of 3 runs per URL per source, mobile profile, performance category.
+Table generated from `node .planning/baseline/median.js` (paste of stdout).
+
+| Source | URL | LCP (ms) | CLS | INP (ms) | Perf score | Runs used |
+|--------|-----|---------:|----:|---------:|-----------:|----------:|
+| lighthouse | `https://laryart.it/` | 1601.09 | 0.01 | n/a | 100 | 3 |
+| lighthouse | `https://laryart.it/blog/` | 1446.33 | 0.01 | n/a | 100 | 3 |
+| lighthouse | `https://laryart.it/minnie/` | 1157.87 | 0 | n/a | 100 | 3 |
+| psi | `https://laryart.it/` | n/a | n/a | n/a | n/a | 0 |
+| psi | `https://laryart.it/blog/` | n/a | n/a | n/a | n/a | 0 |
+| psi | `https://laryart.it/minnie/` | n/a | n/a | n/a | n/a | 0 |
+
+### Comparison vs Phase-1 baseline (lighthouse vs lighthouse)
+
+| URL | Metric | Phase-1 | Phase-6 | Delta | Target | Verdict |
+|-----|--------|--------:|--------:|------:|--------|---------|
+| `https://laryart.it/` | LCP (ms) | 3313.7 | 1601.09 | −1712.61 (−51.7%) | ≤ 2500 | **met** |
+| `https://laryart.it/` | CLS | 0.01 | 0.01 | 0 | ≤ 0.1 | **met** |
+| `https://laryart.it/` | Perf score | 91 | 100 | +9 | improved | **met** |
+| `https://laryart.it/blog/` | LCP (ms) | 4750.71 | 1446.33 | −3304.38 (−69.6%) | ≤ 2500 | **met** |
+| `https://laryart.it/blog/` | CLS | 0.01 | 0.01 | 0 | ≤ 0.1 | **met** |
+| `https://laryart.it/blog/` | Perf score | 82 | 100 | +18 | improved | **met** |
+| `https://laryart.it/minnie/` | LCP (ms) | 3964.31 | 1157.87 | −2806.44 (−70.8%) | ≤ 2500 | **met** |
+| `https://laryart.it/minnie/` | CLS | 0 | 0 | 0 | ≤ 0.1 | **met** |
+| `https://laryart.it/minnie/` | Perf score | 87 | 100 | +13 | improved | **met** |
+
+**Verdict: PERF-04 met.** LCP ≤ 2.5s on all 3 URLs, CLS ≤ 0.1 on all 3 URLs,
+perf score improved on all 3 URLs (all 100). Every metric improved vs the
+Phase-1 baseline.
+
+**INP note (unchanged):** `interaction-to-next-paint` is a timespan-only audit
+in Lighthouse 13.4.1 — excluded from navigation-mode runs; static pages yield
+no INP numericValue. INP is reported `n/a`, not a capture failure.
+
+**PSI fallback note (all 9 psi runs):** the PSI v5 anonymous shared quota
+returned HTTP 429 on every run (2026-08-21, same as the Phase-1 capture). After
+retry/backoff (10s/30s/60s), each run fell back to the Lighthouse CLI against
+the live URL per the documented fallback. Every `psi/<slug>-<run>.json`
+artifact is a `{ "source": "lighthouse-fallback", "psi_quota": "429" }`
+provenance marker — no PSI numbers exist in this capture. The psi rows above
+are `n/a` and are NOT duplicated from the lighthouse rows. Comparison is
+lighthouse vs lighthouse.
+
+### Capture metadata (Phase 6)
+
+| Property | Value |
+|----------|-------|
+| Capture date | 2026-08-21 (start 23:26Z, end 00:10Z) |
+| Git commit SHA (at capture time) | `fc653f5` (pre-capture HEAD; artifacts committed in `feat(06-04): …`) |
+| Node | v24.19.0 (nvm default — NOT `.nvmrc` Node 20; Lighthouse 13 requires >=22.19) |
+| Lighthouse | 13.4.1 (npx pin) |
+| Chrome | HeadlessChrome (auto-detected by Lighthouse) |
+| PSI API | v5 (strategy=mobile, category=performance) — 429 fallback, no key used |

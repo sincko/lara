@@ -33,11 +33,11 @@ describe("FNDT-06: baseline tooling is honest and reproducible", () => {
     expect(rows).toHaveLength(3)
 
     const bySlug = Object.fromEntries(rows.map(r => [r[1], r]))
-    expect(bySlug.home[2]).toBe("3313.7")
+    expect(bySlug.home[2]).toBe("1601.09")
     expect(bySlug.home[6]).toBe("3")
-    expect(bySlug.blog[2]).toBe("4750.71")
+    expect(bySlug.blog[2]).toBe("1446.33")
     expect(bySlug.blog[6]).toBe("3")
-    expect(bySlug["post-minnie"][2]).toBe("3964.31")
+    expect(bySlug["post-minnie"][2]).toBe("1157.87")
     expect(bySlug["post-minnie"][6]).toBe("3")
   })
 
@@ -95,8 +95,8 @@ describe("FNDT-06: baseline tooling is honest and reproducible", () => {
   it("BASELINE.md records the version, the site, and the median table", () => {
     expect(baselineMd).toContain("13.4.1")
     expect(baselineMd).toContain("laryart.it")
-    expect(baselineMd).toContain("3313.7")
-    expect(baselineMd).toContain("4750.71")
-    expect(baselineMd).toContain("3964.31")
+    expect(baselineMd).toContain("1601.09")
+    expect(baselineMd).toContain("1446.33")
+    expect(baselineMd).toContain("1157.87")
   })
 })
