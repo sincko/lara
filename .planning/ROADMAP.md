@@ -198,7 +198,7 @@ Plans:
 
 **Wave 4** *(blocked on 06-03; manual checkpoint — owner deploys before capture)*
 
-- [ ] 06-04-PLAN.md — PERF-04: deploy checkpoint (D-16), identical Phase-1 capture recipe re-run on live site, median-vs-baseline comparison, baseline-tooling.test.js co-change, comparison recorded in BASELINE.md
+- [x] 06-04-PLAN.md — PERF-04: deploy checkpoint (D-16), identical Phase-1 capture recipe re-run on live site, median-vs-baseline comparison, baseline-tooling.test.js co-change, comparison recorded in BASELINE.md
 
 ```
 

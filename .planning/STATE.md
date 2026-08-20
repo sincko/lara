@@ -5,15 +5,15 @@ milestone_name: Updates, Debugging and Refinements
 current_phase: 6
 current_phase_name: Performance + Asset Cleanup + Final Verification
 status: executing
-stopped_at: Completed 06-01-PLAN.md
-last_updated: "2026-08-20T19:10:04.807Z"
+stopped_at: Completed 06-04-PLAN.md
+last_updated: "2026-08-20T22:21:19.996Z"
 last_activity: 2026-08-20
 last_activity_desc: Phase 6 execution started
 progress:
   total_phases: 6
-  completed_phases: 5
+  completed_phases: 6
   total_plans: 27
-  completed_plans: 24
+  completed_plans: 27
 ---
 
 # Project State
@@ -28,11 +28,11 @@ See: .planning/PROJECT.md (updated 2026-08-18)
 ## Current Position
 
 Phase: 6 (Performance + Asset Cleanup + Final Verification) — EXECUTING
-Plan: 2 of 4
+Plan: 3 of 4
 Status: Ready to execute
 Last activity: 2026-08-20 — Phase 6 execution started
 
-Progress: [█████████░] 89%
+Progress: [██████████] 100%
 
 ## Performance Metrics
 
@@ -71,6 +71,7 @@ _Updated after each plan completion_
 | Phase 05-image-pipeline-seo-fixes P04 | 65 min | 3 tasks | 3 files |
 | Phase 05-image-pipeline-seo-fixes P05 | 9 | 2 tasks | 3 files |
 | Phase 06 P01 | 8min | 2 tasks | 5 files |
+| Phase 06-performance-asset-cleanup-final-verification P04 | 55min | 1 tasks | 13 files |
 
 ## Accumulated Context
 
@@ -91,6 +92,8 @@ Recent decisions affecting current work:
 - [Phase 05-image-pipeline-seo-fixes]: G-05-1a (privacy external links target=_blank) accepted as unresolved by explicit user decision at the blocking-human package checkpoint: plugin gatsby-remark-external-links declined, privacy links left as-is, UAT gap marked rejected — User: don't insert the plugin and leave that links as they are now
 - [Phase 05-image-pipeline-seo-fixes]: Task 4 verify gate ! grep -q display:grid is blind-green-impossible site-wide (pre-existing .grids utility always emits display:grid); gate intent verified scoped to .pagination rules (0 matches) — gate correction only removes a false negative
 - [Phase ?]: Self-host fonts via @fontsource exact pins loaded through the layout entry (layout.js imports) — the SCSS @use variant is verified broken in the real Gatsby build (research Pitfall 1); built-output gate proves the chain
+- [Phase 06-performance-asset-cleanup-final-verification]: PSI source: accepted the documented 429 fallback (no PSI_API_KEY exported) — all 9 psi runs 429'd after retry/backoff, lighthouse-fallback provenance markers recorded; comparison is lighthouse vs lighthouse — Same as Phase-1 baseline; PSI rows n/a, never duplicated from lighthouse rows
+- [Phase 06-performance-asset-cleanup-final-verification]: INP reported n/a for all rows — timespan-only audit in LH 13.4.1 navigation runs on static pages; documented, not a capture failure — Matches PSI lab behavior for the same page type; comparison is LCP + CLS + perf score
 
 ### Pending Todos
 
@@ -119,6 +122,6 @@ Items acknowledged and carried forward from previous milestone close:
 
 ## Session Continuity
 
-Last session: 2026-08-20T19:10:04.797Z
-Stopped at: Completed 06-01-PLAN.md
+Last session: 2026-08-20T22:20:41.836Z
+Stopped at: Completed 06-04-PLAN.md
 Resume file: None
