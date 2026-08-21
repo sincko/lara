@@ -2,18 +2,18 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: Updates, Debugging and Refinements
-current_phase: 03
-current_phase_name: Core Upgrade
-status: planning
+status: Awaiting next milestone
 stopped_at: Completed 06-04-PLAN.md
-last_updated: "2026-08-21T20:36:30.301Z"
+last_updated: "2026-08-21T20:40:34.710Z"
 last_activity: 2026-08-21
-last_activity_desc: Phase 2 complete, transitioned to Phase 03
+last_activity_desc: Milestone v1.0 completed and archived
 progress:
   total_phases: 6
   completed_phases: 6
   total_plans: 27
   completed_plans: 27
+current_phase: 03
+current_phase_name: Core Upgrade
 ---
 
 # Project State
@@ -27,12 +27,10 @@ See: .planning/PROJECT.md (updated 2026-08-18)
 
 ## Current Position
 
-Phase: 03 — Core Upgrade
-Plan: Not started
-Status: Ready to plan
-Last activity: 2026-08-21 — Phase 2 complete, transitioned to Phase 03
-
-Progress: [██████████] 100%
+Phase: Milestone v1.0 complete
+Plan: —
+Status: Awaiting next milestone
+Last activity: 2026-08-21 — Milestone v1.0 completed and archived
 
 ## Performance Metrics
 
@@ -128,3 +126,7 @@ Items acknowledged and carried forward from previous milestone close:
 Last session: 2026-08-20T22:20:41.836Z
 Stopped at: Completed 06-04-PLAN.md
 Resume file: None
+
+## Operator Next Steps
+
+- Start the next milestone with /gsd-new-milestone
