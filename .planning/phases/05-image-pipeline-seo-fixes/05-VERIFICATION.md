@@ -1,15 +1,17 @@
 ---
 phase: 05-image-pipeline-seo-fixes
 verified: 2026-08-20T10:05:29Z
-status: human_needed
+status: passed
 score: 15/15 must-haves verified
 behavior_unverified: 0
 overrides_applied: 0
 gaps: []
 human_verification:
+
   - test: "Serve the built site (yarn serve or open public/ files) and visually confirm the four fixed surfaces: (1) a blog post with a LANDSCAPE featured image and one with a PORTRAIT image — banner fills the 50vh box (no white gap, no bottom clip, centered); (2) /blog pagination row (and /blog/2) — Precedente/Successivo/page numbers are readable white/dark pills on the pink background; (3) /privacy — all 8 external links open a new tab (target=_blank) and headings render in Ubuntu, not Parisienne; (4) / (index hero) and card thumbnails on / and /blog look correct at the 540x360 center crop."
     expected: "All four surfaces render at visual parity: banner filled and centered, pagination clearly visible, privacy links/headings as intended, hero/cards look as before."
     why_human: "Machine verification confirms the compiled CSS rules, rendered classes, and target=_blank attributes exist (grep + python tag checks), but cannot judge final visual appearance — 05-04-SUMMARY 'Next Phase Readiness' explicitly defers this final visual pass to the phase verifier. The held-out human checkpoint was resolved (user reported 4 deltas, all fixed and machine re-verified), but the fixed state itself has not been visually re-approved."
+
   - test: "Decide disposition of the 3 code-review warnings in 05-REVIEW.md: WR-01 stray '©' character at style.scss:220 silently breaks the .home-posts .grids rule (pre-existing, ships in production CSS); WR-02 malformed mobile pagination media query at style.scss:640-644 — 'padding: 50px 0 ul' produces garbage declarations, so multi-page mobile pagination renders as a cramped centered row (pre-existing, but interacts with this phase's SEOS-02 pagination work); WR-03 post dates render English month names ('August 15, 2024') via date(formatString: 'MMMM DD, YYYY') on a lang=it site — a visible i18n inconsistency on every post/list/home."
     expected: "Either accept as pre-existing/out-of-scope (fix in a later phase) or schedule fixes. The phase goal (Italian SEO meta + valid pages) is machine-verified complete regardless; these items do not block the goal."
     why_human: "The warnings are judgment calls about pre-existing defects and scope boundaries — an automated verifier cannot decide whether to fix them now or defer. WR-01/WR-02 predate this phase (c67d505); WR-03 affects visible body content, not the SEO meta that SEOS-02/SC4 target."

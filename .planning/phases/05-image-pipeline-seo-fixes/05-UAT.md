@@ -41,6 +41,8 @@ blocked: 0
 - gap_id: G-05-1a
   truth: "All 8 external privacy links open in a new tab (target=_blank)"
   status: rejected
+  resolved_by: 05-05-PLAN.md (user declined at package checkpoint)
+  resolved_at: 2026-08-20
   reason: "User declined fix at package checkpoint — links left as-is (no plugin install)"
   severity: major
   test: 1
@@ -56,7 +58,9 @@ blocked: 0
 
 - gap_id: G-05-1b
   truth: "Blog-list card images have no gap below the image"
-  status: failed
+  status: resolved
+  resolved_by: 05-05-PLAN.md
+  resolved_at: 2026-08-20
   reason: "User reported: in the blog list the images have a gap below"
   severity: cosmetic
   test: 1
