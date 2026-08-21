@@ -17,8 +17,8 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 2: Foundation Cleanup** - Single lockfile, unambiguous Node version, dead code and dependencies removed (completed 2026-08-19)
 - [x] **Phase 3: Core Upgrade** - Gatsby 5.16.1 lockstep, dart-sass, Decap CMS, vendored Matomo, single sitemap (completed 2026-08-19)
 - [x] **Phase 4: MUI Removal + Form Reliability** - Plain-SCSS contact form, @emailjs/browser + env vars, false-success bug fixed (completed 2026-08-19)
-- [ ] **Phase 5: Image Pipeline + SEO Fixes** - gatsby-plugin-image migration, og:image fix, Italian SEO meta and valid pages
-- [ ] **Phase 6: Performance + Asset Cleanup + Final Verification** - Fonts, assets, PWA manifest cleaned; CWV verified vs baseline
+- [x] **Phase 5: Image Pipeline + SEO Fixes** - gatsby-plugin-image migration, og:image fix, Italian SEO meta and valid pages (completed 2026-08-21)
+- [x] **Phase 6: Performance + Asset Cleanup + Final Verification** - Fonts, assets, PWA manifest cleaned; CWV verified vs baseline (completed 2026-08-21)
 
 ## Phase Details
 
@@ -213,5 +213,5 @@ Phases execute in numeric order; Phases 4 and 5 touch disjoint file sets and may
 | 2. Foundation Cleanup | 3/3 | Complete   | 2026-08-19 |
 | 3. Core Upgrade | 6/6 | Complete    | 2026-08-19 |
 | 4. MUI Removal + Form Reliability | 4/4 | Complete    | 2026-08-19 |
-| 5. Image Pipeline + SEO Fixes | 5/5 | In Progress|  |
-| 6. Performance + Asset Cleanup + Final Verification | 4/4 | In Progress|  |
+| 5. Image Pipeline + SEO Fixes | 5/5 | Complete    | 2026-08-21 |
+| 6. Performance + Asset Cleanup + Final Verification | 4/4 | Complete    | 2026-08-21 |

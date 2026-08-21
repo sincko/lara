@@ -1,20 +1,24 @@
 ---
 phase: 06-performance-asset-cleanup-final-verification
 verified: 2026-08-21T00:45:00Z
-status: human_needed
+status: passed
 score: 13/13 must-haves verified
 behavior_unverified: 0
 overrides_applied: 0
 human_verification:
+
   - test: "Visual pass over the three canonical pages (/, /blog/, /minnie/) — look for broken images or missing content after the asset deletion (UI-SPEC E4 backstop)"
     expected: "Every image renders; zero broken-image icons; pages look identical to the pre-cleanup site (the kept twins are byte-identical files)"
     why_human: "Automated stem-grep of all 23 keepers in public/ passes, but rendering parity and layout integrity are visual properties only a human can confirm"
+
   - test: "Load the live site with a throttled connection and watch the first paint — text should render in the fallback stack immediately (no FOIT) while the @fontsource faces load with font-display: swap"
     expected: "No invisible-text flash; swap behavior identical to the old Google Fonts &display=swap behavior (UI-SPEC E1 loading covered)"
     why_human: "font-display: swap is verified present in all 14 emitted @font-face blocks, but the actual loading UX is a runtime rendering behavior"
+
   - test: "Check the browser tab icon on the live site (desktop and mobile)"
     expected: "Tab shows the 32x32 stackrole-derived PNG (linked via rel=icon); home-screen icon looks identical to pre-phase (both derive from static/assets/stackrole.png)"
     why_human: "Icon-link continuity is grep-verified, but visual identity requires human confirmation"
+
   - test: "Optionally re-check the accepted delta: direct request to https://laryart.it/favicon.ico"
     expected: "Documented as 404; NOTE: the live site currently returns HTTP 200 with a stale Netlify edge-cached object (cache-status: Netlify Edge; ttl=31535997). Browsers ignore it either way; the tab icon comes from the linked PNG. The 404 is only observable after the edge cache expires"
     why_human: "Netlify edge-cache behavior is outside the repo; the documented 404 delta is currently masked by a cached artifact with a ~1y TTL"
