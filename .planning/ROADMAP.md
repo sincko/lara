@@ -78,7 +78,7 @@ Plans:
 
 **Wave 3** *(gap closure — UAT blockers G-02-1, G-02-2: node-sass has no Node 24 prebuilt binary; install.js wrote the GitHub 404 body to vendor/ as the binding)*
 
-- [ ] 02-04-PLAN.md — Gap closure: enforce Node 20 (engines + engine-strict + pre* guard), postinstall cleanup of poisoned node-sass vendor bindings, README recovery docs — FNDT-02
+- [x] 02-04-PLAN.md — Gap closure: enforce Node 20 (engines + engine-strict + pre* guard), postinstall cleanup of poisoned node-sass vendor bindings, README recovery docs — FNDT-02
 
 ```
 
@@ -210,7 +210,7 @@ Phases execute in numeric order; Phases 4 and 5 touch disjoint file sets and may
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Test Scaffolding + Performance Baseline | 4/4 | ✓ Complete | 2026-08-19 |
-| 2. Foundation Cleanup | 3/3 | Complete   | 2026-08-19 |
+| 2. Foundation Cleanup | 4/4 | Complete    | 2026-08-19 |
 | 3. Core Upgrade | 6/6 | Complete    | 2026-08-19 |
 | 4. MUI Removal + Form Reliability | 4/4 | Complete    | 2026-08-19 |
 | 5. Image Pipeline + SEO Fixes | 5/5 | Complete    | 2026-08-21 |

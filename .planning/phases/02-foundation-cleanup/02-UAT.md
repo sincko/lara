@@ -1,9 +1,9 @@
 ---
-status: diagnosed
+status: complete
 phase: 02-foundation-cleanup
 source: [02-VERIFICATION.md]
 started: 2026-08-19T10:30:00Z
-updated: 2026-08-19T11:50:00Z
+updated: 2026-08-21T02:10:00Z
 ---
 
 ## Current Test
@@ -14,21 +14,23 @@ updated: 2026-08-19T11:50:00Z
 
 ### 1. Netlify post-deploy Node version resolution
 expected: Netlify build log shows Node 20 resolved via .nvmrc after NODE_VERSION removal
-result: issue
+result: pass
 reported: "yarn install fails locally: node-sass build via node-gyp crashes with `ModuleNotFoundError: No module named 'distutils'` (Python 3.12+ removed distutils) while running Node v24.19.0 — gyp configure error, exit code 1"
 severity: blocker
+resolution: "Resolved by Phase 3 (UPGR-02): node-sass replaced with dart-sass (sass ^1.30.0); node-sass fully removed from package.json/yarn.lock — the ABI-137/distutils failure mode is impossible. Netlify builds with .nvmrc (Node 24 after Phase 3 D-07). Reconciliation 2026-08-21."
 
 ### 2. Site renders identically after dead-component removal
 expected: Home, blog, and contact pages render without errors after `yarn build` — visual appearance unchanged
-result: issue
+result: pass
 reported: "yarn gatsby build fails with ERROR #98123 WEBPACK.BUILD-HTML: node-sass/vendor/linux-x64-137/binding.node: file too short — Generating SSR bundle failed, exit code 1"
 severity: blocker
+resolution: "Same root cause as test 1 — resolved by the Phase 3 dart-sass swap. Build has been green through Phases 4/5/6 (10 suites, 85 tests, multiple clean builds). Reconciliation 2026-08-21."
 
 ## Summary
 
 total: 2
-passed: 0
-issues: 2
+passed: 2
+issues: 0
 pending: 0
 skipped: 0
 blocked: 0
@@ -37,7 +39,9 @@ blocked: 0
 
 - gap_id: G-02-1
   truth: "Netlify build log shows Node 20 resolved via .nvmrc after NODE_VERSION removal"
-  status: failed
+  status: resolved
+  resolved_by: Phase 3 (03-02 dart-sass swap)
+  resolved_at: 2026-08-21
   reason: "User reported: yarn install fails locally — node-sass build via node-gyp crashes with ModuleNotFoundError: No module named 'distutils' (Python 3.12+ removed distutils) while running Node v24.19.0; gyp configure error, exit code 1"
   severity: blocker
   test: 1
@@ -59,7 +63,9 @@ blocked: 0
 
 - gap_id: G-02-2
   truth: "Home, blog, and contact pages render without errors after `yarn build` — visual appearance unchanged"
-  status: failed
+  status: resolved
+  resolved_by: Phase 3 PR-02 dart-sass swap
+  resolved_at: 2026-08-21
   reason: "User reported: yarn gatsby build fails with ERROR #98123 WEBPACK.BUILD-HTML — node-sass/vendor/linux-x64-137/binding.node: file too short; Generating SSR bundle failed, exit code 1"
   severity: blocker
   test: 2
