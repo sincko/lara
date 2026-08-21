@@ -3,16 +3,15 @@ status: testing
 phase: 06-performance-asset-cleanup-final-verification
 source: [06-VERIFICATION.md]
 started: 2026-08-21T00:49:21+02:00
-updated: 2026-08-21T00:49:21+02:00
+updated: 2026-08-21T01:05:00+02:00
 ---
 
 ## Current Test
 
-number: 1
-name: Visual pass over the live site after Phase 6
+number: 2
+name: Latent script warnings disposition (06-REVIEW.md)
 expected: |
-  /, /blog/, /minnie/ render without broken images (UI-SPEC E4 backstop);
-  fonts render with swap (no FOIT); tab icon = favicon-32x32.png
+  owner decides: WR-01 (process.exit stdout race in check-unreferenced.js) and WR-02 (GREP_ROOTS blind spot: gatsby-browser.js/gatsby-ssr.js/gatsby-node.js/netlify.toml) — fix now or defer
 awaiting: user response
 
 ## Tests
@@ -24,7 +23,7 @@ expected: |
   - https://laryart.it/minnie/ — featured image renders; banner fills correctly
   - Fonts render as before (Ubuntu + Parisienne) — no invisible text while loading (font-display: swap)
   - Browser tab shows the favicon (favicon-32x32.png)
-result: [pending]
+result: pass
 
 ### 2. Latent script warnings disposition (06-REVIEW.md)
 expected: owner decides: WR-01 (process.exit stdout race in check-unreferenced.js) and WR-02 (GREP_ROOTS blind spot: gatsby-browser.js/gatsby-ssr.js/gatsby-node.js/netlify.toml) — fix now or defer
@@ -33,9 +32,9 @@ result: [pending]
 ## Summary
 
 total: 2
-passed: 0
+passed: 1
 issues: 0
-pending: 2
+pending: 1
 skipped: 0
 blocked: 0
 
