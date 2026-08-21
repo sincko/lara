@@ -19,9 +19,10 @@ expected: |
   - /blog: pagination pills clearly visible (white pills with dark text, active page highlighted), Precedente/Successivo present
   - /privacy: all 8 external links open in a new tab (target=_blank); h1-h4 headings render in the Ubuntu text font (not Parisienne)
   - / and /blog cards: crop identical to legacy (centered, not saliency-shifted)
-result: issue
+result: pass
 reported: "The following links don't open in target=_blank https://policies.google.com/privacy https://www.cookiechoices.org/ http://www.garanteprivacy.it/cookie; in the blog list the images have a gap below, blog pagination is ok"
 severity: major
+resolution: "Both reported issues closed in gap closure (05-05): G-05-1b card gap FIXED (display:block, verified in built CSS); G-05-1a privacy links REJECTED by owner decision at the package checkpoint (no plugin install, links left as-is) — accepted. Re-verified 2026-08-20: gap gone from blog cards; pagination confirmed ok by user."
 
 ### 2. Disposition of 3 code-review warnings (05-REVIEW.md)
 expected: owner decides scope for each: WR-01 stray © in .home-posts (pre-existing); WR-02 broken mobile pagination media query (pre-existing, adjacent to this phase's pagination work); WR-03 English month names in post dates (MMMM DD, YYYY) on a lang=it site
@@ -30,8 +31,8 @@ result: pass
 ## Summary
 
 total: 2
-passed: 1
-issues: 1
+passed: 2
+issues: 0
 pending: 0
 skipped: 0
 blocked: 0
